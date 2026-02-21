@@ -35,9 +35,9 @@ def get_all_books(db = Depends(get_db)):
 # return book by id:
 # TODO: add error handling for non existing indexes
 # Path parameter (/book/{id}) → use it when you are identifying a specific resource.
-@app.get("/api/v1/book/{index}")
-def get_book(index: int, db = Depends(get_db)):
-    cursor = db.execute(f"SELECT title FROM books WHERE book_id = {index};")
+@app.get("/api/v1/book/{book_id}")
+def get_book(book_id: int, db = Depends(get_db)):
+    cursor = db.execute(f"SELECT title FROM books WHERE book_id = ? ;", (book_id,))
     book_title = cursor.fetchone()[0] 
     return {"index": book_title}
 
@@ -46,7 +46,7 @@ def get_book(index: int, db = Depends(get_db)):
 # Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
 @app.get("/api/v1/book")
 def get_book_query(book_id: int, db = Depends(get_db)):
-    cursor = db.execute(f"SELECT title FROM books WHERE book_id = {book_id};")
+    cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
     book_title = cursor.fetchone()[0] 
     return {"index": book_title}
 
@@ -56,24 +56,24 @@ def get_rand_book(db = Depends(get_db)):
     cursor = db.execute("SELECT COUNT(title) FROM books;")
     rows_count = cursor.fetchone()[0] # get number of rows
     random_id = rnd.randint(1, rows_count)
-    cursor = db.execute(f"SELECT title FROM books WHERE book_id = {random_id};")
+    cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (random_id,))
     random_title = cursor.fetchone()[0] # get random title
     return random_title
 
 # delete book by id:
-@app.delete("/api/v1/book/{index}")
+@app.delete("/api/v1/book/{book_id}")
 # TODO: add error handling for non existing indexes (can use HTTPExept.)
-def del_book(index: int, db = Depends(get_db), ):
-    db.execute(f"DELETE FROM books WHERE book_id = {index};")
+def del_book(book_id: int, db = Depends(get_db), ):
+    db.execute("DELETE FROM books WHERE book_id = ? ;", (book_id,))
     db.commit()
-    return {f"index: {index}": "DELETED"}
+    return {f"index: {book_id}": "DELETED"}
 
 # add new book:
 @app.post("/api/v1/book")
 def add_book(book_data: dict = Body(...), db = Depends(get_db)):
     title = book_data["title"]
     author = book_data["author"]
-    db.execute(f"INSERT INTO books (title, authors) VALUES ('{title}', '{author}');")
+    db.execute("INSERT INTO books (title, authors) VALUES (?, ?);", (title, author))
     db.commit()
     return {
         "msg": "BOOK ADDED SUCCESSFULLY",
@@ -82,12 +82,12 @@ def add_book(book_data: dict = Body(...), db = Depends(get_db)):
     }
 
 # update book (all fields):
-@app.put("/api/v1/book/{index}")
+@app.put("/api/v1/book/{book_id}")
 # TODO: add error handling for non existing indexes (can use HTTPExept.)
-def update_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
+def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
     title = book_data["title"]
     author = book_data["author"]
-    db.execute(f"UPDATE books SET title = '{title}', authors = '{author}' WHERE book_id = {index};")
+    db.execute("UPDATE books SET title = ?, authors = ? WHERE book_id = ?;", (title, author, book_id))
     db.commit()
     return {
         "msg": "BOOK UPDATED SUCCESSFULLY",
@@ -96,23 +96,27 @@ def update_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
     }
 
 # update book (given field):
-@app.patch("/api/v1/book/{index}")
+@app.patch("/api/v1/book/{book_id}")
 # TODO: add error handling for non existing indexes (can use HTTPExept.)
-def patch_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
+def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
     
     print(book_data)
 
     allowed_fields = {"title", "authors"}  # whitelist of fields
 
     fields = []
+    values = []
 
     for key, value in book_data.items():
         if key in allowed_fields:
-            fields.append(f"{key} = '{value}'")
+            fields.append(f"{key} = ?")
+            values.append(value)
 
-    query = f"UPDATE books SET {', '.join(fields)} WHERE book_id = {index};"
+    values.append(book_id)
 
-    db.execute(query)
+    query = f"UPDATE books SET {', '.join(fields)} WHERE book_id = ?;"
+
+    db.execute(query, values)
     db.commit()
 
     return {
