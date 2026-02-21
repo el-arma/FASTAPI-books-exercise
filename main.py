@@ -10,13 +10,15 @@ DB_NAME = "books.db"
 # Dependency
 def get_db():
     conn = sqlite3.connect(DB_NAME, check_same_thread = False)
+    # check_same_thread = False - can be deleted
+    # prevents using same thread in many requests, but here we have separates threads for each endpoint
     try:
         yield conn
     finally:
         conn.close()
 
 @app.get("/")
-def read_root():
+def home():
     return {"message": "Hello 📚🐛"}
 
 @app.get("/health")
@@ -31,9 +33,18 @@ def get_all_books(db = Depends(get_db)):
     return [row[0] for row in rows]
 
 # return book by id:
+# TODO: add error handling for non existing indexes
 @app.get("/api/v1/book/{index}")
-def get_book(index: int, db = Depends(get_db), ):
+def get_book(index: int, db = Depends(get_db)):
     cursor = db.execute(f"SELECT title FROM books WHERE book_id = {index};")
+    book_title = cursor.fetchone()[0] 
+    return {"index": book_title}
+
+# return book by id, but query string:
+# TODO: add error handling for non existing indexes
+@app.get("/api/v1/book")
+def get_book_query(book_id: int, db = Depends(get_db)):
+    cursor = db.execute(f"SELECT title FROM books WHERE book_id = {book_id};")
     book_title = cursor.fetchone()[0] 
     return {"index": book_title}
 
@@ -49,6 +60,7 @@ def get_rand_book(db = Depends(get_db)):
 
 # delete book by id:
 @app.delete("/api/v1/book/{index}")
+# TODO: add error handling for non existing indexes (can use HTTPExept.)
 def del_book(index: int, db = Depends(get_db), ):
     db.execute(f"DELETE FROM books WHERE book_id = {index};")
     db.commit()
@@ -69,6 +81,7 @@ def add_book(book_data: dict = Body(...), db = Depends(get_db)):
 
 # update book (all fields):
 @app.put("/api/v1/book/{index}")
+# TODO: add error handling for non existing indexes (can use HTTPExept.)
 def update_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
     title = book_data["title"]
     author = book_data["author"]
@@ -82,6 +95,7 @@ def update_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
 
 # update book (given field):
 @app.patch("/api/v1/book/{index}")
+# TODO: add error handling for non existing indexes (can use HTTPExept.)
 def patch_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
     
     print(book_data)
@@ -103,8 +117,6 @@ def patch_book(index: int, book_data: dict = Body(...), db = Depends(get_db)):
         "msg": "BOOK UPDATED SUCCESSFULLY",
     }
 
-#get-book directly
-#r? parameter
 
 # ============================================================ RUN ============================================================
 # to run man.:
