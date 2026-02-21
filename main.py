@@ -34,6 +34,7 @@ def get_all_books(db = Depends(get_db)):
 
 # return book by id:
 # TODO: add error handling for non existing indexes
+# Path parameter (/book/{id}) → use it when you are identifying a specific resource.
 @app.get("/api/v1/book/{index}")
 def get_book(index: int, db = Depends(get_db)):
     cursor = db.execute(f"SELECT title FROM books WHERE book_id = {index};")
@@ -42,6 +43,7 @@ def get_book(index: int, db = Depends(get_db)):
 
 # return book by id, but query string:
 # TODO: add error handling for non existing indexes
+# Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
 @app.get("/api/v1/book")
 def get_book_query(book_id: int, db = Depends(get_db)):
     cursor = db.execute(f"SELECT title FROM books WHERE book_id = {book_id};")
