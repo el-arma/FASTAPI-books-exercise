@@ -1,11 +1,27 @@
 from fastapi import FastAPI, Depends, Body
 import sqlite3
 import random as rnd
+import os
+from TESTS.mockDB import create_test_db
+from LOGGERS.loggers import create_logger
 
+
+ENV = os.getenv("ENV", "PROD") 
+
+DB_NAME_TEST = r"DB\TEST\test_books.db"
+DB_NAME_PROD = r"DB\PROD\books.db"
+
+if ENV == "TEST": 
+    DB_NAME = DB_NAME_TEST
+    create_test_db(DB_NAME_PROD, DB_NAME_TEST)
+else:
+    DB_NAME = DB_NAME_PROD
+
+logger = create_logger("main-logger")
+
+logger.info(f"MODE: {ENV}, DB: {DB_NAME}")
 
 app = FastAPI()
-
-DB_NAME = "books.db"
 
 # Dependency
 def get_db():
@@ -39,7 +55,7 @@ def get_all_books(db = Depends(get_db)):
 def get_book(book_id: int, db = Depends(get_db)):
     cursor = db.execute(f"SELECT title FROM books WHERE book_id = ? ;", (book_id,))
     book_title = cursor.fetchone()[0] 
-    return {"index": book_title}
+    return book_title
 
 # return book by id, but query string:
 # TODO: add error handling for non existing indexes
@@ -48,7 +64,7 @@ def get_book(book_id: int, db = Depends(get_db)):
 def get_book_query(book_id: int, db = Depends(get_db)):
     cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
     book_title = cursor.fetchone()[0] 
-    return {"index": book_title}
+    return book_title
 
 # get random book:
 @app.get("/api/v1/random-book")
@@ -73,7 +89,7 @@ def del_book(book_id: int, db = Depends(get_db), ):
 def add_book(book_data: dict = Body(...), db = Depends(get_db)):
     title = book_data["title"]
     author = book_data["author"]
-    db.execute("INSERT INTO books (title, authors) VALUES (?, ?);", (title, author))
+    db.execute("INSERT INTO books (title, author) VALUES (?, ?);", (title, author))
     db.commit()
     return {
         "msg": "BOOK ADDED SUCCESSFULLY",
@@ -85,9 +101,9 @@ def add_book(book_data: dict = Body(...), db = Depends(get_db)):
 @app.put("/api/v1/book/{book_id}")
 # TODO: add error handling for non existing indexes (can use HTTPExept.)
 def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
-    title = book_data["title"]
     author = book_data["author"]
-    db.execute("UPDATE books SET title = ?, authors = ? WHERE book_id = ?;", (title, author, book_id))
+    title = book_data["title"]
+    db.execute("UPDATE books SET title = ?, author = ? WHERE book_id = ?;", (title, author, book_id))
     db.commit()
     return {
         "msg": "BOOK UPDATED SUCCESSFULLY",
@@ -102,7 +118,7 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
     
     print(book_data)
 
-    allowed_fields = {"title", "authors"}  # whitelist of fields
+    allowed_fields = {"title", "author"}  # whitelist of fields
 
     fields = []
     values = []
@@ -127,6 +143,12 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
 # ============================================================ RUN ============================================================
 # to run man.:
 # uvicorn main:app --reload 
+
+# for tests:
+# (can be one per terminal session):
+# set ENV=TEST 
+# uvicorn main:app --reload 
+
 
 if __name__ == "__main__":
     import uvicorn
