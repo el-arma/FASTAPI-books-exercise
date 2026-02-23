@@ -13,15 +13,18 @@ DB_NAME_PROD = r"DB\PROD\books.db"
 
 if ENV == "TEST": 
     DB_NAME = DB_NAME_TEST
-    create_test_db(DB_NAME_PROD, DB_NAME_TEST)
 else:
     DB_NAME = DB_NAME_PROD
 
-logger = create_logger("main-logger")
-
-logger.info(f"MODE: {ENV}, DB: {DB_NAME}")
-
 app = FastAPI()
+
+@app.on_event("startup")
+# depracated (to be replaced with lifespan)
+def on_startup():
+    logger = create_logger("main-logger")
+    logger.info(f"MODE: {ENV}, DB: {DB_NAME}")
+    if ENV == "TEST":
+        create_test_db(DB_NAME_PROD, DB_NAME_TEST)
 
 # Dependency
 def get_db():
@@ -153,5 +156,5 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host = "127.0.0.1", port = 8000)
+    uvicorn.run("main:app", host = "127.0.0.1", port = 8000)
 
