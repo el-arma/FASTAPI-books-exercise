@@ -1,9 +1,10 @@
-from fastapi import FastAPI, Depends, Body
+from fastapi import FastAPI, Depends, Body, HTTPException
 import sqlite3
 import random as rnd
 import os
 from TESTS.mockDB import create_test_db
 from LOGGERS.loggers import create_logger
+from contextlib import asynccontextmanager
 
 
 ENV = os.getenv("ENV", "PROD") 
@@ -16,15 +17,21 @@ if ENV == "TEST":
 else:
     DB_NAME = DB_NAME_PROD
 
-app = FastAPI()
+logger = create_logger("main-logger")
 
-@app.on_event("startup")
-# depracated (to be replaced with lifespan)
-def on_startup():
-    logger = create_logger("main-logger")
-    logger.info(f"MODE: {ENV}, DB: {DB_NAME}")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # STARTUP
+    logger.info(f"MODE: {ENV} | DB: {DB_NAME}")
     if ENV == "TEST":
         create_test_db(DB_NAME_PROD, DB_NAME_TEST)
+    
+    yield
+    
+    # SHUTDOWN
+    logger.info("Application gracefully shutting down")
+
+app = FastAPI(lifespan=lifespan)
 
 # Dependency
 def get_db():
@@ -52,22 +59,28 @@ def get_all_books(db = Depends(get_db)):
     return [row[0] for row in rows]
 
 # return book by id:
-# TODO: add error handling for non existing indexes
 # Path parameter (/book/{id}) → use it when you are identifying a specific resource.
 @app.get("/api/v1/book/{book_id}")
 def get_book(book_id: int, db = Depends(get_db)):
     cursor = db.execute(f"SELECT title FROM books WHERE book_id = ? ;", (book_id,))
-    book_title = cursor.fetchone()[0] 
-    return book_title
+    row = cursor.fetchone()
+
+    if row is None:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+    
+    return row[0]
 
 # return book by id, but query string:
-# TODO: add error handling for non existing indexes
 # Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
 @app.get("/api/v1/book")
 def get_book_query(book_id: int, db = Depends(get_db)):
     cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
-    book_title = cursor.fetchone()[0] 
-    return book_title
+    row = cursor.fetchone()
+    
+    if row is None:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+    
+    return row[0]
 
 # get random book:
 @app.get("/api/v1/random-book")
@@ -81,10 +94,13 @@ def get_rand_book(db = Depends(get_db)):
 
 # delete book by id:
 @app.delete("/api/v1/book/{book_id}")
-# TODO: add error handling for non existing indexes (can use HTTPExept.)
 def del_book(book_id: int, db = Depends(get_db), ):
-    db.execute("DELETE FROM books WHERE book_id = ? ;", (book_id,))
+    cursor = db.execute("DELETE FROM books WHERE book_id = ? ;", (book_id,))
     db.commit()
+
+    if cursor.rowcount == 0:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+    
     return {f"index: {book_id}": "DELETED"}
 
 # add new book:
@@ -106,8 +122,12 @@ def add_book(book_data: dict = Body(...), db = Depends(get_db)):
 def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
     author = book_data["author"]
     title = book_data["title"]
-    db.execute("UPDATE books SET title = ?, author = ? WHERE book_id = ?;", (title, author, book_id))
+    cursor = db.execute("UPDATE books SET title = ?, author = ? WHERE book_id = ?;", (title, author, book_id))
     db.commit()
+    
+    if cursor.rowcount == 0:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+
     return {
         "msg": "BOOK UPDATED SUCCESSFULLY",
         "title": title,
@@ -118,8 +138,6 @@ def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db))
 @app.patch("/api/v1/book/{book_id}")
 # TODO: add error handling for non existing indexes (can use HTTPExept.)
 def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
-    
-    print(book_data)
 
     allowed_fields = {"title", "author"}  # whitelist of fields
 
@@ -135,8 +153,11 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
 
     query = f"UPDATE books SET {', '.join(fields)} WHERE book_id = ?;"
 
-    db.execute(query, values)
+    cursor = db.execute(query, values)
     db.commit()
+
+    if cursor.rowcount == 0:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
 
     return {
         "msg": "BOOK UPDATED SUCCESSFULLY",
@@ -149,8 +170,8 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
 
 # for tests:
 # (can be one per terminal session):
-# set ENV=TEST 
-# uvicorn main:app --reload 
+# set ENV=TEST
+# uvicorn main:app --reload
 
 
 if __name__ == "__main__":
