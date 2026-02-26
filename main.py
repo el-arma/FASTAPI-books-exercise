@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, Body, HTTPException
+from fastapi import FastAPI, Depends, Body, HTTPException, status, Response
 import sqlite3
 import random as rnd
 import os
@@ -54,72 +54,81 @@ def health_check():
 # list all books
 @app.get("/api/v1/books")
 def get_all_books(db = Depends(get_db)):
-    cursor = db.execute("SELECT title FROM books;")
+    cursor = db.execute("SELECT * FROM books;")
     rows = cursor.fetchall()
-    return [row[0] for row in rows]
+    return [
+        {
+            "id": row[0],
+            "title": row[1],
+            "author": row[2],
+        }
+        for row in rows
+    ]
 
-# return book by id:
+# return book record by id:
 # Path parameter (/book/{id}) → use it when you are identifying a specific resource.
-@app.get("/api/v1/book/{book_id}")
+@app.get("/api/v1/books/{book_id}")
 def get_book(book_id: int, db = Depends(get_db)):
-    cursor = db.execute(f"SELECT title FROM books WHERE book_id = ? ;", (book_id,))
+    cursor = db.execute(f"SELECT * FROM books WHERE book_id = ? ;", (book_id,))
     row = cursor.fetchone()
 
     if row is None:
         raise HTTPException(404, detail=f"Book with id {book_id} not found")
     
-    return row[0]
+    return {
+        "id": row[0],
+        "title": row[1],
+        "author": row[2],
+    }
 
-# return book by id, but query string:
-# Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
-@app.get("/api/v1/book")
-def get_book_query(book_id: int, db = Depends(get_db)):
-    cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
-    row = cursor.fetchone()
+# # return book by id, but query string:
+# # Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
+# @app.get("/api/v1/books")
+# def get_book_query(book_id: int, db = Depends(get_db)):
+#     cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
+#     row = cursor.fetchone()
     
-    if row is None:
-        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+#     if row is None:
+#         raise HTTPException(404, detail=f"Book with id {book_id} not found")
     
-    return row[0]
+#     return row[0]
 
 # get random book:
 @app.get("/api/v1/random-book")
 def get_rand_book(db = Depends(get_db)):
-    cursor = db.execute("SELECT COUNT(title) FROM books;")
-    rows_count = cursor.fetchone()[0] # get number of rows
-    random_id = rnd.randint(1, rows_count)
-    cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (random_id,))
-    random_title = cursor.fetchone()[0] # get random title
-    return random_title
-
-# delete book by id:
-@app.delete("/api/v1/book/{book_id}")
-def del_book(book_id: int, db = Depends(get_db), ):
-    cursor = db.execute("DELETE FROM books WHERE book_id = ? ;", (book_id,))
-    db.commit()
-
-    if cursor.rowcount == 0:
-        raise HTTPException(404, detail=f"Book with id {book_id} not found")
-    
-    return {f"index: {book_id}": "DELETED"}
+    cursor = db.execute("SELECT * FROM books ORDER BY RANDOM() LIMIT 1;")
+    # NOTE: This query may not be optimal for large data set!
+    row = cursor.fetchone()
+    if not row:
+        raise HTTPException(404, detail = f"DB is empty")
+    return {
+        "id": row[0],
+        "title": row[1],
+        "author": row[2],
+    }
 
 # add new book:
-@app.post("/api/v1/book")
-def add_book(book_data: dict = Body(...), db = Depends(get_db)):
+@app.post("/api/v1/books", status_code = status.HTTP_201_CREATED)
+def add_book(book_data: dict, response: Response, db = Depends(get_db)):
     title = book_data["title"]
     author = book_data["author"]
-    db.execute("INSERT INTO books (title, author) VALUES (?, ?);", (title, author))
+    cursor = db.execute("INSERT INTO books (title, author) VALUES (?, ?);", (title, author))
     db.commit()
+    
+    created_id = cursor.lastrowid
+
+    # Set Location header:
+    response.headers["Location"] = f"/api/v1/books/{created_id}"
+
     return {
-        "msg": "BOOK ADDED SUCCESSFULLY",
+        "id": created_id,
         "title": title,
         "author": author
     }
 
 # update book (all fields):
-@app.put("/api/v1/book/{book_id}")
-# TODO: add error handling for non existing indexes (can use HTTPExept.)
-def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
+@app.put("/api/v1/books/{book_id}", status_code = status.HTTP_204_NO_CONTENT)
+def update_book(book_id: int, book_data: dict, db = Depends(get_db)):
     author = book_data["author"]
     title = book_data["title"]
     cursor = db.execute("UPDATE books SET title = ?, author = ? WHERE book_id = ?;", (title, author, book_id))
@@ -128,16 +137,11 @@ def update_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db))
     if cursor.rowcount == 0:
         raise HTTPException(404, detail=f"Book with id {book_id} not found")
 
-    return {
-        "msg": "BOOK UPDATED SUCCESSFULLY",
-        "title": title,
-        "author": author
-    }
+    return None
 
 # update book (given field):
-@app.patch("/api/v1/book/{book_id}")
-# TODO: add error handling for non existing indexes (can use HTTPExept.)
-def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
+@app.patch("/api/v1/books/{book_id}", status_code = status.HTTP_204_NO_CONTENT)
+def patch_book(book_id: int, book_data: dict, db = Depends(get_db)):
 
     allowed_fields = {"title", "author"}  # whitelist of fields
 
@@ -159,10 +163,19 @@ def patch_book(book_id: int, book_data: dict = Body(...), db = Depends(get_db)):
     if cursor.rowcount == 0:
         raise HTTPException(404, detail=f"Book with id {book_id} not found")
 
-    return {
-        "msg": "BOOK UPDATED SUCCESSFULLY",
-    }
+    return None
 
+
+# delete book by id:
+@app.delete("/api/v1/books/{book_id}", status_code = status.HTTP_204_NO_CONTENT)
+def del_book(book_id: int, db = Depends(get_db), ):
+    cursor = db.execute("DELETE FROM books WHERE book_id = ? ;", (book_id,))
+    db.commit()
+
+    if cursor.rowcount == 0:
+        raise HTTPException(404, detail=f"Book with id {book_id} not found")
+    
+    return None
 
 # ============================================================ RUN ============================================================
 # to run man.:
