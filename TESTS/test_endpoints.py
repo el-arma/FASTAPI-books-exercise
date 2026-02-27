@@ -1,106 +1,135 @@
 import requests
 
+# ================= CONFIG =================
+
 PORT = 8000
+BASE_URL = f"http://127.0.0.1:{PORT}"
+API_PREFIX = "/api/v1"
+CORE_API_URL = f"{BASE_URL}{API_PREFIX}"
 
-def get_books(port: int = PORT):
-    api_URI = "/api/v1/books"
-    myURI = f"http://127.0.0.1:{port}/{api_URI}"
-    res = requests.get(myURI)
-    return res
 
-def get_book(api_URI: str, port: int = PORT):
-    myURI = f"http://127.0.0.1:{port}{api_URI}"
-    res = requests.get(myURI)
-    return res
+# ================= HELPERS =================
 
-def test_health_check(port: int = PORT):
-    api_URI = "/health"
-    myURI = f"http://127.0.0.1:{port}/{api_URI}"
-    res = requests.get(myURI)
+def add_book():
+    payload = {
+        "author": "J.K. Rowling",
+        "title": "Hary Pioter"
+    }
+    return requests.post(f"{CORE_API_URL}/books", json=payload)
+
+def get_book(location: str):
+    return requests.get(f"{BASE_URL}{location}")
+
+
+# ================= TESTS =================
+
+def test_health_check():
+    res = requests.get(f"{BASE_URL}/health")
     assert res.status_code == 200
 
-def test_get_books(port: int = PORT):
-    res = get_books(port)
+
+def test_get_books():
+    res = requests.get(f"{CORE_API_URL}/books")
     assert res.status_code == 200
     assert isinstance(res.json(), list)
 
-def test_get_rand_book(port: int = PORT):
-    api_URI = "/api/v1/random-book"
-    myURI = f"http://127.0.0.1:{port}/{api_URI}"
-    res = requests.get(myURI)
+
+def test_get_rand_book():
+    res = requests.get(f"{CORE_API_URL}/random-book")
     assert res.status_code == 200
 
-def test_get_book(port: int = PORT):
-    res = get_book("/api/v1/books/1")
+
+def test_get_book():
+    res = add_book()
+    assert res.status_code == 201
+
+    location = res.headers["Location"]
+
+    res = get_book(location)
     assert res.status_code == 200
-    assert res.json()['title'] == "The Hunger Games (The Hunger Games, #1)"
+    assert res.json()["title"] == "Hary Pioter"
 
-def test_add_book(port: int = PORT):
-    api_URI = "/api/v1/books"
-    myURI = f"http://127.0.0.1:{port}/{api_URI}"
-    
-    testJSONData = {
-    "author": "J.K. Rowling",
-    "title": "Hary Pioter"
-    }
 
-    res = requests.post(myURI, json = testJSONData)
+def test_get_book_err():
+    res = requests.get(f"{BASE_URL}/X")
+    assert res.status_code == 404
+
+def test_get_books_by_author():
+    res = add_book()
     assert res.status_code == 201
 
-    location: str = res.headers.get("Location")
+    # query by author
+    res = requests.get(
+        f"{CORE_API_URL}/books-by-author",
+        params={"author": "J.K. Rowling"}
+    )
 
-    assert get_book(location).json()['title'] == "Hary Pioter"
+    assert res.status_code == 200
 
-def test_put_book(port: int = PORT):
+    data = res.json()
+    assert isinstance(data, list)
+    assert len(data) >= 1
+    assert data[-1]["author"] == "J.K. Rowling"
 
-    api_URI = "api/v1/books"
-    myURI = f"http://127.0.0.1:{port}/{api_URI}"
-    
-    test_JSON_Data = {
-    "author": "J.K. Rowling",
-    "title": "Hary Pioter"
-    }
 
-    res = requests.post(myURI, json = test_JSON_Data)
+def test_add_book():
+    res = add_book()
     assert res.status_code == 201
 
-    location: str = res.headers.get("Location")
-    api_URI = "/api/v1/book"
-    myURI = f"http://127.0.0.1:{port}{location}"
-    
-    updt_test_JSON_Data = {
-    "author": "J.K. Gowling",
-    "title": "Gary Pjoter"
+    location = res.headers["Location"]
+    assert get_book(location).json()["title"] == "Hary Pioter"
+
+
+def test_put_book():
+    res = add_book()
+    assert res.status_code == 201
+
+    location = res.headers["Location"]
+
+    payload = {
+        "author": "J.K. Growling",
+        "title": "Gary Pjoter"
     }
 
-    res = requests.put(myURI, json = updt_test_JSON_Data)
-
+    res = requests.put(f"{BASE_URL}{location}", json=payload)
     assert res.status_code == 204
 
-    assert get_book(location).json()['title'] == "Gary Pjoter"
+    updated = get_book(location).json()
+    assert updated["author"] == "J.K. Growling"
+    assert updated["title"] == "Gary Pjoter"
 
 
+def test_patch_book():
+    res = add_book()
+    assert res.status_code == 201
+
+    location = res.headers["Location"]
+
+    payload = {
+        "title": "Gary Pjoter"
+    }
+
+    res = requests.patch(f"{BASE_URL}{location}", json=payload)
+    assert res.status_code == 204
+
+    assert get_book(location).json()["title"] == "Gary Pjoter"
 
 
-# def test_del_book(port: int = PORT):
-#     book_count = len(get_books().json())
-#     api_URI = f"/api/v1/book/{book_count}"
-#     myURI = f"http://127.0.0.1:{port}/{api_URI}"
-#     res = requests.delete(myURI)
-#     assert res.status_code == 200
-#     new_book_count = len(get_books().json())
-#     assert new_book_count == book_count - 1
+def test_patch_book_err():
+    payload = {"title": "Gary Pjoter"}
+
+    res = requests.patch(f"{BASE_URL}/X", json=payload)
+    assert res.status_code == 404
 
 
+def test_del_book():
+    res = add_book()
+    assert res.status_code == 201
 
-# def test_del_book_err(port: int = PORT):
-#     book_count = len(get_books().json())
-#     api_URI = f"/api/v1/book/{book_count + 1}"
-#     myURI = f"http://127.0.0.1:{port}/{api_URI}"
-#     res = requests.delete(myURI)
-#     assert res.status_code == 404
-    
-# # add tests for put & update
+    location = res.headers["Location"]
 
-# # ============================================================ RUN TEST ============================================================
-# # TO RUN: pytest -v
+    res = requests.delete(f"{BASE_URL}{location}")
+    assert res.status_code == 204
+
+    res = requests.delete(f"{BASE_URL}{location}")
+    assert res.status_code == 404
