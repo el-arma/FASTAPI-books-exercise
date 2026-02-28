@@ -68,7 +68,7 @@ def get_all_books(db = Depends(get_db)):
 # Path parameter (/book/{id}) → use it when you are identifying a specific resource.
 @app.get("/api/v1/books/{book_id}")
 def get_book(book_id: int, db = Depends(get_db)):
-    cursor = db.execute(f"SELECT * FROM books WHERE book_id = ? ;", (book_id,))
+    cursor = db.execute("SELECT * FROM books WHERE book_id = ? ;", (book_id,))
     row = cursor.fetchone()
 
     if row is None:
@@ -113,8 +113,13 @@ def get_rand_book(db = Depends(get_db)):
 # add new book:
 @app.post("/api/v1/books", status_code = status.HTTP_201_CREATED)
 def add_book(book_data: dict, response: Response, db = Depends(get_db)):
-    title = book_data["title"]
-    author = book_data["author"]
+
+    try:
+        title = book_data["title"]
+        author = book_data["author"]
+    except KeyError:
+        raise HTTPException(400, detail="Bad fields provided.")
+
     cursor = db.execute("INSERT INTO books (title, author) VALUES (?, ?);", (title, author))
     db.commit()
     
@@ -132,8 +137,13 @@ def add_book(book_data: dict, response: Response, db = Depends(get_db)):
 # update book (all fields):
 @app.put("/api/v1/books/{book_id}", status_code = status.HTTP_204_NO_CONTENT)
 def update_book(book_id: int, book_data: dict, db = Depends(get_db)):
-    author = book_data["author"]
-    title = book_data["title"]
+
+    try:
+        title = book_data["title"]
+        author = book_data["author"]
+    except KeyError:
+        raise HTTPException(400, detail="Bad fields provided.")
+    
     cursor = db.execute("UPDATE books SET title = ?, author = ? WHERE book_id = ?;", (title, author, book_id))
     db.commit()
     
@@ -148,6 +158,9 @@ def patch_book(book_id: int, book_data: dict, db = Depends(get_db)):
 
     allowed_fields = {"title", "author"}  # whitelist of fields
 
+    if not book_data:
+        raise HTTPException(400, detail="No fields provided.")
+
     fields = []
     values = []
 
@@ -158,6 +171,9 @@ def patch_book(book_id: int, book_data: dict, db = Depends(get_db)):
 
     values.append(book_id)
 
+    if not fields:
+        raise HTTPException(400, detail="No fields provided.")
+    
     query = f"UPDATE books SET {', '.join(fields)} WHERE book_id = ?;"
 
     cursor = db.execute(query, values)
