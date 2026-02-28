@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Depends, Body, HTTPException, status, Response
 import sqlite3
-import random as rnd
 import os
 from TESTS.mockDB import create_test_db
 from LOGGERS.loggers import create_logger
@@ -81,17 +80,21 @@ def get_book(book_id: int, db = Depends(get_db)):
         "author": row[2],
     }
 
-# # return book by id, but query string:
-# # Query parameter (?book_id=) → use it when you are filtering, searching, or modifying how a collection is returned.
-# @app.get("/api/v1/books")
-# def get_book_query(book_id: int, db = Depends(get_db)):
-#     cursor = db.execute("SELECT title FROM books WHERE book_id = ? ;", (book_id,))
-#     row = cursor.fetchone()
-    
-#     if row is None:
-#         raise HTTPException(404, detail=f"Book with id {book_id} not found")
-    
-#     return row[0]
+# query string: return all books of given author 
+# Query parameter (?author=) → use it when you are filtering, searching, or modifying how a collection is returned.
+@app.get("/api/v1/books-by-author")
+def get_authors_books(author: str, db = Depends(get_db)):
+    cursor = db.execute("SELECT * FROM books WHERE author = ? ;", (author,))
+    rows = cursor.fetchall()
+
+    return [
+        {
+            "id": row[0],
+            "title": row[1],
+            "author": row[2],
+        }
+        for row in rows
+    ]
 
 # get random book:
 @app.get("/api/v1/random-book")
@@ -100,7 +103,7 @@ def get_rand_book(db = Depends(get_db)):
     # NOTE: This query may not be optimal for large data set!
     row = cursor.fetchone()
     if not row:
-        raise HTTPException(404, detail = f"DB is empty")
+        raise HTTPException(404, detail="No books available in the database")
     return {
         "id": row[0],
         "title": row[1],
