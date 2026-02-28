@@ -1,18 +1,16 @@
 from fastapi import FastAPI, Depends, Body, HTTPException, status, Response
 import sqlite3
 import os
-from TESTS.mockDB import create_test_db
 from LOGGERS.loggers import create_logger
 from contextlib import asynccontextmanager
 
 
 ENV = os.getenv("ENV", "PROD") 
 
-DB_NAME_TEST = r"DB\TEST\test_books.db"
 DB_NAME_PROD = r"DB\PROD\books.db"
 
 if ENV == "TEST": 
-    DB_NAME = DB_NAME_TEST
+    DB_NAME = "'in-memory'"
 else:
     DB_NAME = DB_NAME_PROD
 
@@ -20,27 +18,46 @@ logger = create_logger("main-logger")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # STARTUP
+
     logger.info(f"MODE: {ENV} | DB: {DB_NAME}")
+
     if ENV == "TEST":
-        create_test_db(DB_NAME_PROD, DB_NAME_TEST)
-    
+        app.state.test_connection = sqlite3.connect(
+            "file::memory:?cache=shared",
+            uri=True,
+            check_same_thread=False
+        )
+
+        app.state.test_connection.execute("""
+            CREATE TABLE books (
+                book_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT NOT NULL,
+                author TEXT NOT NULL
+            );
+        """)
+        app.state.test_connection.commit()
+
     yield
-    
-    # SHUTDOWN
+
+    if ENV == "TEST":
+        app.state.test_connection.close()
+
     logger.info("Application gracefully shutting down")
 
 app = FastAPI(lifespan=lifespan)
 
 # Dependency
 def get_db():
-    conn = sqlite3.connect(DB_NAME, check_same_thread = False)
-    # check_same_thread = False - can be deleted
-    # prevents using same thread in many requests, but here we have separates threads for each endpoint
-    try:
-        yield conn
-    finally:
-        conn.close()
+    if ENV == "TEST":
+        yield app.state.test_connection
+    else:
+        conn = sqlite3.connect(DB_NAME, check_same_thread=False)
+        # check_same_thread = False - can be deleted
+        # prevents using same thread in many requests, but here we have separates threads for each endpoint
+        try:
+            yield conn
+        finally:
+            conn.close()
 
 @app.get("/")
 def home():

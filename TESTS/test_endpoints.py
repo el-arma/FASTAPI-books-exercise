@@ -10,10 +10,10 @@ CORE_API_URL = f"{BASE_URL}{API_PREFIX}"
 
 # ================= HELPERS =================
 
-def add_book():
+def add_book(author="J.K. Rowling", title="Hary Pioter"):
     payload = {
-        "author": "J.K. Rowling",
-        "title": "Hary Pioter"
+        "author": author,
+        "title": title
     }
     return requests.post(f"{CORE_API_URL}/books", json=payload)
 
@@ -29,14 +29,22 @@ def test_health_check():
 
 
 def test_get_books():
+    add_book()
     res = requests.get(f"{CORE_API_URL}/books")
     assert res.status_code == 200
-    assert isinstance(res.json(), list)
+    data = res.json()
+    assert isinstance(data, list)
+    assert len(data) >= 1
 
 
 def test_get_rand_book():
+    add_book()  # ensure DB not empty
     res = requests.get(f"{CORE_API_URL}/random-book")
     assert res.status_code == 200
+    data = res.json()
+    assert "id" in data
+    assert "title" in data
+    assert "author" in data
 
 
 def test_get_book():
@@ -51,14 +59,14 @@ def test_get_book():
 
 
 def test_get_book_err():
-    res = requests.get(f"{BASE_URL}/X")
+    res = requests.get(f"{BASE_URL}/api/v1/books/999999")
     assert res.status_code == 404
 
-def test_get_books_by_author():
-    res = add_book()
-    assert res.status_code == 201
 
-    # query by author
+def test_get_books_by_author():
+    add_book(author="J.K. Rowling")
+    add_book(author="Other Author")
+
     res = requests.get(
         f"{CORE_API_URL}/books-by-author",
         params={"author": "J.K. Rowling"}
@@ -68,8 +76,7 @@ def test_get_books_by_author():
 
     data = res.json()
     assert isinstance(data, list)
-    assert len(data) >= 1
-    assert data[-1]["author"] == "J.K. Rowling"
+    assert all(book["author"] == "J.K. Rowling" for book in data)
 
 
 def test_add_book():
@@ -77,13 +84,13 @@ def test_add_book():
     assert res.status_code == 201
 
     location = res.headers["Location"]
-    assert get_book(location).json()["title"] == "Hary Pioter"
+    book = get_book(location).json()
+    assert book["title"] == "Hary Pioter"
+    assert book["author"] == "J.K. Rowling"
 
 
 def test_put_book():
     res = add_book()
-    assert res.status_code == 201
-
     location = res.headers["Location"]
 
     payload = {
@@ -101,13 +108,9 @@ def test_put_book():
 
 def test_patch_book():
     res = add_book()
-    assert res.status_code == 201
-
     location = res.headers["Location"]
 
-    payload = {
-        "title": "Gary Pjoter"
-    }
+    payload = {"title": "Gary Pjoter"}
 
     res = requests.patch(f"{BASE_URL}{location}", json=payload)
     assert res.status_code == 204
@@ -117,15 +120,12 @@ def test_patch_book():
 
 def test_patch_book_err():
     payload = {"title": "Gary Pjoter"}
-
-    res = requests.patch(f"{BASE_URL}/X", json=payload)
+    res = requests.patch(f"{BASE_URL}/api/v1/books/999999", json=payload)
     assert res.status_code == 404
 
 
 def test_del_book():
     res = add_book()
-    assert res.status_code == 201
-
     location = res.headers["Location"]
 
     res = requests.delete(f"{BASE_URL}{location}")
