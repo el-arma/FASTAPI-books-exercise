@@ -10,10 +10,21 @@ CORE_API_URL = f"{BASE_URL}{API_PREFIX}"
 
 # ================= HELPERS =================
 
-def add_book(author="J.K. Rowling", title="Hary Pioter"):
+def add_book(
+    author="J.K. Rowling",
+    title="Hary Pioter",
+    code_id="HP-001",
+    amount=10,
+    price=39.99,
+    cover_image_url="http://example.com/cover.jpg"
+    ):
     payload = {
         "author": author,
-        "title": title
+        "title": title,
+        "code_id": code_id,
+        "amount": amount,
+        "price": price,
+        "cover_image_url": cover_image_url
     }
     return requests.post(f"{CORE_API_URL}/books", json=payload)
 
@@ -42,9 +53,13 @@ def test_get_rand_book():
     res = requests.get(f"{CORE_API_URL}/random-book")
     assert res.status_code == 200
     data = res.json()
-    assert "id" in data
+    assert "book_id" in data
     assert "title" in data
     assert "author" in data
+    assert "code_id" in data
+    assert "amount" in data
+    assert "price" in data
+    assert "cover_image_url" in data
 
 
 def test_get_book():
@@ -56,6 +71,10 @@ def test_get_book():
     res = get_book(location)
     assert res.status_code == 200
     assert res.json()["title"] == "Hary Pioter"
+    assert res.json()["code_id"] == "HP-001"
+    assert res.json()["amount"] == 10
+    assert res.json()["price"] == 39.99
+    assert res.json()["cover_image_url"] == "http://example.com/cover.jpg"
 
 
 def test_get_book_err():
@@ -87,6 +106,10 @@ def test_add_book():
     book = get_book(location).json()
     assert book["title"] == "Hary Pioter"
     assert book["author"] == "J.K. Rowling"
+    assert book["code_id"] == "HP-001"
+    assert book["amount"] == 10
+    assert book["price"] == 39.99
+    assert book["cover_image_url"] == "http://example.com/cover.jpg"
 
 
 def test_put_book():

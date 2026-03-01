@@ -10,7 +10,7 @@ ENV = os.getenv("ENV", "PROD")
 DB_NAME_PROD = r"DB\PROD\books.db"
 
 if ENV == "TEST": 
-    DB_NAME = "'in-memory'"
+    DB_NAME = "in-memory"
 else:
     DB_NAME = DB_NAME_PROD
 
@@ -27,12 +27,16 @@ async def lifespan(app: FastAPI):
             uri=True,
             check_same_thread=False
         )
-
+        app.state.test_connection.row_factory = sqlite3.Row
         app.state.test_connection.execute("""
             CREATE TABLE books (
                 book_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                code_id TEXT NOT NULL,
                 title TEXT NOT NULL,
-                author TEXT NOT NULL
+                author TEXT NOT NULL,
+                amount INTEGER NOT NULL, 
+                price REAL NOT NULL,
+                cover_image_url TEXT
             );
         """)
         app.state.test_connection.commit()
@@ -54,6 +58,7 @@ def get_db():
         conn = sqlite3.connect(DB_NAME, check_same_thread=False)
         # check_same_thread = False - can be deleted
         # prevents using same thread in many requests, but here we have separates threads for each endpoint
+        conn.row_factory = sqlite3.Row
         try:
             yield conn
         finally:
@@ -68,18 +73,12 @@ def health_check():
     return {"status": "ok"}
 
 # list all books
+#TODO: list gets big, Offset Pagination needed
 @app.get("/api/v1/books")
 def get_all_books(db = Depends(get_db)):
     cursor = db.execute("SELECT * FROM books;")
     rows = cursor.fetchall()
-    return [
-        {
-            "id": row[0],
-            "title": row[1],
-            "author": row[2],
-        }
-        for row in rows
-    ]
+    return [dict(row) for row in rows]
 
 # return book record by id:
 # Path parameter (/book/{id}) → use it when you are identifying a specific resource.
@@ -91,11 +90,7 @@ def get_book(book_id: int, db = Depends(get_db)):
     if row is None:
         raise HTTPException(404, detail=f"Book with id {book_id} not found")
     
-    return {
-        "id": row[0],
-        "title": row[1],
-        "author": row[2],
-    }
+    return dict(row)
 
 # query string: return all books of given author 
 # Query parameter (?author=) → use it when you are filtering, searching, or modifying how a collection is returned.
@@ -104,14 +99,7 @@ def get_authors_books(author: str, db = Depends(get_db)):
     cursor = db.execute("SELECT * FROM books WHERE author = ? ;", (author,))
     rows = cursor.fetchall()
 
-    return [
-        {
-            "id": row[0],
-            "title": row[1],
-            "author": row[2],
-        }
-        for row in rows
-    ]
+    return [dict(row) for row in rows]
 
 # get random book:
 @app.get("/api/v1/random-book")
@@ -121,23 +109,26 @@ def get_rand_book(db = Depends(get_db)):
     row = cursor.fetchone()
     if not row:
         raise HTTPException(404, detail="No books available in the database")
-    return {
-        "id": row[0],
-        "title": row[1],
-        "author": row[2],
-    }
+    return dict(row)
 
 # add new book:
 @app.post("/api/v1/books", status_code = status.HTTP_201_CREATED)
 def add_book(book_data: dict, response: Response, db = Depends(get_db)):
 
     try:
+        code_id = book_data["code_id"]
         title = book_data["title"]
         author = book_data["author"]
+        amount = book_data["amount"]
+        price = book_data["price"]
+        cover_image_url = book_data["cover_image_url"]
     except KeyError:
         raise HTTPException(400, detail="Bad fields provided.")
 
-    cursor = db.execute("INSERT INTO books (title, author) VALUES (?, ?);", (title, author))
+    cursor = db.execute(
+    "INSERT INTO books (code_id, title, author, amount, price, cover_image_url) VALUES (?, ?, ?, ?, ?, ?);",
+    (code_id, title, author, amount, price, cover_image_url)
+    )
     db.commit()
     
     created_id = cursor.lastrowid
@@ -146,9 +137,13 @@ def add_book(book_data: dict, response: Response, db = Depends(get_db)):
     response.headers["Location"] = f"/api/v1/books/{created_id}"
 
     return {
-        "id": created_id,
+        "book_id": created_id,
+        "code_id": code_id,
         "title": title,
-        "author": author
+        "author": author,
+        "amount": amount,
+        "price": price,
+        "cover_image_url": cover_image_url
     }
 
 # update book (all fields):
@@ -173,7 +168,7 @@ def update_book(book_id: int, book_data: dict, db = Depends(get_db)):
 @app.patch("/api/v1/books/{book_id}", status_code = status.HTTP_204_NO_CONTENT)
 def patch_book(book_id: int, book_data: dict, db = Depends(get_db)):
 
-    allowed_fields = {"title", "author"}  # whitelist of fields
+    allowed_fields = {"code_id", "title", "author", "amount", "price", "cover_image_url"}  # whitelist of fields
 
     if not book_data:
         raise HTTPException(400, detail="No fields provided.")

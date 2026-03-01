@@ -1,101 +1,1057 @@
-﻿book_id;author;title
-1;Suzanne Collins;The Hunger Games (The Hunger Games, #1)
-2;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Sorcerer's Stone (Harry Potter, #1)
-3;Stephenie Meyer;Twilight (Twilight, #1)
-4;Harper Lee;To Kill a Mockingbird
-5;F. Scott Fitzgerald;The Great Gatsby
-6;John Green;The Fault in Our Stars
-7;J.R.R. Tolkien;The Hobbit
-8;J.D. Salinger;The Catcher in the Rye
-9;Dan Brown;Angels & Demons  (Robert Langdon, #1)
-10;Jane Austen;Pride and Prejudice
-11;Khaled Hosseini;The Kite Runner
-12;Veronica Roth;Divergent (Divergent, #1)
-13;George Orwell, Erich Fromm, CelĂ˘l Ăśster;1984
-14;George Orwell;Animal Farm
-15;Anne Frank, Eleanor Roosevelt, B.M. Mooyaart-Doubleday;The Diary of a Young Girl
-16;Stieg Larsson, Reg Keeland;The Girl with the Dragon Tattoo (Millennium, #1)
-17;Suzanne Collins;Catching Fire (The Hunger Games, #2)
-18;J.K. Rowling, Mary GrandPrĂ©, Rufus Beck;Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
-19;J.R.R. Tolkien;The Fellowship of the Ring (The Lord of the Rings, #1)
-20;Suzanne Collins;Mockingjay (The Hunger Games, #3)
-21;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Order of the Phoenix (Harry Potter, #5)
-22;Alice Sebold;The Lovely Bones
-23;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Chamber of Secrets (Harry Potter, #2)
-24;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Goblet of Fire (Harry Potter, #4)
-25;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Deathly Hallows (Harry Potter, #7)
-26;Dan Brown;The Da Vinci Code (Robert Langdon, #2)
-27;J.K. Rowling, Mary GrandPrĂ©;Harry Potter and the Half-Blood Prince (Harry Potter, #6)
-28;William Golding;Lord of the Flies
-29;William Shakespeare, Robert           Jackson;Romeo and Juliet
-30;Gillian Flynn;Gone Girl
-31;Kathryn Stockett;The Help
-32;John Steinbeck;Of Mice and Men
-33;Arthur Golden;Memoirs of a Geisha
-34;E.L. James;Fifty Shades of Grey (Fifty Shades, #1)
-35;Paulo Coelho, Alan R. Clarke;The Alchemist
-36;Lois Lowry;The Giver (The Giver, #1)
-37;C.S. Lewis;The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)
-38;Audrey Niffenegger;The Time Traveler's Wife
-39;George R.R. Martin;A Game of Thrones (A Song of Ice and Fire, #1)
-40;Elizabeth Gilbert;Eat, Pray, Love
-41;Rick Riordan;The Lightning Thief (Percy Jackson and the Olympians, #1)
-42;Louisa May Alcott;Little Women (Little Women, #1)
-43;Charlotte BrontĂ«, Michael Mason;Jane Eyre
-44;Nicholas Sparks;The Notebook (The Notebook, #1)
-45;Yann Martel;Life of Pi
-46;Sara Gruen;Water for Elephants
-47;Markus Zusak;The Book Thief
-48;Ray Bradbury;Fahrenheit 451
-49;Stephenie Meyer;New Moon (Twilight, #2)
-50;Shel Silverstein;Where the Sidewalk Ends
-51;Cassandra Clare;City of Bones (The Mortal Instruments, #1)
-52;Stephenie Meyer;Eclipse (Twilight, #3)
-53;Christopher Paolini;Eragon (The Inheritance Cycle, #1)
-54;Douglas Adams;The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)
-55;Aldous Huxley;Brave New World
-56;Stephenie Meyer;Breaking Dawn (Twilight, #4)
-57;Sue Monk Kidd;The Secret Life of Bees
-58;Mark Twain, John Seelye, Guy Cardwell;The Adventures of Huckleberry Finn
-59;E.B. White, Garth Williams, Rosemary Wells;Charlotte's Web
-60;Mark Haddon;The Curious Incident of the Dog in the Night-Time
-61;Paula Hawkins;The Girl on the Train
-62;Philip Pullman;The Golden Compass (His Dark Materials, #1)
-63;Emily BrontĂ«, Richard J. Dunn;Wuthering Heights
-64;Jodi Picoult;My Sister's Keeper
-65;Kurt Vonnegut Jr.;Slaughterhouse-Five
-66;Margaret Mitchell;Gone with the Wind
-67;Khaled Hosseini;A Thousand Splendid Suns
-68;Stephen Chbosky;The Perks of Being a Wallflower
-69;Veronica Roth;Insurgent (Divergent, #2)
-70;Orson Scott Card;Ender's Game (Ender's Saga, #1)
-71;Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle;Frankenstein
-72;Stephen King;The Shining (The Shining #1)
-73;Stephenie Meyer;The Host (The Host, #1)
-74;John Green;Looking for Alaska
-75;Helen Fielding;Bridget Jones's Diary (Bridget Jones, #1)
-76;Jane Austen, Tony Tanner, Ros Ballaster;Sense and Sensibility
-77;Louis Sachar, Louis Sachar;Holes (Holes, #1)
-78;Lauren Weisberger;The Devil Wears Prada (The Devil Wears Prada, #1)
-79;Homer, Robert Fagles, E.V. Rieu, FrĂ©dĂ©ric Mugler, Bernard Knox;The Odyssey
-80;Antoine de Saint-ExupĂ©ry, Richard Howard, Dom Marcos Barbosa, Melina Karakosta;The Little Prince
-81;Jeannette Walls;The Glass Castle
-82;Jon Krakauer;Into the Wild
-83;Charles Dickens, Richard Maxwell, Hablot Knight Browne;A Tale of Two Cities
-84;Michael Crichton;Jurassic Park (Jurassic Park, #1)
-85;Shel Silverstein;The Giving Tree
-86;John Grisham;A Time to Kill
-87;Elie Wiesel, Marion Wiesel;Night (The Night Trilogy #1)
-88;John Green;Paper Towns
-89;William Goldman;The Princess Bride 
-90;S.E. Hinton;The Outsiders
-91;James Dashner;The Maze Runner (Maze Runner, #1)
-92;Steven D. Levitt, Stephen J. Dubner;Freakonomics: A Rogue Economist Explores the Hidden Side of Everything (Freakonomics, #1)
-93;Frances Hodgson Burnett;The Secret Garden
-94;Gabriel GarcĂ­a MĂˇrquez, Gregory Rabassa;One Hundred Years of Solitude
-95;Oscar Wilde, Jeffrey Eugenides;The Picture of Dorian Gray
-96;E.L. James;Fifty Shades Freed (Fifty Shades, #3)
-97;Bram Stoker, Nina Auerbach, David J. Skal;Dracula
-98;Stieg Larsson, Reg Keeland;The Girl Who Played with Fire (Millennium, #2)
-99;E.L. James;Fifty Shades Darker (Fifty Shades, #2)
-100;Dan Simmons;Hyperion
+code_id;title;author;amount;price;cover_image_url
+isbn-9780486272634;Flatland: A Romance of Many Dimensions;Edwin A. Abbott;384;28,38;https://bookdb.barrucadu.co.uk/book/isbn-9780486272634/cover
+isbn-9781974725762;Frieren: Beyond Journey's End (vol. 1);Kanehito Yamada, Tsukasa Abe, (trans. Misa);405;45,65;https://bookdb.barrucadu.co.uk/book/isbn-9781974725762/cover
+isbn-9781974727230;Frieren: Beyond Journey's End (vol. 2);Kanehito Yamada, Tsukasa Abe, (trans. Misa);327;45,84;https://bookdb.barrucadu.co.uk/book/isbn-9781974727230/cover
+isbn-9781974727247;Frieren: Beyond Journey's End (vol. 3);Kanehito Yamada, Tsukasa Abe, (trans. Misa);280;64,83;https://bookdb.barrucadu.co.uk/book/isbn-9781974727247/cover
+isbn-9781974727254;Frieren: Beyond Journey's End (vol. 4);Kanehito Yamada, Tsukasa Abe, (trans. Misa);900;82,34;https://bookdb.barrucadu.co.uk/book/isbn-9781974727254/cover
+isbn-9781974730070;Frieren: Beyond Journey's End (vol. 5);Kanehito Yamada, Tsukasa Abe, (trans. Misa);701;63,66;https://bookdb.barrucadu.co.uk/book/isbn-9781974730070/cover
+isbn-9781974734009;Frieren: Beyond Journey's End (vol. 6);Kanehito Yamada, Tsukasa Abe, (trans. Misa);425;30,53;https://bookdb.barrucadu.co.uk/book/isbn-9781974734009/cover
+isbn-9781974736201;Frieren: Beyond Journey's End (vol. 7);Kanehito Yamada, Tsukasa Abe, (trans. Misa);458;39,17;https://bookdb.barrucadu.co.uk/book/isbn-9781974736201/cover
+isbn-9781974738601;Frieren: Beyond Journey's End (vol. 8);Kanehito Yamada, Tsukasa Abe, (trans. Misa);543;69,15;https://bookdb.barrucadu.co.uk/book/isbn-9781974738601/cover
+isbn-9781974740604;Frieren: Beyond Journey's End (vol. 9);Kanehito Yamada, Tsukasa Abe, (trans. Misa);563;56,89;https://bookdb.barrucadu.co.uk/book/isbn-9781974740604/cover
+isbn-9781974743612;Frieren: Beyond Journey's End (vol. 10);Kanehito Yamada, Tsukasa Abe, (trans. Misa);384;59,02;https://bookdb.barrucadu.co.uk/book/isbn-9781974743612/cover
+isbn-9781974748983;Frieren: Beyond Journey's End (vol. 11);Kanehito Yamada, Tsukasa Abe, (trans. Misa);629;41,66;https://bookdb.barrucadu.co.uk/book/isbn-9781974748983/cover
+isbn-9781974751815;Frieren: Beyond Journey's End (vol. 12);Kanehito Yamada, Tsukasa Abe, (trans. Misa);205;33,31;https://bookdb.barrucadu.co.uk/book/isbn-9781974751815/cover
+isbn-9780262510875;Structure and Interpretation of Computer Programs;Harold Abelson, Gerald Jay Sussman;763;86,65;https://bookdb.barrucadu.co.uk/book/isbn-9780262510875/cover
+isbn-9781568824376;Doors to Darkness: Five Scenarios for Beginning Keepers;Christopher Smith Adair, Gylnn Owen Barrass, Brian Courtemanche, Tom Lynch, Kevin Ross, Brian M. Sammons;103;27,84;https://bookdb.barrucadu.co.uk/book/isbn-9781568824376/cover
+isbn-9781781087305;The Goblin Emperor;Katherine Addison;404;79,11;https://bookdb.barrucadu.co.uk/book/isbn-9781781087305/cover
+isbn-9781786187444;The Grief of Stones;Katherine Addison;677;33,77;https://bookdb.barrucadu.co.uk/book/isbn-9781786187444/cover
+isbn-9781781089514;The Witness for the Dead;Katherine Addison;254;23,58;https://bookdb.barrucadu.co.uk/book/isbn-9781781089514/cover
+x-mushmen-afb-01;A Folklore Bestiary (vol. 1);Various, (edit. Eric Nieudan), (edit. Olivier Revenu);967;49,33;https://bookdb.barrucadu.co.uk/book/x-mushmen-afb-01/cover
+x-gotfn-1;Gods of the Forbidden North (vol. 1);Robert Alderman;226;36,65;https://bookdb.barrucadu.co.uk/book/x-gotfn-1/cover
+x-gotfn-2;Gods of the Forbidden North (vol. 2);Robert Alderman;446;85,59;https://bookdb.barrucadu.co.uk/book/x-gotfn-2/cover
+isbn-9780575086159;Helliconia;Brian Aldiss;927;36,02;https://bookdb.barrucadu.co.uk/book/isbn-9780575086159/cover
+isbn-9789189765924;ALIEN: Evolved Edition;Tomas Harenstam;238;54,13;https://bookdb.barrucadu.co.uk/book/isbn-9789189765924/cover
+isbn-9789188805553;ALIEN: The Roleplaying Game;Tomas Harenstam;142;99,93;https://bookdb.barrucadu.co.uk/book/isbn-9789188805553/cover
+isbn-9780199535644;The Divine Comedy;Dante Alighieri, (trans. C. H. Sisson);341;22,73;https://bookdb.barrucadu.co.uk/book/isbn-9780199535644/cover
+isbn-9781916956230;The Gardens of Ynn;Emmy Allen, (edit. Pam Punzalan);482;63,04;https://bookdb.barrucadu.co.uk/book/isbn-9781916956230/cover
+x-soulmuppet-stylib;The Stygian Library;Emmy Allen, (edit. Terence Walsh);270;49,17;https://bookdb.barrucadu.co.uk/book/x-soulmuppet-stylib/cover
+ean-2370009065392;Dungeons & Dragons: Rules Cyclopedia;Aaron Allston, (edit. Steven E. Schend), (edit. Jon Pickens), (edit. Dori Watry);768;84,5;https://bookdb.barrucadu.co.uk/book/ean-2370009065392/cover
+isbn-9781982122690;Live to Tell the Tale: Combat Tactics for Player Characters;Keith Ammann;998;47,76;https://bookdb.barrucadu.co.uk/book/isbn-9781982122690/cover
+isbn-9781982171322;MOAR! Monsters Know What They're Doing;Keith Ammann;749;22,8;https://bookdb.barrucadu.co.uk/book/isbn-9781982171322/cover
+isbn-9781982122669;The Monsters Know What They're Doing: Combat Tactics for Dungeon Masters;Keith Ammann;231;25,5;https://bookdb.barrucadu.co.uk/book/isbn-9781982122669/cover
+isbn-9780575077324;Tau Zero;Poul Anderson;180;55,14;https://bookdb.barrucadu.co.uk/book/isbn-9780575077324/cover
+isbn-9781568824154;Terror Australis: Call of Cthulhu in the Land Down Under;Marion Anderson, Phil Anderson, Dean Engelhardt, Geoff Gillan, Tristan Goss, Lynne Hardy, James Haughton, John Hughes, Vian Lawson, Penelope Love, Mike Mason, Mark Morrison, Sandy Petersen, Brian M. Sammons, Darren Watson, Richard Watts, (edit. Mike Mason);299;22,23;https://bookdb.barrucadu.co.uk/book/isbn-9781568824154/cover
+isbn-9781504054966;Three Hearts and Three Lions;Poul Anderson;130;83,42;https://bookdb.barrucadu.co.uk/book/isbn-9781504054966/cover
+isbn-9781568824482;Down Darker Trails: Terrors of the Mythos in the Old West;Kevin Ross, Keith Herber, Scott David Aniolowski, David Cole, Todd A. Woods, Nicholas Nacario, Paul Fricker, Mike Mason;788;52,09;https://bookdb.barrucadu.co.uk/book/isbn-9781568824482/cover
+isbn-9781568823157;Malleus Monstrorum: Cthulhu Mythos Bestiary (vol. 1) / Monsters of the Mythos;Mike Mason, Scott David Aniolowski, Loïc Muzy, Paul Fricker;648;79,82;https://bookdb.barrucadu.co.uk/book/isbn-9781568823157/cover
+isbn-9781568823171;Malleus Monstrorum: Cthulhu Mythos Bestiary (vol. 2) / Deities of the Mythos;Mike Mason, Scott David Aniolowski, Loïc Muzy, Paul Fricker;180;62,48;https://bookdb.barrucadu.co.uk/book/isbn-9781568823171/cover
+isbn-9780374166632;The Great Indoors: The Surprising Science of How Buildings Shape Our Behaviour, Health, and Happiness;Emily Anthes;183;88,03;https://bookdb.barrucadu.co.uk/book/isbn-9780374166632/cover
+isbn-9781421578798;JoJo's Bizarre Adventure: Part I. Phantom Blood (vol. 1);Hirohiko Araki, (trans. Evan Galloway);244;63,35;https://bookdb.barrucadu.co.uk/book/isbn-9781421578798/cover
+isbn-9781421578804;JoJo's Bizarre Adventure: Part I. Phantom Blood (vol. 2);Hirohiko Araki, (trans. Evan Galloway);632;22,58;https://bookdb.barrucadu.co.uk/book/isbn-9781421578804/cover
+isbn-9781638585442;Yokohama Kaidashi Kikou: Deluxe Edition (vol. 1);Hitoshi Ashinano, (trans. Daniel Komen);0;41,65;https://bookdb.barrucadu.co.uk/book/isbn-9781638585442/cover
+isbn-9781638585459;Yokohama Kaidashi Kikou: Deluxe Edition (vol. 2);Hitoshi Ashinano, (trans. Daniel Komen);100;81,46;https://bookdb.barrucadu.co.uk/book/isbn-9781638585459/cover
+isbn-9781638585466;Yokohama Kaidashi Kikou: Deluxe Edition (vol. 3);Hitoshi Ashinano, (trans. Daniel Komen);50;88,6;https://bookdb.barrucadu.co.uk/book/isbn-9781638585466/cover
+isbn-9781638585473;Yokohama Kaidashi Kikou: Deluxe Edition (vol. 4);Hitoshi Ashinano, (trans. Daniel Komen);323;82,94;https://bookdb.barrucadu.co.uk/book/isbn-9781638585473/cover
+isbn-9781638585480;Yokohama Kaidashi Kikou: Deluxe Edition (vol. 5);Hitoshi Ashinano, (trans. Daniel Komen);392;26,77;https://bookdb.barrucadu.co.uk/book/isbn-9781638585480/cover
+isbn-9781841593326;Foundation, Foundation and Empire, Second Foundation;Isaac Asimov;900;27,74;https://bookdb.barrucadu.co.uk/book/isbn-9781841593326/cover
+isbn-9780586057247;The Complete Robot;Isaac Asimov;787;90,1;https://bookdb.barrucadu.co.uk/book/isbn-9780586057247/cover
+isbn-9780586010167;The Naked Sun;Isaac Asimov;476;71,99;https://bookdb.barrucadu.co.uk/book/isbn-9780586010167/cover
+isbn-9780140449334;Meditations;Marcus Aurelius, (trans. Martin Hammond);330;72,35;https://bookdb.barrucadu.co.uk/book/isbn-9780140449334/cover
+isbn-9780316077385;Azumanga Daioh Omnibus;Kiyohiko Azuma, (trans. Stephen Paul);941;76,47;https://bookdb.barrucadu.co.uk/book/isbn-9780316077385/cover
+isbn-9780316073875;Yotsuba &! (vol. 1);Kiyohiko Azuma, (trans. Amy Forsyth);862;81,08;https://bookdb.barrucadu.co.uk/book/isbn-9780316073875/cover
+isbn-9780316073899;Yotsuba &! (vol. 2);Kiyohiko Azuma, (trans. Stephen Paul);238;79,03;https://bookdb.barrucadu.co.uk/book/isbn-9780316073899/cover
+isbn-9780316073905;Yotsuba &! (vol. 3);Kiyohiko Azuma, (trans. Stephen Paul);672;37,88;https://bookdb.barrucadu.co.uk/book/isbn-9780316073905/cover
+isbn-9780316073912;Yotsuba &! (vol. 4);Kiyohiko Azuma, (trans. Amy Forsyth);327;31,78;https://bookdb.barrucadu.co.uk/book/isbn-9780316073912/cover
+isbn-9780316073929;Yotsuba &! (vol. 5);Kiyohiko Azuma, (trans. Amy Forsyth);89;78,7;https://bookdb.barrucadu.co.uk/book/isbn-9780316073929/cover
+isbn-9780316412896;So I'm a Spider, So What? (vol. 1);Okina Baba, (trans. Jenny McKeon);639;93,44;https://bookdb.barrucadu.co.uk/book/isbn-9780316412896/cover
+isbn-9780316442886;So I'm a Spider, So What? (vol. 2);Okina Baba, (trans. Jenny McKeon);42;44,8;https://bookdb.barrucadu.co.uk/book/isbn-9780316442886/cover
+isbn-9780316442909;So I'm a Spider, So What? (vol. 3);Okina Baba, (trans. Jenny McKeon);441;28,59;https://bookdb.barrucadu.co.uk/book/isbn-9780316442909/cover
+isbn-9780316442916;So I'm a Spider, So What? (vol. 4);Okina Baba, (trans. Jenny McKeon);838;25,34;https://bookdb.barrucadu.co.uk/book/isbn-9780316442916/cover
+isbn-9781975301941;So I'm a Spider, So What? (vol. 5);Okina Baba, (trans. Jenny McKeon);5;28,49;https://bookdb.barrucadu.co.uk/book/isbn-9781975301941/cover
+isbn-9781975301965;So I'm a Spider, So What? (vol. 6);Okina Baba, (trans. Jenny McKeon);883;35,32;https://bookdb.barrucadu.co.uk/book/isbn-9781975301965/cover
+isbn-9781975301996;So I'm a Spider, So What? (vol. 7);Okina Baba, (trans. Jenny McKeon);98;75,97;https://bookdb.barrucadu.co.uk/book/isbn-9781975301996/cover
+isbn-9781975398996;So I'm a Spider, So What? (vol. 8);Okina Baba, (trans. Jenny McKeon);805;54,19;https://bookdb.barrucadu.co.uk/book/isbn-9781975398996/cover
+isbn-9781975310349;So I'm a Spider, So What? (vol. 9);Okina Baba, (trans. Jenny McKeon);275;67,86;https://bookdb.barrucadu.co.uk/book/isbn-9781975310349/cover
+isbn-9781975310363;So I'm a Spider, So What? (vol. 10);Okina Baba, (trans. Jenny McKeon);351;32,87;https://bookdb.barrucadu.co.uk/book/isbn-9781975310363/cover
+isbn-9781975310387;So I'm a Spider, So What? (vol. 11);Okina Baba, (trans. Jenny McKeon);361;90,67;https://bookdb.barrucadu.co.uk/book/isbn-9781975310387/cover
+isbn-9781975321826;So I'm a Spider, So What? (vol. 12);Okina Baba, (trans. Jenny McKeon);424;47,78;https://bookdb.barrucadu.co.uk/book/isbn-9781975321826/cover
+isbn-9781975339852;So I'm a Spider, So What? (vol. 13);Okina Baba, (trans. Jenny McKeon);639;68,62;https://bookdb.barrucadu.co.uk/book/isbn-9781975339852/cover
+isbn-9781975341756;So I'm a Spider, So What? (vol. 14);Okina Baba, (trans. Jenny McKeon);432;20,98;https://bookdb.barrucadu.co.uk/book/isbn-9781975341756/cover
+isbn-9781975352165;So I'm a Spider, So What? (vol. 15);Okina Baba, (trans. Jenny McKeon);307;89,48;https://bookdb.barrucadu.co.uk/book/isbn-9781975352165/cover
+isbn-9781975352189;So I'm a Spider, So What? (vol. 16);Okina Baba, (trans. Jenny McKeon);635;42,9;https://bookdb.barrucadu.co.uk/book/isbn-9781975352189/cover
+isbn-9781472839367;Righteous Blood, Ruthless Blades: Wuxia Roleplaying;Brendan Davis, Jeremy Bai;913;62,68;https://bookdb.barrucadu.co.uk/book/isbn-9781472839367/cover
+isbn-9781857231380;Consider Phlebas;Iain M. Banks;797;33,66;https://bookdb.barrucadu.co.uk/book/isbn-9781857231380/cover
+isbn-9781857234572;Excession;Iain M. Banks;788;70,77;https://bookdb.barrucadu.co.uk/book/isbn-9781857234572/cover
+isbn-9781857237634;Inversions;Iain M. Banks;752;84,64;https://bookdb.barrucadu.co.uk/book/isbn-9781857237634/cover
+isbn-9781841490595;Look to Windward;Iain M. Banks;437;68,2;https://bookdb.barrucadu.co.uk/book/isbn-9781841490595/cover
+isbn-9781841494197;Matter;Iain M. Banks;308;72,89;https://bookdb.barrucadu.co.uk/book/isbn-9781841494197/cover
+isbn-9781841498959;Surface Detail;Iain M. Banks;560;53,45;https://bookdb.barrucadu.co.uk/book/isbn-9781841498959/cover
+isbn-9781841492292;The Algebraist;Iain M. Banks;875;73,63;https://bookdb.barrucadu.co.uk/book/isbn-9781841492292/cover
+isbn-9780356501499;The Hydrogen Sonata;Iain M. Banks;23;60,9;https://bookdb.barrucadu.co.uk/book/isbn-9780356501499/cover
+isbn-9781857231465;The Player of Games;Iain M. Banks;897;23,24;https://bookdb.barrucadu.co.uk/book/isbn-9781857231465/cover
+isbn-9781857230307;The State of the Art;Iain M. Banks;482;79,75;https://bookdb.barrucadu.co.uk/book/isbn-9781857230307/cover
+isbn-9781857231359;Use of Weapons;Iain M. Banks;641;55,65;https://bookdb.barrucadu.co.uk/book/isbn-9781857231359/cover
+isbn-9780007276288;Mister B Gone;Clive Barker;898;80,07;https://bookdb.barrucadu.co.uk/book/isbn-9780007276288/cover
+isbn-9780006470656;The Hellbound Heart;Clive Barker;83;90,66;https://bookdb.barrucadu.co.uk/book/isbn-9780006470656/cover
+isbn-9781568823836;A Time to Harvest: Death and Discovery in the Vermont Hills;Brian M. Sammons, Glynn Owen Barrass, Mike Mason, Lynne Hardy;626;46,02;https://bookdb.barrucadu.co.uk/book/isbn-9781568823836/cover
+isbn-9784902075694;In the Court of the Yellow King;Glynn Owen Barrass, Tim Curran, Cody Goodfellow, T. E. Grau, Laurel Halbany, C. J. Henderson, Gary McMahon, William Meikle, Christine Morgan, Edward Morris, Robert M. Price, W. H. Pugmire, Stephen Mark Rainey, Pete Rawlik, Brian M. Sammons, Lucy Snyder, Greg Stolze, Jeffrey Thomas, (edit. Glynn Owen Barrass);630;50,47;https://bookdb.barrucadu.co.uk/book/isbn-9784902075694/cover
+isbn-9780349117621;Jennifer Government;Max Barry;743;61,97;https://bookdb.barrucadu.co.uk/book/isbn-9780349117621/cover
+isbn-9781912766765;The Living Stone: Stories of Uncanny Sculpture, 1858-1943;Various, (edit. Henry Bartholomew);342;81,29;https://bookdb.barrucadu.co.uk/book/isbn-9781912766765/cover
+ean-2370010618945;The Halls of Arden Vul (vol. 1);Richard Barton;832;94,27;https://bookdb.barrucadu.co.uk/book/ean-2370010618945/cover
+ean-2370010618976;The Halls of Arden Vul (vol. 2);Richard Barton;47;71,27;https://bookdb.barrucadu.co.uk/book/ean-2370010618976/cover
+ean-2370010618952;The Halls of Arden Vul (vol. 3);Richard Barton;280;56,46;https://bookdb.barrucadu.co.uk/book/ean-2370010618952/cover
+ean-2370010618969;The Halls of Arden Vul (vol. 4);Richard Barton;86;52,6;https://bookdb.barrucadu.co.uk/book/ean-2370010618969/cover
+ean-2370010854039;The Halls of Arden Vul (vol. 5);Richard Barton;609;98,94;https://bookdb.barrucadu.co.uk/book/ean-2370010854039/cover
+isbn-9780575129931;The Godwhale;T. J. Bass;408;26,31;https://bookdb.barrucadu.co.uk/book/isbn-9780575129931/cover
+isbn-9781497102019;Seriously Good Chili Cookbook: 177 of the Best Recipes in the World;Brian Baumgartner;993;65,73;https://bookdb.barrucadu.co.uk/book/isbn-9781497102019/cover
+isbn-9781473224056;Raft;Stephen Baxter;99;94,99;https://bookdb.barrucadu.co.uk/book/isbn-9781473224056/cover
+isbn-9780575096837;The Forge of God;Greg Bear;118;86,17;https://bookdb.barrucadu.co.uk/book/isbn-9780575096837/cover
+isbn-9781942788294;The Phoenix Project: A Novel About IT, DevOps, and Helping your Business Win;Kevin Behr, Gene Kim, George Spafford;596;44,45;https://bookdb.barrucadu.co.uk/book/isbn-9781942788294/cover
+isbn-9781857989359;Timescape;Gregory Benford;951;67,59;https://bookdb.barrucadu.co.uk/book/isbn-9781857989359/cover
+isbn-9780996422031;Wildendrem (vol. 1) / The Valley of Flowers;Jedediah Berry, Andrew McAlpine;864;31,23;https://bookdb.barrucadu.co.uk/book/isbn-9780996422031/cover
+isbn-9780575094192;The Stars My Destination;Alfred Bester;694;82,39;https://bookdb.barrucadu.co.uk/book/isbn-9780575094192/cover
+isbn-9781491929124;Site Reliability Engineering: How Google Runs Production Systems;Betsy Beyer, Chris Jones, Niall Richard Murphy, Jennifer Petoff;981;58,02;https://bookdb.barrucadu.co.uk/book/isbn-9781491929124/cover
+isbn-9781492029502;The Site Reliability Workbook: Practical Ways to Implement SRE;Betsy Beyer, Niall Richard Murphy, Kent Kawahara, David K. Rensin, Stephen Thorne;976;25,28;https://bookdb.barrucadu.co.uk/book/isbn-9781492029502/cover
+isbn-9781496030825;Can Such Things Be?;Ambrose Bierce;266;36,3;https://bookdb.barrucadu.co.uk/book/isbn-9781496030825/cover
+isbn-0486280381;Civil War Stories;Ambrose Bierce;308;33,47;https://bookdb.barrucadu.co.uk/book/isbn-0486280381/cover
+isbn-9783447042642;A Concise Dictionary of Akkadian: 2nd (corrected) printing;Jeremy Black, Andrew George, Nicholas Postgate;487;45,06;https://bookdb.barrucadu.co.uk/book/isbn-9783447042642/cover
+isbn-9780142180150;Ancient Sorceries and Other Weird Stories;Algernon Blackwood;380;83,29;https://bookdb.barrucadu.co.uk/book/isbn-9780142180150/cover
+isbn-9781912766680;The Unknown: Weird Writings, 1900-1937;Algernon Blackwood, (edit. Henry Bartholomew);626;39,43;https://bookdb.barrucadu.co.uk/book/isbn-9781912766680/cover
+isbn-9780486469263;Three Supernatural Classics: The Willows, The Wendigo, The Listener;Algernon Blackwood;673;25,77;https://bookdb.barrucadu.co.uk/book/isbn-9780486469263/cover
+isbn-9780575094178;Cities in Flight;James Blish;403;36,82;https://bookdb.barrucadu.co.uk/book/isbn-9780575094178/cover
+isbn-9781568821764;Mysteries of the Worm;Robert Bloch, (edit. Robert M. Price);952;41,05;https://bookdb.barrucadu.co.uk/book/isbn-9781568821764/cover
+isbn-0603032826;Adventures of the Wishing-Chair;Enid Blyton;829;94,81;https://bookdb.barrucadu.co.uk/book/isbn-0603032826/cover
+isbn-0603032850;The Wishing-Chair Again;Enid Blyton;740;68,07;https://bookdb.barrucadu.co.uk/book/isbn-0603032850/cover
+isbn-9780141184845;Labyrinths;Jorge Luis Borges;187;30,01;https://bookdb.barrucadu.co.uk/book/isbn-9780141184845/cover
+isbn-9780141183831;The Aleph;Jorge Luis Borges;812;55,26;https://bookdb.barrucadu.co.uk/book/isbn-9780141183831/cover
+isbn-0099442639;The Book of Imaginary Beings;Jorge Luis Borges;562;28,96;https://bookdb.barrucadu.co.uk/book/isbn-0099442639/cover
+isbn-9780500297278;Mystery Cults in the Ancient World;Hugh Bowden;637;91,29;https://bookdb.barrucadu.co.uk/book/isbn-9780500297278/cover
+isbn-9780575131569;The Long Tomorrow;Leigh Brackett;129;28,07;https://bookdb.barrucadu.co.uk/book/isbn-9780575131569/cover
+isbn-9780006546061;Fahrenheit 451;Ray Bradbury;662;83,52;https://bookdb.barrucadu.co.uk/book/isbn-9780006546061/cover
+isbn-9781473212046;Something Wicked This Way Comes;Ray Bradbury;224;50,4;https://bookdb.barrucadu.co.uk/book/isbn-9781473212046/cover
+isbn-9781999828004;What Might Have Been: The Story of a Social War;Ernest Bramah;930;83,22;https://bookdb.barrucadu.co.uk/book/isbn-9781999828004/cover
+isbn-9780356501758;The Postman;David Brin;220;43,07;https://bookdb.barrucadu.co.uk/book/isbn-9780356501758/cover
+isbn-9781853260018;Wuthering Heights;Emily Brontë;191;70,64;https://bookdb.barrucadu.co.uk/book/isbn-9781853260018/cover
+isbn-9780715653739;World War Z: An Oral History of the Zombie War;Max Brooks;566;70,1;https://bookdb.barrucadu.co.uk/book/isbn-9780715653739/cover
+isbn-9781912766567;From the Abyss: Weird Fiction, 1907-1945;D. K. Broster, (edit. Melissa Edmundson);840;39,03;https://bookdb.barrucadu.co.uk/book/isbn-9781912766567/cover
+isbn-9781912766482;The Gap in the Curtain;John Buchan;924;74,82;https://bookdb.barrucadu.co.uk/book/isbn-9781912766482/cover
+isbn-9781999828011;The Runagates Club;John Buchan;505;80,09;https://bookdb.barrucadu.co.uk/book/isbn-9781999828011/cover
+isbn-9780141439716;The Pilgrim's Progress;John Bunyan;214;79,01;https://bookdb.barrucadu.co.uk/book/isbn-9780141439716/cover
+isbn-9780141182605;A Clockwork Orange;Anthony Burgess;737;52,18;https://bookdb.barrucadu.co.uk/book/isbn-9780141182605/cover
+isbn-0744526191;The Secret Garden;Frances Hodgson Burnett;678;36,83;https://bookdb.barrucadu.co.uk/book/isbn-0744526191/cover
+isbn-9781473234826;Stories of Mars;Edgar Rice Burroughs;334;28,2;https://bookdb.barrucadu.co.uk/book/isbn-9781473234826/cover
+isbn-057122444X;The Melancholy Death of Oyster Boy & Other Stories;Tim Burton;145;36,61;https://bookdb.barrucadu.co.uk/book/isbn-057122444X/cover
+isbn-9781577315933;The Hero with a Thousand Faces;Joseph Campbell;919;82,17;https://bookdb.barrucadu.co.uk/book/isbn-9781577315933/cover
+isbn-9780141187945;The Fall;Albert Camus;457;97,26;https://bookdb.barrucadu.co.uk/book/isbn-9780141187945/cover
+isbn-9780141185132;The Plague;Albert Camus;287;55,36;https://bookdb.barrucadu.co.uk/book/isbn-9780141185132/cover
+isbn-0679720200;The Stranger;Albert Camus;37;40,87;https://bookdb.barrucadu.co.uk/book/isbn-0679720200/cover
+isbn-9781904233022;Ender's Game;Orson Scott Card;142;53,06;https://bookdb.barrucadu.co.uk/book/isbn-9781904233022/cover
+isbn-9780751540352;The Shakespeare Secret;Jennifer Lee Carrell;87;28,8;https://bookdb.barrucadu.co.uk/book/isbn-9780751540352/cover
+isbn-9780141439761;Alice's Adventures in Wonderland and Through the Looking-Glass;Lewis Carroll;299;78,01;https://bookdb.barrucadu.co.uk/book/isbn-9780141439761/cover
+isbn-9781473606630;The Vorrh;Brian Catling;689;41,95;https://bookdb.barrucadu.co.uk/book/isbn-9781473606630/cover
+isbn-9780099469698;Don Quixote;Miguel de Cervantes, (trans. Edith Grossman);111;77,03;https://bookdb.barrucadu.co.uk/book/isbn-9780099469698/cover
+isbn-9781840226447;The King in Yellow;Robert W. Chambers;129;91,22;https://bookdb.barrucadu.co.uk/book/isbn-9781840226447/cover
+isbn-9781906838928;The King in Yellow;Robert W. Chambers, I. N. J. Culbard;525;83,83;https://bookdb.barrucadu.co.uk/book/isbn-9781906838928/cover
+isbn-9780674049680;Reading and Writing in Babylon;Dominique Charpin, (trans. Jane Marie Todd);565;62,53;https://bookdb.barrucadu.co.uk/book/isbn-9780674049680/cover
+isbn-9781035039210;Exhalation;Ted Chiang;529;80,8;https://bookdb.barrucadu.co.uk/book/isbn-9781035039210/cover
+isbn-9781529039436;Stories of Your Life and Others;Ted Chiang;325;68,67;https://bookdb.barrucadu.co.uk/book/isbn-9781529039436/cover
+isbn-9780007547999;Algorithms to Live By: The Computer Science of Human Decisions;Brian Christian, Tom Griffiths;3;21,65;https://bookdb.barrucadu.co.uk/book/isbn-9780007547999/cover
+isbn-9781857236644;2001: A Space Odyssey;Arthur C. Clarke;430;84,34;https://bookdb.barrucadu.co.uk/book/isbn-9781857236644/cover
+isbn-9780586056998;2010: Odyssey Two;Arthur C. Clarke;267;45,37;https://bookdb.barrucadu.co.uk/book/isbn-9780586056998/cover
+isbn-9780586203194;2061: Odyssey Three;Arthur C. Clarke;195;68,12;https://bookdb.barrucadu.co.uk/book/isbn-9780586203194/cover
+isbn-9780586066249;3001: The Final Odyssey;Arthur C. Clarke;481;97,28;https://bookdb.barrucadu.co.uk/book/isbn-9780586066249/cover
+isbn-9780575073173;A Fall of Moondust;Arthur C. Clarke;99;36,51;https://bookdb.barrucadu.co.uk/book/isbn-9780575073173/cover
+isbn-9780330514019;Childhood's End;Arthur C. Clarke;60;96,83;https://bookdb.barrucadu.co.uk/book/isbn-9780330514019/cover
+isbn-9781473201422;Imperial Earth;Arthur C. Clarke;445;89,36;https://bookdb.barrucadu.co.uk/book/isbn-9781473201422/cover
+isbn-9780747579885;Jonathan Strange & Mr Norrell;Susanna Clarke;552;77,38;https://bookdb.barrucadu.co.uk/book/isbn-9780747579885/cover
+isbn-9780575077331;Rendezvous with Rama;Arthur C. Clarke;350;71,71;https://bookdb.barrucadu.co.uk/book/isbn-9780575077331/cover
+isbn-9781857987638;The City and the Stars;Arthur C. Clarke;540;41,74;https://bookdb.barrucadu.co.uk/book/isbn-9781857987638/cover
+isbn-9781857983234;The Collected Stories;Arthur C. Clarke;626;26,46;https://bookdb.barrucadu.co.uk/book/isbn-9781857983234/cover
+isbn-9781473201408;The Hammer of God;Arthur C. Clarke;535;83,69;https://bookdb.barrucadu.co.uk/book/isbn-9781473201408/cover
+isbn-9780586066232;The Songs of Distant Earth;Arthur C. Clarke;201;45,61;https://bookdb.barrucadu.co.uk/book/isbn-9780586066232/cover
+isbn-9781847941831;Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones;James Clear;307;81,47;https://bookdb.barrucadu.co.uk/book/isbn-9781847941831/cover
+isbn-9781841491509;Wit'ch Fire;James Clemens;588;21,75;https://bookdb.barrucadu.co.uk/book/isbn-9781841491509/cover
+isbn-9781841491974;Wit'ch Gate;James Clemens;608;33,34;https://bookdb.barrucadu.co.uk/book/isbn-9781841491974/cover
+isbn-1841492442;Wit'ch Star;James Clemens;531;89,26;https://bookdb.barrucadu.co.uk/book/isbn-1841492442/cover
+isbn-1841491519;Wit'ch Storm;James Clemens;453;61,48;https://bookdb.barrucadu.co.uk/book/isbn-1841491519/cover
+isbn-184149190X;Wit'ch War;James Clemens;295;59,07;https://bookdb.barrucadu.co.uk/book/isbn-184149190X/cover
+isbn-9780995756748;Fungi of the Far Realms;Alex Clements, Daniel Sell, (edit. Jarrett Crader);281;60,02;https://bookdb.barrucadu.co.uk/book/isbn-9780995756748/cover
+isbn-9789189765474;Moria: Through the Doors of Durin;Gareth Hanrahan, Shawn Tomkin, Matt Click, (edit. Francesco Nepitello), (edit. Michele Garbuggio), (edit. Lorenzo Perassi);742;79,88;https://bookdb.barrucadu.co.uk/book/isbn-9789189765474/cover
+isbn-9780691208015;1177 B.C.: The Year Civilization Collapsed;Eric H. Cline;827;62,14;https://bookdb.barrucadu.co.uk/book/isbn-9780691208015/cover
+isbn-9781952885983;Into the Cess and Citadel;Alex Coggon, Charles Ferguson-Avery;624;28,2;https://bookdb.barrucadu.co.uk/book/isbn-9781952885983/cover
+isbn-9781784871154;The Haunted Hotel;Wilkie Collins;531;37,18;https://bookdb.barrucadu.co.uk/book/isbn-9781784871154/cover
+isbn-9781853260445;The Moonstone;Wilkie Collins;546;83,82;https://bookdb.barrucadu.co.uk/book/isbn-9781853260445/cover
+isbn-9780007902217;The Woman in White;Wilkie Collins;876;64,9;https://bookdb.barrucadu.co.uk/book/isbn-9780007902217/cover
+isbn-9780575084179;Chronicles of the Black Company;Glen Cook;790;94,83;https://bookdb.barrucadu.co.uk/book/isbn-9780575084179/cover
+isbn-9781250781208;The Black Company;Glen Cook;277;98,06;https://bookdb.barrucadu.co.uk/book/isbn-9781250781208/cover
+isbn-9780765320667;The Books of the South;Glen Cook;644;39,53;https://bookdb.barrucadu.co.uk/book/isbn-9780765320667/cover
+isbn-9780765324016;The Many Deaths of the Black Company;Glen Cook;372;92,79;https://bookdb.barrucadu.co.uk/book/isbn-9780765324016/cover
+isbn-9780765324009;The Return of the Black Company;Glen Cook;134;28,03;https://bookdb.barrucadu.co.uk/book/isbn-9780765324009/cover
+isbn-9780521533386;Sumer and the Sumerians;Harriet Crawford;283;66,08;https://bookdb.barrucadu.co.uk/book/isbn-9780521533386/cover
+isbn-9781138238633;The Sumerian World;Various, (edit. Harriet Crawford);543;59,77;https://bookdb.barrucadu.co.uk/book/isbn-9781138238633/cover
+isbn-9780857194671;Effective Investing;Mark Dampier;448;89,24;https://bookdb.barrucadu.co.uk/book/isbn-9780857194671/cover
+isbn-9780385603102;House of Leaves;Mark Z. Danielewski;881;69,67;https://bookdb.barrucadu.co.uk/book/isbn-9780385603102/cover
+isbn-9781630762506;The Millionaire Next Door: The Surprising Secrets of America's Wealthy;William D. Danko, Thomas J. Stanley;344;37,81;https://bookdb.barrucadu.co.uk/book/isbn-9781630762506/cover
+isbn-9780029070529;A Dictionary of Angels: including the fallen angels;Gustav Davidson;961;91,32;https://bookdb.barrucadu.co.uk/book/isbn-9780029070529/cover
+isbn-9781847673091;The Gargoyle;Andrew Davidson;912;44,31;https://bookdb.barrucadu.co.uk/book/isbn-9781847673091/cover
+isbn-9780575094208;Babel-17;Samuel R. Delany;683;33,36;https://bookdb.barrucadu.co.uk/book/isbn-9780575094208/cover
+isbn-9780321934116;Peopleware: Productive Projects and Teams;Tom DeMarco, Timothy Lister;142;34,86;https://bookdb.barrucadu.co.uk/book/isbn-9780321934116/cover
+isbn-9781940410319;A Night at the Opera;Dennis Detwiller, Shane Ivey, Greg Stolze;548;84,16;https://bookdb.barrucadu.co.uk/book/isbn-9781940410319/cover
+isbn-9781940410494;Black Sites;Dennis Detwiller, Shane Ivey, Adam Scott Glancy, Caleb Stokes;848;68,99;https://bookdb.barrucadu.co.uk/book/isbn-9781940410494/cover
+isbn-9781940410210;Delta Green: Agent's Handbook;Dennis Detwiller, Christopher Gunning, Shane Ivey, Greg Stolze;654;60,18;https://bookdb.barrucadu.co.uk/book/isbn-9781940410210/cover
+isbn-9781940410289;Delta Green: Handler's Guide;Dennis Detwiller, Adam Scott Glancy, Kenneth Hite, Shane Ivey, Greg Stolze;868;96,56;https://bookdb.barrucadu.co.uk/book/isbn-9781940410289/cover
+isbn-9781940410548;Impossible Landscapes;Dennis Detwiller;360;27,69;https://bookdb.barrucadu.co.uk/book/isbn-9781940410548/cover
+isbn-9781940410616;The Conspiracy;Dennis Detwiller, Adam Scott Glancy, John Scott Tynes, (edit. John Scott Tynes), (edit. Shane Ivey), (edit. Caleb Stokes);379;79,71;https://bookdb.barrucadu.co.uk/book/isbn-9781940410616/cover
+isbn-9798284025253;Morkin: The Lords of Midnight solo adventure game;Juan Diaz-Bustamante;1000;72,78;https://bookdb.barrucadu.co.uk/book/isbn-9798284025253/cover
+isbn-0805036261;My Tiny Life: Crime and Passion in a Virtual World;Julian Dibbell;264;30,35;https://bookdb.barrucadu.co.uk/book/isbn-0805036261/cover
+isbn-9781780220420;A Scanner Darkly;Philip K. Dick;374;45,21;https://bookdb.barrucadu.co.uk/book/isbn-9781780220420/cover
+isbn-9781857988796;Beyond Lies The Wub;Philip K. Dick;726;77,55;https://bookdb.barrucadu.co.uk/book/isbn-9781857988796/cover
+isbn-9780007127702;Counter-Clock World;Philip K. Dick;839;23,79;https://bookdb.barrucadu.co.uk/book/isbn-9780007127702/cover
+isbn-9780575079939;Do Androids Dream of Electric Sheep?;Philip K. Dick;975;31,33;https://bookdb.barrucadu.co.uk/book/isbn-9780575079939/cover
+isbn-9780141186672;The Man in the High Castle;Philip K. Dick;838;80,82;https://bookdb.barrucadu.co.uk/book/isbn-9780141186672/cover
+isbn-9780575074811;The Penultimate Truth;Philip K. Dick;974;58,74;https://bookdb.barrucadu.co.uk/book/isbn-9780575074811/cover
+isbn-9781853267345;Complete Ghost Stories;Charles Dickens;590;50,04;https://bookdb.barrucadu.co.uk/book/isbn-9781853267345/cover
+isbn-9780199555246;The Nun;Denis Diderot, (trans. Russell Goulbourne);720;75,01;https://bookdb.barrucadu.co.uk/book/isbn-9780199555246/cover
+isbn-9781568824123;Masks of Nyarlathotep: Dark Schemes Herald the End of the World (vol. 1);Larry DiTillio, Lynn Willis;966;65,77;https://bookdb.barrucadu.co.uk/book/isbn-9781568824123/cover
+isbn-9781568824130;Masks of Nyarlathotep: Dark Schemes Herald the End of the World (vol. 2);Larry DiTillio, Lynn Willis;712;49,18;https://bookdb.barrucadu.co.uk/book/isbn-9781568824130/cover
+isbn-9784991196805;Little Nuns: Diva's Nun's Artbook;Diva;400;56,62;https://bookdb.barrucadu.co.uk/book/isbn-9784991196805/cover
+isbn-9780575076013;Against All Things Ending;Stephen R. Donaldson;672;50,99;https://bookdb.barrucadu.co.uk/book/isbn-9780575076013/cover
+isbn-9780575091269;Daughter of Regals;Stephen R. Donaldson;439;85,98;https://bookdb.barrucadu.co.uk/book/isbn-9780575091269/cover
+isbn-9780575076006;Fatal Revenant;Stephen R. Donaldson;578;43,26;https://bookdb.barrucadu.co.uk/book/isbn-9780575076006/cover
+isbn-9780006473299;The Chronicles of Thomas Covenant, the Unbeliever;Stephen R. Donaldson;794;22,2;https://bookdb.barrucadu.co.uk/book/isbn-9780006473299/cover
+isbn-9780575076020;The Last Dark;Stephen R. Donaldson;622;70,05;https://bookdb.barrucadu.co.uk/book/isbn-9780575076020/cover
+isbn-9780345459855;The Mirror of her Dreams;Stephen R. Donaldson;90;42,3;https://bookdb.barrucadu.co.uk/book/isbn-9780345459855/cover
+isbn-0575075996;The Runes of the Earth;Stephen R. Donaldson;426;40,05;https://bookdb.barrucadu.co.uk/book/isbn-0575075996/cover
+isbn-9780006473305;The Second Chronicles of Thomas Covenant;Stephen R. Donaldson;652;68,08;https://bookdb.barrucadu.co.uk/book/isbn-9780006473305/cover
+isbn-9781916675339;Clans of the Aslan;Randy Dorman, (edit. Matthew Sprange);480;56,96;https://bookdb.barrucadu.co.uk/book/isbn-9781916675339/cover
+isbn-9781916675117;The Deep and the Dark;Randy Dorman;651;69,2;https://bookdb.barrucadu.co.uk/book/isbn-9781916675117/cover
+isbn-9781568824048;The Two-Headed Serpent;Paul Fricker, Scott Dorward, Matthew Sanderson;258;66,75;https://bookdb.barrucadu.co.uk/book/isbn-9781568824048/cover
+isbn-9781908460929;Behind the Claw;Martin J. Dougherty;779;96,96;https://bookdb.barrucadu.co.uk/book/isbn-9781908460929/cover
+isbn-9781913076139;Drinaxian Companion;Martin J. Dougherty;982;71,45;https://bookdb.barrucadu.co.uk/book/isbn-9781913076139/cover
+isbn-9781916675452;Great Rift Adventures 1 - 5;Martin J. Dougherty, Isabella Treccani-Chinelli, (edit. Matthew Sprange);708;22,46;https://bookdb.barrucadu.co.uk/book/isbn-9781916675452/cover
+isbn-9781913076160;Shadows of Sindal;Martin J. Dougherty;881;79,74;https://bookdb.barrucadu.co.uk/book/isbn-9781913076160/cover
+isbn-9781913076399;Solomani Front;Martin J. Dougherty;49;76,56;https://bookdb.barrucadu.co.uk/book/isbn-9781913076399/cover
+isbn-9781913076177;Sword Worlds;Martin J. Dougherty;552;41,75;https://bookdb.barrucadu.co.uk/book/isbn-9781913076177/cover
+isbn-9781916675353;The Borderland;Martin J. Dougherty, (edit. Matthew Sprange);479;84,03;https://bookdb.barrucadu.co.uk/book/isbn-9781916675353/cover
+isbn-9781916675292;The Fifth Frontier War: The ICS Papers;Martin J. Dougherty;762;60,57;https://bookdb.barrucadu.co.uk/book/isbn-9781916675292/cover
+isbn-9781913076900;The Marches Adventures 1 - 5;Martin J. Dougherty, Christopher Griffen, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);285;87,36;https://bookdb.barrucadu.co.uk/book/isbn-9781913076900/cover
+isbn-9781908460592;Traveller Companion;Martin J. Dougherty;789;40,44;https://bookdb.barrucadu.co.uk/book/isbn-9781908460592/cover
+isbn-9781913076351;Aliens of Charted Space (vol. 1);Martin J. Dougherty;778;80,52;https://bookdb.barrucadu.co.uk/book/isbn-9781913076351/cover
+isbn-9781913076368;Aliens of Charted Space (vol. 2);Martin J. Dougherty;386;29,56;https://bookdb.barrucadu.co.uk/book/isbn-9781913076368/cover
+x-mongoose-tgr-01;The Great Rift (vol. 1);Martin J. Dougherty;806;67,07;https://bookdb.barrucadu.co.uk/book/x-mongoose-tgr-01/cover
+x-mongoose-tgr-02;The Great Rift (vol. 2) / Reft;Martin J. Dougherty;500;77,22;https://bookdb.barrucadu.co.uk/book/x-mongoose-tgr-02/cover
+x-mongoose-tgr-03;The Great Rift (vol. 3) / Touchstone & Afawahisa;Martin J. Dougherty;836;25,08;https://bookdb.barrucadu.co.uk/book/x-mongoose-tgr-03/cover
+x-mongoose-tgr-04;The Great Rift (vol. 4) / Deep Space Exploration Handbook;Martin J. Dougherty;272;85,57;https://bookdb.barrucadu.co.uk/book/x-mongoose-tgr-04/cover
+isbn-9781402770821;A Study in Scarlet;Arthur Conan Doyle, I. N. J. Culbard, Ian Edginton;888;63,83;https://bookdb.barrucadu.co.uk/book/isbn-9781402770821/cover
+isbn-9780198734291;Gothic Tales;Arthur Conan Doyle;593;54,26;https://bookdb.barrucadu.co.uk/book/isbn-9780198734291/cover
+isbn-9780099529934;The Complete Sherlock Holmes;Arthur Conan Doyle;139;94,8;https://bookdb.barrucadu.co.uk/book/isbn-9780099529934/cover
+isbn-9780007275205;The Count of Monte Cristo;Alexandre Dumas;738;44,27;https://bookdb.barrucadu.co.uk/book/isbn-9780007275205/cover
+isbn-0809530759;The Blessing of Pan;Lord Dunsany;432;78,89;https://bookdb.barrucadu.co.uk/book/isbn-0809530759/cover
+isbn-9780345431912;The King of Elfland's Daughter;Lord Dunsany;477;20,74;https://bookdb.barrucadu.co.uk/book/isbn-9780345431912/cover
+isbn-9781857989892;Time and the Gods;Lord Dunsany;271;61,35;https://bookdb.barrucadu.co.uk/book/isbn-9781857989892/cover
+isbn-9789189143494;Ruins of the Lost Realm;Gareth Hanrahan, Francesco Nepitello, Michael Duxbury, David Esbri, Lorenzo Fanelli, Sara Gianotto, Diogo Nogueira, (edit. Andy Slack);334;36,95;https://bookdb.barrucadu.co.uk/book/isbn-9789189143494/cover
+isbn-0888994966;Inanna;Kim Echlin;155;30,63;https://bookdb.barrucadu.co.uk/book/isbn-0888994966/cover
+isbn-9780099287155;Foucalt's Pendulum;Umberto Eco;740;75,68;https://bookdb.barrucadu.co.uk/book/isbn-9780099287155/cover
+isbn-9781912766246;Women's Weird: Strange Stories by Women, 1890-1940;Louisa Baldwin, Mary Cholmondeley, Charlotte Perkins Gilman, E. Nesbit, Edith Wharton, Francis Stevens, Elinor Mordaunt, May Sinclair, Margery Lawrence, Eleanor Scott, Margaret irwin, D. K. Broster, Mary Butts, (edit. Melissa Edmundson);13;72,72;https://bookdb.barrucadu.co.uk/book/isbn-9781912766246/cover
+isbn-9781912766444;Women's Weird 2: More Strange Stories by Women, 1891-1937;Edith Stewart Drewey, Lettice Galbraith, Sarah Orne Jewett, Barbara Baynton, Mary E. Wilkins Freeman, Katherine Mansfield, Bithia Mary Croker, Bessie Kyffin-Taylor, Marjorie Bowen, Helen de Guerry Simpson, Lucy Maud Montgomery, Mary Elizabeth Counselman, Stella Gibbons, (edit. Melissa Edmundson);706;31,37;https://bookdb.barrucadu.co.uk/book/isbn-9781912766444/cover
+isbn-9780575082076;Permutation City;Greg Egan;116;75,4;https://bookdb.barrucadu.co.uk/book/isbn-9780575082076/cover
+isbn-9781529077155;American Psycho;Bret Easton Ellis;907;42,95;https://bookdb.barrucadu.co.uk/book/isbn-9781529077155/cover
+isbn-9780330536318;Glamorama;Bret Easton Ellis;95;36,4;https://bookdb.barrucadu.co.uk/book/isbn-9780330536318/cover
+isbn-9781454953371;Greatest Hits;Harlan Ellison, (edit. J. Michael Straczynski);434;94,75;https://bookdb.barrucadu.co.uk/book/isbn-9781454953371/cover
+isbn-9781941129432;Enchiridion;Epictetus, (trans. George Long);151;98,41;https://bookdb.barrucadu.co.uk/book/isbn-9781941129432/cover
+isbn-9780553813111;Deadhouse Gates;Steven Erikson;816;35,57;https://bookdb.barrucadu.co.uk/book/isbn-9780553813111/cover
+isbn-9780553813173;Dust of Dreams;Steven Erikson;381;56,08;https://bookdb.barrucadu.co.uk/book/isbn-9780553813173/cover
+isbn-9780553820133;Fall of Light;Steven Erikson;306;39,49;https://bookdb.barrucadu.co.uk/book/isbn-9780553820133/cover
+isbn-9780553820126;Forge of Darkness;Steven Erikson;308;89,29;https://bookdb.barrucadu.co.uk/book/isbn-9780553820126/cover
+isbn-9780553819571;Gardens of the Moon;Steven Erikson;649;49,84;https://bookdb.barrucadu.co.uk/book/isbn-9780553819571/cover
+isbn-9780553813135;House of Chains;Steven Erikson;718;47,23;https://bookdb.barrucadu.co.uk/book/isbn-9780553813135/cover
+isbn-9780553813128;Memories of Ice;Steven Erikson;283;94,83;https://bookdb.barrucadu.co.uk/book/isbn-9780553813128/cover
+isbn-9780553813142;Midnight Tides;Steven Erikson;409;25,26;https://bookdb.barrucadu.co.uk/book/isbn-9780553813142/cover
+isbn-9780553813166;Reaper's Gate;Steven Erikson;170;62,15;https://bookdb.barrucadu.co.uk/book/isbn-9780553813166/cover
+isbn-9780553813159;The Bonehunters;Steven Erikson;19;58,95;https://bookdb.barrucadu.co.uk/book/isbn-9780553813159/cover
+isbn-9780553813180;The Crippled God;Steven Erikson;176;28,92;https://bookdb.barrucadu.co.uk/book/isbn-9780553813180/cover
+isbn-9781529176872;The God is Not Willing;Steven Erikson;74;40,22;https://bookdb.barrucadu.co.uk/book/isbn-9781529176872/cover
+isbn-9780553824469;Toll the Hounds;Steven Erikson;708;43,35;https://bookdb.barrucadu.co.uk/book/isbn-9780553824469/cover
+isbn-9780321125217;Domain-Driven Design: Tackling Complexity in the Heart of Software;Eric Evans;966;39,09;https://bookdb.barrucadu.co.uk/book/isbn-9780321125217/cover
+isbn-9781841496542;Warlord;Jennifer Fallon;747;89,92;https://bookdb.barrucadu.co.uk/book/isbn-9781841496542/cover
+isbn-9781841496535;Warrior;Jennifer Fallon;77;36,18;https://bookdb.barrucadu.co.uk/book/isbn-9781841496535/cover
+isbn-9781841496528;Wolfblade;Jennifer Fallon;519;24,66;https://bookdb.barrucadu.co.uk/book/isbn-9781841496528/cover
+isbn-9781604507430;Carmilla;J. Sheridan LeFanu;885;98,03;https://bookdb.barrucadu.co.uk/book/isbn-9781604507430/cover
+isbn-9781841495613;Brotherhood of the Wolf;David Farland;278;38,02;https://bookdb.barrucadu.co.uk/book/isbn-9781841495613/cover
+isbn-9781841498430;Chaosbound;David Farland;436;87,29;https://bookdb.barrucadu.co.uk/book/isbn-9781841498430/cover
+isbn-9781841495644;Sons of the Oak;David Farland;461;21,21;https://bookdb.barrucadu.co.uk/book/isbn-9781841495644/cover
+isbn-9781841495637;The Lair of Bones;David Farland;336;69,38;https://bookdb.barrucadu.co.uk/book/isbn-9781841495637/cover
+isbn-9781841495606;The Sum of All Men;David Farland;982;34,57;https://bookdb.barrucadu.co.uk/book/isbn-9781841495606/cover
+isbn-9781841495668;The Wyrmling Horde;David Farland;353;33,43;https://bookdb.barrucadu.co.uk/book/isbn-9781841495668/cover
+isbn-9781841495620;Wizardborn;David Farland;643;32,35;https://bookdb.barrucadu.co.uk/book/isbn-9781841495620/cover
+isbn-9781841495651;Worldbinder;David Farland;807;85,94;https://bookdb.barrucadu.co.uk/book/isbn-9781841495651/cover
+isbn-9780241302149;The Science of Spice: Understand flavour connections and revolutionize your cooking;Dr. Stuart Farrimond;383;84,05;https://bookdb.barrucadu.co.uk/book/isbn-9780241302149/cover
+isbn-9780007509119;A Darkness at Sethanon;Raymond E. Feist;80;35,3;https://bookdb.barrucadu.co.uk/book/isbn-9780007509119/cover
+isbn-9780007466863;Magician;Raymond E. Feist;963;91,67;https://bookdb.barrucadu.co.uk/book/isbn-9780007466863/cover
+isbn-9780007509171;Silverthorn;Raymond E. Feist;282;86,03;https://bookdb.barrucadu.co.uk/book/isbn-9780007509171/cover
+isbn-9781952885303;Into the Wyrd and Wild;Charles Ferguson-Avery;228;33,92;https://bookdb.barrucadu.co.uk/book/isbn-9781952885303/cover
+isbn-9781785041853;Tribe of Mentors;Timothy Ferriss;675;84,85;https://bookdb.barrucadu.co.uk/book/isbn-9781785041853/cover
+isbn-9798885840286;The Nomicon;Matt Finch;842;90,26;https://bookdb.barrucadu.co.uk/book/isbn-9798885840286/cover
+isbn-9798885840019;Tome of Adventure Design;Matt Finch;248;91,98;https://bookdb.barrucadu.co.uk/book/isbn-9798885840019/cover
+isbn-9798885840262;Tome of World Building;Matt Finch;703;93,75;https://bookdb.barrucadu.co.uk/book/isbn-9798885840262/cover
+isbn-9780714111704;Babylon: Myth and Reality;Various, (edit. Irving Finkel), (edit. M. J. Seymour);143;42,9;https://bookdb.barrucadu.co.uk/book/isbn-9780714111704/cover
+isbn-9780714111889;cuneiform;Irving Finkel, Jonathan Taylor;573;28,84;https://bookdb.barrucadu.co.uk/book/isbn-9780714111889/cover
+isbn-9781444757088;The Ark Before Noah: Decoding the Story of the Flood;Irving Finkel;966;87,12;https://bookdb.barrucadu.co.uk/book/isbn-9781444757088/cover
+isbn-9781529303292;The First Ghosts: Most Ancient of Legacies;Irving Finkel;597;61,76;https://bookdb.barrucadu.co.uk/book/isbn-9781529303292/cover
+isbn-9780575085312;The Body Snatchers;Jack Finney;451;77,19;https://bookdb.barrucadu.co.uk/book/isbn-9780575085312/cover
+isbn-9781492076445;Observability Engineering: Achieving Production Excellence;Charity Majors, Liz Fong-Jones, George Miranda;151;81,23;https://bookdb.barrucadu.co.uk/book/isbn-9781492076445/cover
+isbn-0345314336;The Atlas of The Land;Karen Wynn Fonstad;608;64,06;https://bookdb.barrucadu.co.uk/book/isbn-0345314336/cover
+x-fourleaf-ksart;Tomorrow Today: A Katawa Shoujo Illustration Book;Four Leaf Studios;740;85,85;https://bookdb.barrucadu.co.uk/book/x-fourleaf-ksart/cover
+isbn-9780099470472;The Collector;John Fowles;937;89,68;https://bookdb.barrucadu.co.uk/book/isbn-9780099470472/cover
+isbn-9780099478355;The Magus;John Fowles;333;35,59;https://bookdb.barrucadu.co.uk/book/isbn-9780099478355/cover
+isbn-0976631059;Tales from the Vinegar Wasteland;Ray Fracalossy;948;37,38;https://bookdb.barrucadu.co.uk/book/isbn-0976631059/cover
+isbn-0140385622;The Diary of a Young Girl;Anne Frank;525;87,19;https://bookdb.barrucadu.co.uk/book/isbn-0140385622/cover
+isbn-9780316414203;That Time I Got Reincarnated as a Slime (vol. 1);Fuse, (trans. Kevin Gifford);175;71,21;https://bookdb.barrucadu.co.uk/book/isbn-9780316414203/cover
+isbn-9781975301118;That Time I Got Reincarnated as a Slime (vol. 2);Fuse, (trans. Kevin Gifford);436;34,12;https://bookdb.barrucadu.co.uk/book/isbn-9781975301118/cover
+isbn-9781975301132;That Time I Got Reincarnated as a Slime (vol. 3);Fuse, (trans. Kevin Gifford);279;76,5;https://bookdb.barrucadu.co.uk/book/isbn-9781975301132/cover
+isbn-9781975301149;That Time I Got Reincarnated as a Slime (vol. 4);Fuse, (trans. Kevin Gifford);25;42,82;https://bookdb.barrucadu.co.uk/book/isbn-9781975301149/cover
+isbn-9781975301163;That Time I Got Reincarnated as a Slime (vol. 5);Fuse, (trans. Kevin Gifford);405;31,08;https://bookdb.barrucadu.co.uk/book/isbn-9781975301163/cover
+isbn-9781975301187;That Time I Got Reincarnated as a Slime (vol. 6);Fuse, (trans. Kevin Gifford);859;20,94;https://bookdb.barrucadu.co.uk/book/isbn-9781975301187/cover
+isbn-9781975301200;That Time I Got Reincarnated as a Slime (vol. 7);Fuse, (trans. Kevin Gifford);951;41,12;https://bookdb.barrucadu.co.uk/book/isbn-9781975301200/cover
+isbn-9781975312992;That Time I Got Reincarnated as a Slime (vol. 8);Fuse, (trans. Kevin Gifford);765;31;https://bookdb.barrucadu.co.uk/book/isbn-9781975312992/cover
+isbn-9781975314378;That Time I Got Reincarnated as a Slime (vol. 9);Fuse, (trans. Kevin Gifford);588;41,48;https://bookdb.barrucadu.co.uk/book/isbn-9781975314378/cover
+isbn-9781975314392;That Time I Got Reincarnated as a Slime (vol. 10);Fuse, (trans. Kevin Gifford);662;67,57;https://bookdb.barrucadu.co.uk/book/isbn-9781975314392/cover
+isbn-9781975314415;That Time I Got Reincarnated as a Slime (vol. 11);Fuse, (trans. Kevin Gifford);752;54,95;https://bookdb.barrucadu.co.uk/book/isbn-9781975314415/cover
+isbn-9781975314439;That Time I Got Reincarnated as a Slime (vol. 12);Fuse, (trans. Kevin Gifford);221;63,81;https://bookdb.barrucadu.co.uk/book/isbn-9781975314439/cover
+isbn-9781975314453;That Time I Got Reincarnated as a Slime (vol. 13);Fuse, (trans. Kevin Gifford);540;71,28;https://bookdb.barrucadu.co.uk/book/isbn-9781975314453/cover
+isbn-9781975314477;That Time I Got Reincarnated as a Slime (vol. 14);Fuse, (trans. Kevin Gifford);335;24,83;https://bookdb.barrucadu.co.uk/book/isbn-9781975314477/cover
+isbn-9781975314491;That Time I Got Reincarnated as a Slime (vol. 15);Fuse, (trans. Kevin Gifford);563;34,92;https://bookdb.barrucadu.co.uk/book/isbn-9781975314491/cover
+isbn-9781975369750;That Time I Got Reincarnated as a Slime (vol. 16);Fuse, (trans. Kevin Gifford);738;43,85;https://bookdb.barrucadu.co.uk/book/isbn-9781975369750/cover
+isbn-9781975375539;That Time I Got Reincarnated as a Slime (vol. 17);Fuse, (trans. Kevin Gifford);394;26,82;https://bookdb.barrucadu.co.uk/book/isbn-9781975375539/cover
+isbn-9781975375553;That Time I Got Reincarnated as a Slime (vol. 18);Fuse, (trans. Kevin Gifford);81;88,22;https://bookdb.barrucadu.co.uk/book/isbn-9781975375553/cover
+isbn-9781975375577;That Time I Got Reincarnated as a Slime (vol. 19);Fuse, (trans. Kevin Gifford);827;58,41;https://bookdb.barrucadu.co.uk/book/isbn-9781975375577/cover
+isbn-9781975375591;That Time I Got Reincarnated as a Slime (vol. 20);Fuse, (trans. Kevin Gifford);175;94,57;https://bookdb.barrucadu.co.uk/book/isbn-9781975375591/cover
+isbn-9798855403374;That Time I Got Reincarnated as a Slime (vol. 21);Fuse, (trans. Kevin Gifford);503;49,11;https://bookdb.barrucadu.co.uk/book/isbn-9798855403374/cover
+isbn-9780061649691;Coraline;Neil Gaiman;564;39,37;https://bookdb.barrucadu.co.uk/book/isbn-9780061649691/cover
+isbn-9781915117021;Beyond the Pale;Yochai Gal;991;41,02;https://bookdb.barrucadu.co.uk/book/isbn-9781915117021/cover
+isbn-9781802810813;Solo Game Master's Guide;Geek Gamers;838;70,5;https://bookdb.barrucadu.co.uk/book/isbn-9781802810813/cover
+isbn-9789188805973;ALIEN: Starter Set;Andrew E. C. Gaska, Tomas Harenstam, (edit. Cam Banks);658;79,49;https://bookdb.barrucadu.co.uk/book/isbn-9789188805973/cover
+isbn-9789189143241;Building Better Worlds;Andrew E. C. Gaska, Dave Semark;572;99,32;https://bookdb.barrucadu.co.uk/book/isbn-9789189143241/cover
+isbn-9789189143067;Colonial Marines Operations Manual;Andrew E. C. Gaska;557;98,8;https://bookdb.barrucadu.co.uk/book/isbn-9789189143067/cover
+isbn-9780140437416;Gothic Tales;Elizabeth Gaskell;92;49,86;https://bookdb.barrucadu.co.uk/book/isbn-9780140437416/cover
+isbn-9781840220957;Tales of Mystery & the Macabre;Elizabeth Gaskell;78;38,41;https://bookdb.barrucadu.co.uk/book/isbn-9781840220957/cover
+isbn-9781846683145;The Checklist Manifesto;Atul Gawande;909;73,56;https://bookdb.barrucadu.co.uk/book/isbn-9781846683145/cover
+isbn-9798887561127;The Fungus That Came to Blackeswell;Yves Geens;617;97,7;https://bookdb.barrucadu.co.uk/book/isbn-9798887561127/cover
+isbn-9798887561134;The Ruined Abbey of St. Clewyd;Gavin Norman, Yves Geens;152;99,25;https://bookdb.barrucadu.co.uk/book/isbn-9798887561134/cover
+isbn-9780140449198;The Epic of Gilgamesh;Unknown, (trans. Andrew George);698;76,08;https://bookdb.barrucadu.co.uk/book/isbn-9780140449198/cover
+isbn-9781569317778;The Art of Miyazaki's Spirited Away;Studio Ghibli Library, (trans. Yuji Oniki);494;50,04;https://bookdb.barrucadu.co.uk/book/isbn-9781569317778/cover
+isbn-9781473217409;Count Zero;William Gibson;217;71,77;https://bookdb.barrucadu.co.uk/book/isbn-9781473217409/cover
+isbn-9781473217423;Mona Lisa Overdrive;William Gibson;447;88,39;https://bookdb.barrucadu.co.uk/book/isbn-9781473217423/cover
+isbn-9781473217386;Neuromancer;William Gibson;976;39,05;https://bookdb.barrucadu.co.uk/book/isbn-9781473217386/cover
+isbn-9780575099401;The Difference Engine;William Gibson, Bruce Sterling;526;98,92;https://bookdb.barrucadu.co.uk/book/isbn-9780575099401/cover
+isbn-9781844085583;The Yellow Wallpaper and Selected Writings;Charlotte Perkins Gilman;673;50,05;https://bookdb.barrucadu.co.uk/book/isbn-9781844085583/cover
+isbn-9781940410432;Iconoclasts;Adam Scott Glancy, Shane Ivey;936;44,42;https://bookdb.barrucadu.co.uk/book/isbn-9781940410432/cover
+isbn-9780575086258;Metro 2033;Dmitry Glukhovsky;695;20,28;https://bookdb.barrucadu.co.uk/book/isbn-9780575086258/cover
+isbn-9781840221152;Faust with the Urfaust;Johann Wolfgang von Goethe;799;48,56;https://bookdb.barrucadu.co.uk/book/isbn-9781840221152/cover
+isbn-9781612194196;Debt: The First 5000 Years;David Graeber;696;55,69;https://bookdb.barrucadu.co.uk/book/isbn-9781612194196/cover
+isbn-9780099540656;The Tin Drum;Günter Grass;614;30,84;https://bookdb.barrucadu.co.uk/book/isbn-9780099540656/cover
+isbn-9781912743117;John Carter of Mars: Adventures on the Dying World of Barsoom;Jack Norris, Benn Graybeaton;639;59,12;https://bookdb.barrucadu.co.uk/book/isbn-9781912743117/cover
+isbn-9781912743155;John Carter of Mars: Narrator's Toolkit;Jack Norris, Benn Graybeaton;807;45,07;https://bookdb.barrucadu.co.uk/book/isbn-9781912743155/cover
+isbn-9781912743124;John Carter of Mars: Phantoms of Mars;Jack Norris, Benn Graybeaton;148;97,16;https://bookdb.barrucadu.co.uk/book/isbn-9781912743124/cover
+isbn-9781915117007;The Book of Gaub;"Charles Ferguson-Avery, Evoro, The Furtive Goblin, Isaak Hill, John ""Unlawful Games"" Gregory, Rowan A., Paolo Greco, Jack Shear";794;62,41;https://bookdb.barrucadu.co.uk/book/isbn-9781915117007/cover
+isbn-0812514432;After the King: Stories in Honor of J.R.R. Tolkien;Various, (edit. Martin H. Greenberg);213;80,11;https://bookdb.barrucadu.co.uk/book/isbn-0812514432/cover
+isbn-9780099478478;Brighton Rock;Graham Greene;641;68,49;https://bookdb.barrucadu.co.uk/book/isbn-9780099478478/cover
+x-greer-wtwgt;Where the Wheat Grows Tall;Camilla Greer, Evlyn Moreau;859;22,16;https://bookdb.barrucadu.co.uk/book/x-greer-wtwgt/cover
+x-mongoose-buemb;Bu and Embla's Guide to Starports of the Marches;Christopher Griffen, Isabella Treccani-Chinelli, (edit. Matthew Sprange);267;99,11;https://bookdb.barrucadu.co.uk/book/x-mongoose-buemb/cover
+isbn-9781913076375;The Glorious Empire;Christopher Griffen;530;66,23;https://bookdb.barrucadu.co.uk/book/isbn-9781913076375/cover
+isbn-9781913076634;The Third Imperium;Christopher Griffen;278;84,82;https://bookdb.barrucadu.co.uk/book/isbn-9781913076634/cover
+isbn-9780415285964;Complete Fairy Tales;Brothers Grimm;362;51,07;https://bookdb.barrucadu.co.uk/book/isbn-9780415285964/cover
+ean-2370021772940;Inversion;Alex Guillotte, Bud's RPG Review;979;40,69;https://bookdb.barrucadu.co.uk/book/ean-2370021772940/cover
+ean-2370011490595;Viral: Unredacted;Alex Guillotte, Bud's RPG Review, (edit. Matthew Pook), (edit. Keith Mageau);268;84,06;https://bookdb.barrucadu.co.uk/book/ean-2370011490595/cover
+isbn-9781857988826;The Dispossessed;Ursula Le Guin;259;89,93;https://bookdb.barrucadu.co.uk/book/isbn-9781857988826/cover
+isbn-9780241956878;The Earthsea Quartet;Ursula Le Guin;431;35,71;https://bookdb.barrucadu.co.uk/book/isbn-9780241956878/cover
+isbn-9781857989519;The Lathe of Heaven;Ursula Le Guin;845;97,74;https://bookdb.barrucadu.co.uk/book/isbn-9781857989519/cover
+isbn-9781857230741;The Left Hand of Darkness;Ursula Le Guin;374;81,26;https://bookdb.barrucadu.co.uk/book/isbn-9781857230741/cover
+isbn-9781473205789;The Word for World is Forest;Ursula Le Guin;431;54,19;https://bookdb.barrucadu.co.uk/book/isbn-9781473205789/cover
+isbn-9781473230989;Worlds of Exile and Illusion;Ursula Le Guin;89;45,98;https://bookdb.barrucadu.co.uk/book/isbn-9781473230989/cover
+isbn-0575079193;Peace and War;Joe Haldeman;707;36,37;https://bookdb.barrucadu.co.uk/book/isbn-0575079193/cover
+isbn-9781913076627;Secrets of the Ancients;Gareth Hanrahan;120;56,32;https://bookdb.barrucadu.co.uk/book/isbn-9781913076627/cover
+isbn-9789189765139;Tales from the Lone Lands;Gareth Hanrahan, (edit. Francesco Nepitello), (edit. Lorenzo Perassi), (edit. Tomas Harenstam), (edit. Nils Karlen);435;49,15;https://bookdb.barrucadu.co.uk/book/isbn-9789189765139/cover
+x-mongoose-drinax-01;The Pirates of Drinax (vol. 1);Gareth Hanrahan;202;56,51;https://bookdb.barrucadu.co.uk/book/x-mongoose-drinax-01/cover
+x-mongoose-drinax-02;The Pirates of Drinax (vol. 2) / The Trojan Reach;Gareth Hanrahan;536;94,25;https://bookdb.barrucadu.co.uk/book/x-mongoose-drinax-02/cover
+x-mongoose-drinax-03;The Pirates of Drinax (vol. 3) / Ships of the Reach;Gareth Hanrahan;302;41,11;https://bookdb.barrucadu.co.uk/book/x-mongoose-drinax-03/cover
+isbn-9781568824178;Berlin: The Wicked City - Unveiling the Mythos in Weimar Berlin;David Larkins, Mike Mason, Lynne Hardy;646;37,53;https://bookdb.barrucadu.co.uk/book/isbn-9781568824178/cover
+isbn-9781857989977;The Centauri Device;M. John Harrison;531;34,84;https://bookdb.barrucadu.co.uk/book/isbn-9781857989977/cover
+isbn-9781857989953;Virconium;M. John Harrison;126;32,44;https://bookdb.barrucadu.co.uk/book/isbn-9781857989953/cover
+isbn-9781789099867;The Library at Mount Char;Scott Hawkins;464;96,33;https://bookdb.barrucadu.co.uk/book/isbn-9781789099867/cover
+isbn-9780340837931;Starship Troopers;Robert A. Heinlein;424;23,46;https://bookdb.barrucadu.co.uk/book/isbn-9780340837931/cover
+isbn-9780340938348;Stranger in a Strange Land;Robert A. Heinlein;244;88,87;https://bookdb.barrucadu.co.uk/book/isbn-9780340938348/cover
+isbn-9781451639223;The Man Who Sold The Moon // Orphans Of The Sky;Robert A. Heinlein;268;49,06;https://bookdb.barrucadu.co.uk/book/isbn-9781451639223/cover
+isbn-9781841495729;The Dwarves;Markus Heitz;25;66,83;https://bookdb.barrucadu.co.uk/book/isbn-9781841495729/cover
+isbn-9781841499369;The Fate of the Dwarves;Markus Heitz;740;67,69;https://bookdb.barrucadu.co.uk/book/isbn-9781841499369/cover
+isbn-9781841499352;The Revenge of the Dwarves;Markus Heitz;145;45,91;https://bookdb.barrucadu.co.uk/book/isbn-9781841499352/cover
+isbn-9781784294403;The Triumph of the Dwarves;Markus Heitz;686;26,37;https://bookdb.barrucadu.co.uk/book/isbn-9781784294403/cover
+isbn-9781841495736;The War of the Dwarves;Markus Heitz;335;93,37;https://bookdb.barrucadu.co.uk/book/isbn-9781841495736/cover
+isbn-9780099477310;Catch-22;Joseph Heller;168;47,27;https://bookdb.barrucadu.co.uk/book/isbn-9780099477310/cover
+isbn-9781594745263;Horrorstör;Grady Hendrix;695;49,36;https://bookdb.barrucadu.co.uk/book/isbn-9781594745263/cover
+isbn-9781683690863;We Sold Our Souls;Grady Hendrix;539;90,55;https://bookdb.barrucadu.co.uk/book/isbn-9781683690863/cover
+isbn-9781568824727;Arkham;Mike Mason, Keith Herber, Bret Kramer;80;47,91;https://bookdb.barrucadu.co.uk/book/isbn-9781568824727/cover
+isbn-9780575075184;Chapter House Dune;Frank Herbert;391;55,32;https://bookdb.barrucadu.co.uk/book/isbn-9780575075184/cover
+isbn-9780575075061;God Emperor of Dune;Frank Herbert;602;40,36;https://bookdb.barrucadu.co.uk/book/isbn-9780575075061/cover
+isbn-9780575101081;Hellstrom's Hive;Frank Herbert;121;21,82;https://bookdb.barrucadu.co.uk/book/isbn-9780575101081/cover
+isbn-9780575070707;The Great Dune Trilogy;Frank Herbert;751;36,94;https://bookdb.barrucadu.co.uk/book/isbn-9780575070707/cover
+isbn-0575074892;The Heretics of Dune;Frank Herbert;488;69,33;https://bookdb.barrucadu.co.uk/book/isbn-0575074892/cover
+isbn-9780141189574;Siddhartha;Hermann Hesse;19;70,07;https://bookdb.barrucadu.co.uk/book/isbn-9780141189574/cover
+isbn-9780241951521;Steppenwolf;Hermann Hesse;611;40,62;https://bookdb.barrucadu.co.uk/book/isbn-9780241951521/cover
+isbn-9780553377767;The Fairy Tales of Hermann Hesse;Hermann Hesse;925;73,95;https://bookdb.barrucadu.co.uk/book/isbn-9780553377767/cover
+isbn-9780099283621;The Glass Bead Game;Hermann Hesse;612;68,43;https://bookdb.barrucadu.co.uk/book/isbn-9780099283621/cover
+isbn-1593073062;The Ring (vol. 0) / Birthday;Takahashi Hiroshi, Suzuku Koju, (trans. Naomi Kokubo), (trans. Steven Hoffman);325;28,24;https://bookdb.barrucadu.co.uk/book/isbn-1593073062/cover
+isbn-1593070543;The Ring (vol. 1);Takahashi Hiroshi, Suzuku Koju, (trans. Naomi Kokubo);74;27,23;https://bookdb.barrucadu.co.uk/book/isbn-1593070543/cover
+isbn-1593070551;The Ring (vol. 2);Takahashi Hiroshi, Suzuku Koju, (trans. Naomi Kokubo), (trans. Steven Hoffman);188;23,66;https://bookdb.barrucadu.co.uk/book/isbn-1593070551/cover
+isbn-9780007562251;Assassin's Apprentice;Robin Hobb;710;60,79;https://bookdb.barrucadu.co.uk/book/isbn-9780007562251/cover
+isbn-9780007562275;Assassin's Quest;Robin Hobb;761;40,27;https://bookdb.barrucadu.co.uk/book/isbn-9780007562275/cover
+isbn-9780007562268;Royal Assassin;Robin Hobb;289;94,59;https://bookdb.barrucadu.co.uk/book/isbn-9780007562268/cover
+isbn-9780393967982;Leviathan;Thomas Hobbes;428;95,27;https://bookdb.barrucadu.co.uk/book/isbn-9780393967982/cover
+isbn-9781597809207;"The Boats of the ""Glen Carrig"" and Other Nautical Adventures: The Collected Fiction of William Hope Hodgson (vol. 1)";William Hope Hodgson;515;79,43;https://bookdb.barrucadu.co.uk/book/isbn-9781597809207/cover
+isbn-9781324076148;The Iliad;Homer, (trans. Emily Wilson);952;29,89;https://bookdb.barrucadu.co.uk/book/isbn-9781324076148/cover
+isbn-9780393356250;The Odyssey;Homer, (trans. Emily Wilson);921;88,45;https://bookdb.barrucadu.co.uk/book/isbn-9780393356250/cover
+isbn-9780999168301;A Field Guide to Hot Springs Island;Jacob Hurst, Gabriel Hernandez, Evan Peterson, Donnie Garcia;643;36;https://bookdb.barrucadu.co.uk/book/isbn-9780999168301/cover
+isbn-9780999168318;The Dark of Hot Springs Island;Jacob Hurst, Gabriel Hernandez, Evan Peterson, Donnie Garcia;692;35,15;https://bookdb.barrucadu.co.uk/book/isbn-9780999168318/cover
+isbn-9780575089877;Conan's Brethren;Robert E. Howard;853;52,22;https://bookdb.barrucadu.co.uk/book/isbn-9780575089877/cover
+isbn-9780575077805;The Complete Chronicles of Conan;Robert E. Howard;299;67,59;https://bookdb.barrucadu.co.uk/book/isbn-9780575077805/cover
+isbn-9781575069418;A Grammar of Akkadian: Third Edition;John Huehnergard;804;47,48;https://bookdb.barrucadu.co.uk/book/isbn-9781575069418/cover
+isbn-9781575069449;Key to a Grammar of Akkadian: Third Edition;John Huehnergard;601;71,06;https://bookdb.barrucadu.co.uk/book/isbn-9781575069449/cover
+isbn-0451525264;Les Misérables;Victor Hugo;507;86,56;https://bookdb.barrucadu.co.uk/book/isbn-0451525264/cover
+isbn-9780140443530;Notre-Dame de Paris;Victor Hugo;359;29,76;https://bookdb.barrucadu.co.uk/book/isbn-9780140443530/cover
+isbn-9780201616224;The Pragmatic Programmer: from journeyman to master;Andrew Hunt, David Thomas;342;65,22;https://bookdb.barrucadu.co.uk/book/isbn-9780201616224/cover
+isbn-9781988943701;Thousand Year Old Vampire;Tim Hutchings;684;25,67;https://bookdb.barrucadu.co.uk/book/isbn-9781988943701/cover
+isbn-9780099518471;Brave New World;Aldous Huxley;213;38,8;https://bookdb.barrucadu.co.uk/book/isbn-9780099518471/cover
+isbn-9780099458234;Brave New World Revisited;Aldous Huxley;606;99,69;https://bookdb.barrucadu.co.uk/book/isbn-9780099458234/cover
+isbn-9780099458203;The Doors of Perception and Heaven and Hell;Aldous Huxley;548;66,61;https://bookdb.barrucadu.co.uk/book/isbn-9780099458203/cover
+isbn-9780099477778;The Island;Aldous Huxley;508;94,14;https://bookdb.barrucadu.co.uk/book/isbn-9780099477778/cover
+isbn-014043769X;The Legend of Sleepy Hollow and Other Stories;Washington Irving;755;27,31;https://bookdb.barrucadu.co.uk/book/isbn-014043769X/cover
+isbn-9781974703760;Frankenstein;Junji Ito, (trans. Jocelyne Allen);117;21,28;https://bookdb.barrucadu.co.uk/book/isbn-9781974703760/cover
+isbn-9781421579153;Gyo: The Death-Stench Creeps;Junji Ito, (trans. Yuji Oniki);923;34,32;https://bookdb.barrucadu.co.uk/book/isbn-9781421579153/cover
+isbn-9781974717477;Remina;Junji Ito, (trans. Jocelyne Allen);173;28,57;https://bookdb.barrucadu.co.uk/book/isbn-9781974717477/cover
+isbn-9781421590561;Tomie: No Use Escaping;Junji Ito, (trans. Naomi Kokubo);858;53,8;https://bookdb.barrucadu.co.uk/book/isbn-9781421590561/cover
+isbn-9781421561325;Uzumaki: Spiral into Horror;Junji Ito, (trans. Yuji Oniki);220;37,41;https://bookdb.barrucadu.co.uk/book/isbn-9781421561325/cover
+isbn-9781940410449;Control Group;Greg Stolze, Shane Ivey;893;22,92;https://bookdb.barrucadu.co.uk/book/isbn-9781940410449/cover
+isbn-9780143129370;The Haunting of Hill House;Shirley Jackson;798;49,38;https://bookdb.barrucadu.co.uk/book/isbn-9780143129370/cover
+isbn-9780141191430;The Lottery and Other Stories;Shirley Jackson;611;62,87;https://bookdb.barrucadu.co.uk/book/isbn-9780141191430/cover
+isbn-9780141191454;We Have Always Lived in the Castle;Shirley Jackson;74;89,11;https://bookdb.barrucadu.co.uk/book/isbn-9780141191454/cover
+isbn-9781614982166;Twin Spirits: The Complete Weird Stories of W. W. Jacobs;W. W. Jacobs, (edit. S. T. Joshi);564;81,45;https://bookdb.barrucadu.co.uk/book/isbn-9781614982166/cover
+isbn-9781840225518;Collected Ghost Stories;M. R. James;966;52,01;https://bookdb.barrucadu.co.uk/book/isbn-9781840225518/cover
+isbn-9781840220704;Ghost Stories of Henry James;Henry James;327;57,36;https://bookdb.barrucadu.co.uk/book/isbn-9781840220704/cover
+isbn-0931137071;The Tao of Programming;Geoffrey James;574;93,29;https://bookdb.barrucadu.co.uk/book/isbn-0931137071/cover
+isbn-9781908460547;Traveller: High Guard;Andrew James, Matthew Sprange, Alan Welty;220;79,16;https://bookdb.barrucadu.co.uk/book/isbn-9781908460547/cover
+isbn-9781786696526;Vagabonds;Hao Jingfang, (trans. Ken Liu);460;94,91;https://bookdb.barrucadu.co.uk/book/isbn-9781786696526/cover
+isbn-9780007299263;Howl's Moving Castle;Diana Wynne Jones;559;76,56;https://bookdb.barrucadu.co.uk/book/isbn-9780007299263/cover
+isbn-9781857234039;A Crown of Swords;Robert Jordan;348;53,88;https://bookdb.barrucadu.co.uk/book/isbn-9781857234039/cover
+isbn-9780356503950;A Memory of Light;Robert Jordan, Brandon Sanderson;756;57,1;https://bookdb.barrucadu.co.uk/book/isbn-9780356503950/cover
+isbn-9780356503912;Crossroads of Twilight;Robert Jordan;537;34,77;https://bookdb.barrucadu.co.uk/book/isbn-9780356503912/cover
+isbn-9780356503929;Knife of Dreams;Robert Jordan;486;71,07;https://bookdb.barrucadu.co.uk/book/isbn-9780356503929/cover
+isbn-9781857233001;Lord of Chaos;Robert Jordan;585;89,55;https://bookdb.barrucadu.co.uk/book/isbn-9781857233001/cover
+isbn-9781841492612;New Spring;Robert Jordan;969;23,48;https://bookdb.barrucadu.co.uk/book/isbn-9781841492612/cover
+isbn-9781857230659;The Dragon Reborn;Robert Jordan;172;92,08;https://bookdb.barrucadu.co.uk/book/isbn-9781857230659/cover
+isbn-9781857230765;The Eye of the World;Robert Jordan;561;64,01;https://bookdb.barrucadu.co.uk/book/isbn-9781857230765/cover
+isbn-9781857232097;The Fires of Heaven;Robert Jordan;928;45,27;https://bookdb.barrucadu.co.uk/book/isbn-9781857232097/cover
+isbn-9780356503967;The Gathering Storm;Robert Jordan, Brandon Sanderson;316;31,38;https://bookdb.barrucadu.co.uk/book/isbn-9780356503967/cover
+isbn-9781857230277;The Great Hunt;Robert Jordan;51;48,08;https://bookdb.barrucadu.co.uk/book/isbn-9781857230277/cover
+isbn-9781857235692;The Path of Daggers;Robert Jordan;437;25,55;https://bookdb.barrucadu.co.uk/book/isbn-9781857235692/cover
+isbn-9781857231212;The Shadow Rising;Robert Jordan;390;67,1;https://bookdb.barrucadu.co.uk/book/isbn-9781857231212/cover
+isbn-9780356503943;Towers of Midnight;Robert Jordan, Brandon Sanderson;702;99,56;https://bookdb.barrucadu.co.uk/book/isbn-9780356503943/cover
+isbn-9781841490717;Winter's Heart;Robert Jordan;49;24,11;https://bookdb.barrucadu.co.uk/book/isbn-9781841490717/cover
+isbn-9780143122371;American Supernatural Tales;Charles Beaumont, Ambrose Bierce, Robert Bloch, Ray Bradbury, Robert W. Chambers, August Derleth, Dennis Etchison, Nathaniel Hawthorne, Robert E. Howard, Washington Irving, Shirley Jackson, Henry James, Caitlin R. Kiernan, Stephen King, T. E. D. Klein, Fritz Leiber, Thomas Ligotti, H. P. Lovecraft, Richard Matheson, Fitz-James O'Brien, Joyce Carol Oates, Norman Partridge, Edgar Allan Poe, David J. Schow, Clark Ashton Smith, Karl Edward Wagner, (edit. S. T. Joshi);228;57,82;https://bookdb.barrucadu.co.uk/book/isbn-9780143122371/cover
+isbn-9781848630611;Black Wings: Tales of Lovecraftian Horror (vol. 1);"Laird Barron, Donald R. Burleson, Mollie L. Burleson, Ramsey Campbell, Michael Cisco, Sam Gafford, Philip Haldeman, Jason Van Hollander, Catlin R. Kiernan, Adam Niswander, Norman Partridge, W. H. Pugmire, Joseph S.; Sr Pulver, Nicholas Royle, David J. Schow, Darrell Schweitzer, Michael Shea, Michael Marshall Smith, William Browning Spencer, Brian Stableford, Jonathan Thomas, (edit. S. T. Joshi)";797;97,15;https://bookdb.barrucadu.co.uk/book/isbn-9781848630611/cover
+isbn-9780857687845;Black Wings of Cthulhu: Eighteen Tales of Lovecraftian Horror (vol. 2);John Shirley, Tom Fletcher, Caitlin R. Kiernan, Jonathan Thomas, Nick Mamatas, Richard Gavin, Melanie Tem, John Langan, Jason C. Eckhardt, Don Webb, Darrell Schweitzer, Nicholas Royle, Steve Rasnic Tem, Brian Evenson, Rick Dakan, Donald Tyson, Jason V. Brock, Chet Williamson, (edit. S. T. Joshi);744;45,03;https://bookdb.barrucadu.co.uk/book/isbn-9780857687845/cover
+isbn-9781783295715;Black Wings of Cthulhu: Seventeen Tales of Lovecraftian Horror (vol. 3);"Jason V. Brock, Donald R. Burleson, Mollie L. Burleson, Peter Cannon, Sam Gafford, Richard Gavin, Lois H. Gresh, Mark Howard Jones, Caitlin R. Kiernan, Joseph S.; Sr Pulver, Darrell Schweitzer, Jessica Amanda Salmonson, W. H. Pugmire, Simon Strantzas, Brian Stableford, Jonathan Thomas, Donald Tyson, Don Webb, (edit. S. T. Joshi)";536;89,55;https://bookdb.barrucadu.co.uk/book/isbn-9781783295715/cover
+isbn-9781783295739;Black Wings of Cthulhu: Seventeen New Tales of Lovecraftian Horror (vol. 4);Fred Chappell, Jason V. Brock, Gary Fry, Richard Gavin, Cody Goodfellow, Lois H. Gresh, Caitlin R. Kiernan, Charles Lovecraft, Will Murray, John Pelan, Stephen Mark Rainey, W. H. Pugmire, Ann K. Schwader, Darrell Schweitzer, Simon Strantzas, Melanie Tem, Jonathan Thomas, Donald Tyson, Stephen Woodworth, (edit. S. T. Joshi);172;91,42;https://bookdb.barrucadu.co.uk/book/isbn-9781783295739/cover
+isbn-9781785656910;Black Wings of Cthulhu: Twenty New Tales of Lovecraftian Horror (vol. 5);Sunni K. Brock, Donald R. Burleson, Mollie L. Burleson, Nicole Cushing, Jason C. Eckhardt, Sam Gafford, Wade German, Cody Goodfellow, David Hambling, Lynne Jamneck, Mark Howard Jones, Caitlin R. Kiernan, Nancy Kilpatrick, W. H. Pugmire, John Reppion, Darrell Schweitzer, Jonathan Thomas, Donald Tyson, Robert H. Waugh, Stephen Woodworth, (edit. S. T. Joshi);456;49,54;https://bookdb.barrucadu.co.uk/book/isbn-9781785656910/cover
+isbn-9781785656934;Black Wings of Cthulhu: Twenty-One New Tales of Lovecraftian Horror (vol. 6);Aaron Bittner, Adam Bolivar, Jason V. Brock, Ashley Dioses, David Hambling, Lynne Jamneck, Mark Howard Jones, Caitlin R. Kiernan, Nancy Kilpatrick, Tom Lynch, D. L. Myers, William Darrell Schweitzer, Steve Rasnic Tem, Jonathan Thomas, Donald Tyson, Don Webb, Steven Woodworth, (edit. S. T. Joshi);875;43,9;https://bookdb.barrucadu.co.uk/book/isbn-9781785656934/cover
+isbn-9780141188386;Amerika;Franz Kafka;730;91,26;https://bookdb.barrucadu.co.uk/book/isbn-9780141188386/cover
+isbn-9780141183442;The Castle;Franz Kafka;628;33,3;https://bookdb.barrucadu.co.uk/book/isbn-9780141183442/cover
+isbn-9780805210552;The Complete Stories;Franz Kafka;69;22,98;https://bookdb.barrucadu.co.uk/book/isbn-9780805210552/cover
+isbn-9780486290300;The Metamorphosis and Other Stories;Franz Kafka;949;35,13;https://bookdb.barrucadu.co.uk/book/isbn-9780486290300/cover
+isbn-9780141182902;The Trial;Franz Kafka;35;98,18;https://bookdb.barrucadu.co.uk/book/isbn-9780141182902/cover
+isbn-9780316119337;K-On! (vol. 1);kakifly, (trans. Jack Wiedrick);709;59,48;https://bookdb.barrucadu.co.uk/book/isbn-9780316119337/cover
+isbn-9780316119405;K-On! (vol. 2);kakifly, (trans. Jack Wiedrick);446;24,95;https://bookdb.barrucadu.co.uk/book/isbn-9780316119405/cover
+isbn-9780316187626;K-On! (vol. 3);kakifly, (trans. Jack Wiedrick);830;99,74;https://bookdb.barrucadu.co.uk/book/isbn-9780316187626/cover
+isbn-9780316188357;K-On! (vol. 4);kakifly, (trans. Jack Wiedrick);446;88,07;https://bookdb.barrucadu.co.uk/book/isbn-9780316188357/cover
+isbn-9781975314262;Magistellus Bad Trip (vol. 1);Kazuma Kamachi, (trans. Jake Humphrey);709;36,56;https://bookdb.barrucadu.co.uk/book/isbn-9781975314262/cover
+isbn-9780140422108;The Complete Poems;John Keats;554;96,51;https://bookdb.barrucadu.co.uk/book/isbn-9780140422108/cover
+isbn-0131103628;The C Programming Language;Brian W. Kernighan, Dennis M. Ritchie;759;78,83;https://bookdb.barrucadu.co.uk/book/isbn-0131103628/cover
+isbn-9781857989380;Flowers for Algernon;Daniel Keyes;61;93,15;https://bookdb.barrucadu.co.uk/book/isbn-9781857989380/cover
+isbn-9781942788768;The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data;Gene Kim;714;56,32;https://bookdb.barrucadu.co.uk/book/isbn-9781942788768/cover
+isbn-0141301619;Stig of the Dump;Clive King;295;87,96;https://bookdb.barrucadu.co.uk/book/isbn-0141301619/cover
+isbn-9780340920930;The Shining;Stephen King;184;52,45;https://bookdb.barrucadu.co.uk/book/isbn-9780340920930/cover
+isbn-9780340920954;The Stand;Stephen King;815;88,1;https://bookdb.barrucadu.co.uk/book/isbn-9780340920954/cover
+isbn-9781449373320;Designing Data-Intensive Applications;Martin Kleppmann;191;69,87;https://bookdb.barrucadu.co.uk/book/isbn-9781449373320/cover
+x-mushmen-knock-01;Knock!: An Adventure Gaming Bric-a-brac (vol. 1);Various, (edit. Eric Nieudan), (edit. Olivier Revenu);370;31,95;https://bookdb.barrucadu.co.uk/book/x-mushmen-knock-01/cover
+x-mushmen-knock-02;Knock!: An Adventure Gaming Bric-a-brac (vol. 2);Various, (edit. Eric Nieudan), (edit. Olivier Revenu);383;60,19;https://bookdb.barrucadu.co.uk/book/x-mushmen-knock-02/cover
+x-mushmen-knock-03;Knock!: An Adventure Gaming Bric-a-brac (vol. 3);Various, (edit. Eric Nieudan), (edit. Olivier Revenu);94;64,55;https://bookdb.barrucadu.co.uk/book/x-mushmen-knock-03/cover
+x-mushmen-knock-04;Knock!: An Adventure Gaming Bric-a-brac (vol. 4);Various, (edit. Eric Nieudan), (edit. Olivier Revenu);400;78,45;https://bookdb.barrucadu.co.uk/book/x-mushmen-knock-04/cover
+x-mushmen-knock-05;Knock!: An Adventure Gaming Bric-a-brac (vol. 5);Various, (edit. Eric Nieudan), (edit. Olivier Revenu), (edit. Josh McCrowell);868;57,63;https://bookdb.barrucadu.co.uk/book/x-mushmen-knock-05/cover
+isbn-0201896834;The Art of Computer Programming (vol. 1) / Fundamental Algorithms;Donald E. Knuth;286;61,35;https://bookdb.barrucadu.co.uk/book/isbn-0201896834/cover
+isbn-0201853922;"The Art of Computer Programming (vol. 1; fas. 1) / MMIX A RISC Computer for the New Millenium";Donald E. Knuth;836;62,12;https://bookdb.barrucadu.co.uk/book/isbn-0201853922/cover
+isbn-0201896842;The Art of Computer Programming (vol. 2) / Seminumerical Algorithms;Donald E. Knuth;246;20,36;https://bookdb.barrucadu.co.uk/book/isbn-0201896842/cover
+isbn-0201896850;The Art of Computer Programming (vol. 3) / Sorting and Searching;Donald E. Knuth;440;90,6;https://bookdb.barrucadu.co.uk/book/isbn-0201896850/cover
+isbn-9780201038040;The Art of Computer Programming (vol. 4A) / Combinatorial Algorithms, Part 1;Donald E. Knuth;138;42,05;https://bookdb.barrucadu.co.uk/book/isbn-9780201038040/cover
+x-mushmen-bsh;Black Sword Hack;"Alexandre ""Kobayashi"" Jeannette, (edit. Eric Nieudan), (edit. Olivier Revenu)";657;78,32;https://bookdb.barrucadu.co.uk/book/x-mushmen-bsh/cover
+x-mushmen-cc-00;The Chaos Crier (vol. 0);"Alexandre ""Kobayashi"" Jeannette, Olivier Revenu, Eric Nieudan";836;66,37;https://bookdb.barrucadu.co.uk/book/x-mushmen-cc-00/cover
+isbn-9781615196555;Fresh from Poland: New Vegetarian Cooking from the Old Country;Michal Korkosz;31;92,76;https://bookdb.barrucadu.co.uk/book/isbn-9781615196555/cover
+isbn-9780751537284;The Historian;Elizabeth Kostova;954;31,44;https://bookdb.barrucadu.co.uk/book/isbn-9780751537284/cover
+isbn-9780316471855;Delicious in Dungeon (vol. 1);Ryoko Kui, (trans. Taylor Engel);784;51,09;https://bookdb.barrucadu.co.uk/book/isbn-9780316471855/cover
+isbn-9780316473057;Delicious in Dungeon (vol. 2);Ryoko Kui, (trans. Taylor Engel);581;37,79;https://bookdb.barrucadu.co.uk/book/isbn-9780316473057/cover
+isbn-9780316412797;Delicious in Dungeon (vol. 3);Ryoko Kui, (trans. Taylor Engel);105;28,97;https://bookdb.barrucadu.co.uk/book/isbn-9780316412797/cover
+isbn-9780316446402;Delicious in Dungeon (vol. 4);Ryoko Kui, (trans. Taylor Engel);974;78,08;https://bookdb.barrucadu.co.uk/book/isbn-9780316446402/cover
+isbn-9781975326449;Delicious in Dungeon (vol. 5);Ryoko Kui, (trans. Taylor Engel);204;22,8;https://bookdb.barrucadu.co.uk/book/isbn-9781975326449/cover
+isbn-9781975328054;Delicious in Dungeon (vol. 6);Ryoko Kui, (trans. Taylor Engel);937;45,47;https://bookdb.barrucadu.co.uk/book/isbn-9781975328054/cover
+isbn-9781975358587;Delicious in Dungeon (vol. 7);Ryoko Kui, (trans. Taylor Engel);489;99,26;https://bookdb.barrucadu.co.uk/book/isbn-9781975358587/cover
+isbn-9781975399405;Delicious in Dungeon (vol. 8);Ryoko Kui, (trans. Taylor Engel);952;56,08;https://bookdb.barrucadu.co.uk/book/isbn-9781975399405/cover
+isbn-9781975320164;Delicious in Dungeon (vol. 9);Ryoko Kui, (trans. Taylor Engel);272;52,31;https://bookdb.barrucadu.co.uk/book/isbn-9781975320164/cover
+isbn-9781975335588;Delicious in Dungeon (vol. 10);Ryoko Kui, (trans. Taylor Engel);843;82,66;https://bookdb.barrucadu.co.uk/book/isbn-9781975335588/cover
+isbn-9781975346720;Delicious in Dungeon (vol. 11);Ryoko Kui, (trans. Taylor Engel);428;47,11;https://bookdb.barrucadu.co.uk/book/isbn-9781975346720/cover
+isbn-9781975367985;Delicious in Dungeon (vol. 12);Ryoko Kui, (trans. Taylor Engel);540;80,27;https://bookdb.barrucadu.co.uk/book/isbn-9781975367985/cover
+isbn-9781975393854;Delicious in Dungeon (vol. 13);Ryoko Kui, (trans. Taylor Engel);188;72,97;https://bookdb.barrucadu.co.uk/book/isbn-9781975393854/cover
+isbn-9798855400359;Delicious in Dungeon (vol. 14);Ryoko Kui, (trans. Taylor Engel);543;49,92;https://bookdb.barrucadu.co.uk/book/isbn-9798855400359/cover
+isbn-9781860469459;Death and the Penguin;Andrey Kurkov, (trans. George Bird);587;71,42;https://bookdb.barrucadu.co.uk/book/isbn-9781860469459/cover
+ean-2370011495873;Tomb Robbers of the Crystal Frontier;Gus L.;597;29,87;https://bookdb.barrucadu.co.uk/book/ean-2370011495873/cover
+isbn-9781906838492;Deadbeats;Chris Lackey, Chad Fifer, I. N. J. Culbard;195;65,96;https://bookdb.barrucadu.co.uk/book/isbn-9781906838492/cover
+isbn-9780992618902;Transreality;Chris Lackey;989;42,27;https://bookdb.barrucadu.co.uk/book/isbn-9780992618902/cover
+isbn-9780393066302;my bread: The revolutionary no-work, no-knead method;Jim Lahey;411;44,94;https://bookdb.barrucadu.co.uk/book/isbn-9780393066302/cover
+isbn-9781913076665;The Spinward Extents;Geir Lanesskog;303;88,04;https://bookdb.barrucadu.co.uk/book/isbn-9781913076665/cover
+isbn-9781614980544;The Wide, Carnivorous Sky: & Other Monstrous Geographies;John Langan;459;34,02;https://bookdb.barrucadu.co.uk/book/isbn-9781614980544/cover
+isbn-9781736417911;Staff Engineer: leadership beyond the management track;Will Larson;471;65,99;https://bookdb.barrucadu.co.uk/book/isbn-9781736417911/cover
+isbn-9780981884028;Hamlet's Hit Points: Unlock the Game-Mastering Power of Three Classic Tales;Robin D. Laws;897;89,61;https://bookdb.barrucadu.co.uk/book/isbn-9780981884028/cover
+isbn-9780520284920;Dangerous Games: What the Moral Panic over Role-Playing Games Says about Play, Religion, and Imagined Worlds;Joseph P. Laycock;112;20,36;https://bookdb.barrucadu.co.uk/book/isbn-9780520284920/cover
+isbn-9780140265743;Mesopotamia: The Invention of the City;Gwendolyn Leick;40;66,75;https://bookdb.barrucadu.co.uk/book/isbn-9780140265743/cover
+isbn-9780415497831;The Babylonian World;Various, (edit. Gwendolyn Leick);839;47,27;https://bookdb.barrucadu.co.uk/book/isbn-9780415497831/cover
+isbn-9780241334355;Fiasco;Stanislaw Lem, (trans. Michael Kandel);443;93,16;https://bookdb.barrucadu.co.uk/book/isbn-9780241334355/cover
+isbn-9780241269077;Mortal Engines;Stanislaw Lem, (trans. Michael Kandel);730;76,34;https://bookdb.barrucadu.co.uk/book/isbn-9780241269077/cover
+isbn-0571219721;Solaris;Stanislaw Lem, (trans. Joanna Kilmartin), (trans. Steve Cox);688;36,3;https://bookdb.barrucadu.co.uk/book/isbn-0571219721/cover
+isbn-9780141394596;The Cyberiad;Stanislaw Lem, (trans. Michael Kandel);384;68,05;https://bookdb.barrucadu.co.uk/book/isbn-9780141394596/cover
+isbn-9781873982389;The Mystery of the Yellow Room;Gaston Leroux, (trans. Dedalus);65;81,55;https://bookdb.barrucadu.co.uk/book/isbn-9781873982389/cover
+isbn-9780140621747;The Phantom of the Opera;Gaston Leroux;647;53,41;https://bookdb.barrucadu.co.uk/book/isbn-9780140621747/cover
+x-mushmen-norh;Nightmare over Ragged Hollow;Joseph R. Lewis, (edit. Eric Nieudan), (edit. Olivier Revenu);288;31;https://bookdb.barrucadu.co.uk/book/x-mushmen-norh/cover
+isbn-0006716644;Prince Caspian;C. S. Lewis;264;40,46;https://bookdb.barrucadu.co.uk/book/isbn-0006716644/cover
+isbn-0006716660;The Horse and his Boy;C. S. Lewis;808;36,49;https://bookdb.barrucadu.co.uk/book/isbn-0006716660/cover
+isbn-0006716695;The Last Battle;C. S. Lewis;809;76,9;https://bookdb.barrucadu.co.uk/book/isbn-0006716695/cover
+isbn-0006716636;The Lion, the Witch and the Wardrobe;C. S. Lewis;228;69,47;https://bookdb.barrucadu.co.uk/book/isbn-0006716636/cover
+isbn-9781840221855;The Monk;Matthew Lewis;656;56,88;https://bookdb.barrucadu.co.uk/book/isbn-9781840221855/cover
+isbn-0006716687;The Silver Chair;C. S. Lewis;265;45,34;https://bookdb.barrucadu.co.uk/book/isbn-0006716687/cover
+isbn-9780007528417;The Space Trilogy;C. S. Lewis;268;68,36;https://bookdb.barrucadu.co.uk/book/isbn-9780007528417/cover
+isbn-0006716652;The Voyage of the Dawn Treader;C. S. Lewis;782;28,79;https://bookdb.barrucadu.co.uk/book/isbn-0006716652/cover
+isbn-9780143107767;Songs of a Dead Dreamer and Grimscribe;Thomas Ligotti;131;52,12;https://bookdb.barrucadu.co.uk/book/isbn-9780143107767/cover
+isbn-9781906838287;The Lovecraft Anthology (vol. 1);Dan Lockwood;705;35,33;https://bookdb.barrucadu.co.uk/book/isbn-9781906838287/cover
+isbn-9781906838430;The Lovecraft Anthology (vol. 2);Dan Lockwood;544;78,96;https://bookdb.barrucadu.co.uk/book/isbn-9781906838430/cover
+isbn-009942732X;The Story of Doctor Dolittle;Hugh Lofting;793;68,16;https://bookdb.barrucadu.co.uk/book/isbn-009942732X/cover
+isbn-9789525904406;Scenic Dunnsmouth;Zzarchov Kowolski;807;28,99;https://bookdb.barrucadu.co.uk/book/isbn-9789525904406/cover
+isbn-9789525904871;Veins of the Earth;Patrick Stuart, Scrap Princess;597;60,09;https://bookdb.barrucadu.co.uk/book/isbn-9789525904871/cover
+isbn-9781906838126;At the Mountains of Madness;H. P. Lovecraft, I. N. J. Culbard;25;78,59;https://bookdb.barrucadu.co.uk/book/isbn-9781906838126/cover
+isbn-9780575099357;Eldritch Tales;H. P. Lovecraft;13;84,92;https://bookdb.barrucadu.co.uk/book/isbn-9780575099357/cover
+isbn-9781435122963;H. P. Lovecraft: The Complete Fiction;H. P. Lovecraft;852;78,35;https://bookdb.barrucadu.co.uk/book/isbn-9781435122963/cover
+isbn-9780575081567;Necronomicon;H. P. Lovecraft;326;26,27;https://bookdb.barrucadu.co.uk/book/isbn-9780575081567/cover
+isbn-9780141187068;The Call of Cthulhu and Other Weird Stories;H. P. Lovecraft;810;20,32;https://bookdb.barrucadu.co.uk/book/isbn-9780141187068/cover
+isbn-9781906838850;The Dream-Quest of Unknown Kadath;H. P. Lovecraft, I. N. J. Culbard;311;45,34;https://bookdb.barrucadu.co.uk/book/isbn-9781906838850/cover
+isbn-9780141187891;The Dreams in the Witch House and Other Weird Stories;H. P. Lovecraft;596;43,76;https://bookdb.barrucadu.co.uk/book/isbn-9780141187891/cover
+isbn-9781840226225;The Loved Dead;H. P. Lovecraft;19;49,94;https://bookdb.barrucadu.co.uk/book/isbn-9781840226225/cover
+isbn-9780141187075;The Thing on the Doorstep and Other Weird Stories;H. P. Lovecraft;795;77,22;https://bookdb.barrucadu.co.uk/book/isbn-9780141187075/cover
+isbn-9781840226089;The Whisperer in Darkness;H. P. Lovecraft;776;21,59;https://bookdb.barrucadu.co.uk/book/isbn-9781840226089/cover
+isbn-9781936533077;The Books of Enoch: The Angels, The Watchers and The Nephilim;Joseph B. Lumpkin;147;83,24;https://bookdb.barrucadu.co.uk/book/isbn-9781936533077/cover
+isbn-9780199538867;The Kalevala;Elias Lönnrot, (trans. Keith Bosley);344;94,06;https://bookdb.barrucadu.co.uk/book/isbn-9780199538867/cover
+isbn-9798200687992;Weird Tales: 100 Years of Weird;H. P. Lovecraft, Laurell K. Hamilton, Robert E. Howard, R. L. Stine, Richard Matheson, Scott Sigler, Isaac Asimov, Victor LaValle, Keith R. A. Decandido, Hailey Piper, James Aquilone, (edit. Jonathan Maberry);753;24,9;https://bookdb.barrucadu.co.uk/book/isbn-9798200687992/cover
+isbn-9780395284254;Motel of the Mysteries;David Macaulay;995;69,02;https://bookdb.barrucadu.co.uk/book/isbn-9780395284254/cover
+isbn-9781912766031;What Not: A Prophetic Comedy;Rose Macaulay;90;43,17;https://bookdb.barrucadu.co.uk/book/isbn-9781912766031/cover
+isbn-0809544601;The Great God Pan;Arthur Machen;741;20,96;https://bookdb.barrucadu.co.uk/book/isbn-0809544601/cover
+isbn-9781906998332;The Hill of Dreams;Arthur Machen;225;33,18;https://bookdb.barrucadu.co.uk/book/isbn-9781906998332/cover
+isbn-9780143105596;The White People and Other Weird Stories;Arthur Machen;85;95,19;https://bookdb.barrucadu.co.uk/book/isbn-9780143105596/cover
+isbn-9780486272740;The Prince;Niccolò Machiavelli;845;76,94;https://bookdb.barrucadu.co.uk/book/isbn-9780486272740/cover
+isbn-9781912766215;British Weird: Selected Short Fiction, 1893-1937;E. Nesbit, John Buchan, Algernon Blackwood, E. F. Benson, John Metcalfe, Eleanor Scott, L. A. Lewis, Arthur Machen, Mary Butts, (edit. James Machin);936;98,73;https://bookdb.barrucadu.co.uk/book/isbn-9781912766215/cover
+isbn-9798887561141;Emelda's Song;Scott Malthouse;312;23,46;https://bookdb.barrucadu.co.uk/book/isbn-9798887561141/cover
+isbn-9781492082798;Software Engineering at Google: Lessons Learned from Programming Over Time;Titus Winters, Tom Manshreck, Hyrum Wright;657;99,33;https://bookdb.barrucadu.co.uk/book/isbn-9781492082798/cover
+isbn-0140621717;The Children of the New Forest;Frederick Marryat;345;26,95;https://bookdb.barrucadu.co.uk/book/isbn-0140621717/cover
+isbn-9781844167081;Dark Haven;Gail Z. Martin;382;20,23;https://bookdb.barrucadu.co.uk/book/isbn-9781844167081/cover
+isbn-9781473212527;Dying of the Light;George R. R. Martin;610;52,4;https://bookdb.barrucadu.co.uk/book/isbn-9781473212527/cover
+isbn-9780099578529;Money: The Unauthorised Biography;Felix Martin;427;66,1;https://bookdb.barrucadu.co.uk/book/isbn-9780099578529/cover
+isbn-9781844165315;The Blood King;Gail Z. Martin;949;60,7;https://bookdb.barrucadu.co.uk/book/isbn-9781844165315/cover
+isbn-9781844164684;The Summoner;Gail Z. Martin;858;92,82;https://bookdb.barrucadu.co.uk/book/isbn-9781844164684/cover
+isbn-9780349120911;The Book of Murder;Guillermo Martinez;222;43,79;https://bookdb.barrucadu.co.uk/book/isbn-9780349120911/cover
+isbn-9780316272247;Overlord (vol. 1) / The Undead King;Kugane Maruyama, (trans. Emily Balistrieri);228;52,99;https://bookdb.barrucadu.co.uk/book/isbn-9780316272247/cover
+isbn-9780316363914;Overlord (vol. 2) / The Dark Warrior;Kugane Maruyama, (trans. Emily Balistrieri);97;53,51;https://bookdb.barrucadu.co.uk/book/isbn-9780316363914/cover
+isbn-9780316363938;Overlord (vol. 3) / The Bloody Valkyrie;Kugane Maruyama, (trans. Emily Balistrieri);285;48,53;https://bookdb.barrucadu.co.uk/book/isbn-9780316363938/cover
+isbn-9780316397599;Overlord (vol. 4) / The Lizardman Heroes;Kugane Maruyama, (trans. Emily Balistrieri);172;91,87;https://bookdb.barrucadu.co.uk/book/isbn-9780316397599/cover
+isbn-9780316397612;Overlord (vol. 5) / The Men of the Kingdom Part I;Kugane Maruyama, (trans. Emily Balistrieri);685;59,62;https://bookdb.barrucadu.co.uk/book/isbn-9780316397612/cover
+isbn-9780316398794;Overlord (vol. 6) / The Men of the Kingdom Part II;Kugane Maruyama, (trans. Emily Balistrieri);323;78,49;https://bookdb.barrucadu.co.uk/book/isbn-9780316398794/cover
+isbn-9780316398817;Overlord (vol. 7) / The Invaders of the Great Tomb;Kugane Maruyama, (trans. Emily Balistrieri);262;96,98;https://bookdb.barrucadu.co.uk/book/isbn-9780316398817/cover
+isbn-9780316398848;Overlord (vol. 8) / The Two Leaders;Kugane Maruyama, (trans. Emily Balistrieri);686;99,24;https://bookdb.barrucadu.co.uk/book/isbn-9780316398848/cover
+isbn-9780316398862;Overlord (vol. 9) / The Caster of Destruction;Kugane Maruyama, (trans. Emily Balistrieri);45;35,56;https://bookdb.barrucadu.co.uk/book/isbn-9780316398862/cover
+isbn-9780316444989;Overlord (vol. 10) / The Ruler of Conspiracy;Kugane Maruyama, (trans. Emily Balistrieri);616;73,56;https://bookdb.barrucadu.co.uk/book/isbn-9780316444989/cover
+isbn-9780316445016;Overlord (vol. 11) / The Dwarven Crafter;Kugane Maruyama, (trans. Emily Balistrieri);462;41,95;https://bookdb.barrucadu.co.uk/book/isbn-9780316445016/cover
+isbn-9781975308063;Overlord (vol. 12) / The Paladin of the Sacred Kingdom (Part 1);Kugane Maruyama, (trans. Emily Balistrieri);777;62,74;https://bookdb.barrucadu.co.uk/book/isbn-9781975308063/cover
+isbn-9781975311537;Overlord (vol. 13) / The Paladin of the Sacred Kingdom (Part 2);Kugane Maruyama, (trans. Emily Balistrieri);863;35,43;https://bookdb.barrucadu.co.uk/book/isbn-9781975311537/cover
+isbn-9781975323806;Overlord (vol. 14) / The Witch of the Doomed Kingdom;Kugane Maruyama, (trans. Andrew Cunningham);947;88,44;https://bookdb.barrucadu.co.uk/book/isbn-9781975323806/cover
+isbn-9781975360566;Overlord (vol. 15) / The Half-Elf Demigod Part I;Kugane Maruyama, (trans. Andrew Cunningham);321;87,72;https://bookdb.barrucadu.co.uk/book/isbn-9781975360566/cover
+isbn-9781975367800;Overlord (vol. 16) / The Half-Elf Demigod Part II;Kugane Maruyama, (trans. Andrew Cunningham);983;77,42;https://bookdb.barrucadu.co.uk/book/isbn-9781975367800/cover
+isbn-9781568820910;Pulp Cthulhu: Two-Fisted Action and Adventure Against the Mythos;Mike Mason;126;23,49;https://bookdb.barrucadu.co.uk/book/isbn-9781568820910/cover
+isbn-9781568824055;The Grand Grimoire of Cthulhu Mythos Magic;Mike Mason, Matthew Sanderson;343;59,65;https://bookdb.barrucadu.co.uk/book/isbn-9781568824055/cover
+isbn-9780224098243;Void Star;Zachary Mason;397;57,37;https://bookdb.barrucadu.co.uk/book/isbn-9780224098243/cover
+isbn-9781857988093;I Am Legend;Richard Matheson;411;47,72;https://bookdb.barrucadu.co.uk/book/isbn-9781857988093/cover
+isbn-014044761X;Melmoth the Wanderer;Charles Robert Maturin;789;90,22;https://bookdb.barrucadu.co.uk/book/isbn-014044761X/cover
+isbn-9781473215160;Fairyland;Paul McAuley;46;60,82;https://bookdb.barrucadu.co.uk/book/isbn-9781473215160/cover
+isbn-9781439156735;Swan Song;Robert McCammon;324;94,25;https://bookdb.barrucadu.co.uk/book/isbn-9781439156735/cover
+isbn-9780330468466;The Road;Cormac McCarthy;404;30,84;https://bookdb.barrucadu.co.uk/book/isbn-9780330468466/cover
+x-lulu-peridot-01;The Peridot (vol. 1) / Spring 2016, Pan Chun Mei and her Wraith Ravens;David McGrogan;625;33,27;https://bookdb.barrucadu.co.uk/book/x-lulu-peridot-01/cover
+isbn-9781912766093;The Exile Waiting;Vonda N McIntyre;408;42,24;https://bookdb.barrucadu.co.uk/book/isbn-9781912766093/cover
+x-lulu-wh3lnote;Whitehack: Third Edition;Christian Mehrstam;989;40,61;https://bookdb.barrucadu.co.uk/book/x-lulu-wh3lnote/cover
+x-foliosoc-golem;The Golem;Gustav Meyrink, (trans. Mike Mitchell);124;61,88;https://bookdb.barrucadu.co.uk/book/x-foliosoc-golem/cover
+isbn-9781118718162;A History of the Ancient Near East: ca. 3000-323 BC;Marc Van De Mieroop;291;62,14;https://bookdb.barrucadu.co.uk/book/isbn-9781118718162/cover
+isbn-9780330534239;Perdido Street Station;China Mieville;658;51,76;https://bookdb.barrucadu.co.uk/book/isbn-9780330534239/cover
+isbn-9780330534192;The City & The City;China Mieville;779;20,85;https://bookdb.barrucadu.co.uk/book/isbn-9780330534192/cover
+isbn-9780007902101;Paradise Lost and Paradise Regained;John Milton;430;43,1;https://bookdb.barrucadu.co.uk/book/isbn-9780007902101/cover
+isbn-9780140424416;Selected Poems;John Milton;870;29,68;https://bookdb.barrucadu.co.uk/book/isbn-9780140424416/cover
+isbn-9781473225565;Lud-in-the-Mist;Hope Mirrlees;720;23,21;https://bookdb.barrucadu.co.uk/book/isbn-9781473225565/cover
+isbn-1593072155;Spiral;Sakura Mizuki, (trans. Naomi Kokubo), (trans. Steven Hoffman);217;88,9;https://bookdb.barrucadu.co.uk/book/isbn-1593072155/cover
+isbn-9781473200746;A Cornelius Calendar;Michael Moorcock;157;36,34;https://bookdb.barrucadu.co.uk/book/isbn-9781473200746/cover
+isbn-9780575080997;Behold the Man;Michael Moorcock;851;39,14;https://bookdb.barrucadu.co.uk/book/isbn-9780575080997/cover
+isbn-9781857988482;Behold the Man;Michael Moorcock;984;92,35;https://bookdb.barrucadu.co.uk/book/isbn-9781857988482/cover
+isbn-9780575115538;Breakfast in the Ruins and Other Stories;Michael Moorcock;659;36,84;https://bookdb.barrucadu.co.uk/book/isbn-9780575115538/cover
+isbn-9780575108417;Corum: The Prince in the Scarlet Robe;Michael Moorcock;785;43,41;https://bookdb.barrucadu.co.uk/book/isbn-9780575108417/cover
+isbn-9780575105478;Corum: The Prince with the Silver Hand;Michael Moorcock;593;47,05;https://bookdb.barrucadu.co.uk/book/isbn-9780575105478/cover
+isbn-9780575074767;Dancers at the End of Time;Michael Moorcock;388;89,09;https://bookdb.barrucadu.co.uk/book/isbn-9780575074767/cover
+isbn-9780575114388;Elric: Stormbringer!;Michael Moorcock;997;90,58;https://bookdb.barrucadu.co.uk/book/isbn-9780575114388/cover
+isbn-9780575113435;Elric: The Fortress of the Pearl;Michael Moorcock;226;42,6;https://bookdb.barrucadu.co.uk/book/isbn-9780575113435/cover
+isbn-9780575106598;Elric: The Moonbeam Roads;Michael Moorcock;760;74,22;https://bookdb.barrucadu.co.uk/book/isbn-9780575106598/cover
+isbn-9780575114104;Elric: The Revenge of the Rose;Michael Moorcock;885;21,71;https://bookdb.barrucadu.co.uk/book/isbn-9780575114104/cover
+isbn-9780575113602;Elric: The Sailor on the Seas of Fate;Michael Moorcock;511;98,78;https://bookdb.barrucadu.co.uk/book/isbn-9780575113602/cover
+isbn-9780575113886;Elric: The Sleeping Sorceress;Michael Moorcock;297;25,47;https://bookdb.barrucadu.co.uk/book/isbn-9780575113886/cover
+isbn-9780575113091;Elric of Melniboné and Other Stories;Michael Moorcock;180;65,18;https://bookdb.barrucadu.co.uk/book/isbn-9780575113091/cover
+isbn-9780575108868;Gloriana: Or, The Unfulfill'd Queen;Michael Moorcock;149;72;https://bookdb.barrucadu.co.uk/book/isbn-9780575108868/cover
+isbn-9780575092488;Hawkmoon: Count Brass;Michael Moorcock;632;37,05;https://bookdb.barrucadu.co.uk/book/isbn-9780575092488/cover
+isbn-9780575108691;Hawkmoon: The History of the Runestaff;Michael Moorcock;459;63,77;https://bookdb.barrucadu.co.uk/book/isbn-9780575108691/cover
+isbn-9781473200722;Jerry Cornelius: His Lives and His Times;Michael Moorcock;50;69,83;https://bookdb.barrucadu.co.uk/book/isbn-9781473200722/cover
+isbn-9780575092525;Kane of Old Mars;Michael Moorcock;381;32,01;https://bookdb.barrucadu.co.uk/book/isbn-9780575092525/cover
+isbn-9780575092587;Moorcock's Multiverse;Michael Moorcock;912;42,77;https://bookdb.barrucadu.co.uk/book/isbn-9780575092587/cover
+isbn-9780575115057;My Experiences in the Third World War and Other Stories;Michael Moorcock;593;47,45;https://bookdb.barrucadu.co.uk/book/isbn-9780575115057/cover
+isbn-9780575092617;Tales from the End of Time;Michael Moorcock;954;87,52;https://bookdb.barrucadu.co.uk/book/isbn-9780575092617/cover
+isbn-9780575115224;The Brothel in Rosenstrasse and Other Stories;Michael Moorcock;116;64,18;https://bookdb.barrucadu.co.uk/book/isbn-9780575115224/cover
+isbn-9780575092402;The Cornelius Quartet;Michael Moorcock;912;30,12;https://bookdb.barrucadu.co.uk/book/isbn-9780575092402/cover
+isbn-9780575108554;The Dancers at the End of Time;Michael Moorcock;642;58,81;https://bookdb.barrucadu.co.uk/book/isbn-9780575108554/cover
+isbn-9780575092655;The Eternal Champion;Michael Moorcock;879;27,24;https://bookdb.barrucadu.co.uk/book/isbn-9780575092655/cover
+isbn-0861300025;The Golden Barge;Michael Moorcock;971;62,99;https://bookdb.barrucadu.co.uk/book/isbn-0861300025/cover
+isbn-9780575092693;The Nomad of Time;Michael Moorcock;576;75,11;https://bookdb.barrucadu.co.uk/book/isbn-9780575092693/cover
+isbn-9781473228320;The War Amongst the Angels;Michael Moorcock;44;50,34;https://bookdb.barrucadu.co.uk/book/isbn-9781473228320/cover
+isbn-9780575092778;Travelling to Utopia;Michael Moorcock;335;46,4;https://bookdb.barrucadu.co.uk/book/isbn-9780575092778/cover
+isbn-9780575092457;Von Bek;Michael Moorcock;665;90,51;https://bookdb.barrucadu.co.uk/book/isbn-9780575092457/cover
+isbn-9781401208417;V for Vendetta;David Lloyd, Alan Moore;12;60,61;https://bookdb.barrucadu.co.uk/book/isbn-9781401208417/cover
+isbn-9781401238964;Watchmen;Dave Gibbons, Alan Moore;838;53,68;https://bookdb.barrucadu.co.uk/book/isbn-9781401238964/cover
+isbn-9781912766420;The Villa and the Vortex: Supernatural Stories, 1916-1924;Elinor Mordaunt, (edit. Melissa Edmundson);653;31,02;https://bookdb.barrucadu.co.uk/book/isbn-9781912766420/cover
+isbn-9780141442327;Utopia;Thomas More;290;84,36;https://bookdb.barrucadu.co.uk/book/isbn-9780141442327/cover
+isbn-9780374539238;This Thing Between Us;Gus Moreno;100;21,79;https://bookdb.barrucadu.co.uk/book/isbn-9780374539238/cover
+isbn-9780861713820;The Gateless Gate;Mumon, (trans. Koun Yamada);569;35,71;https://bookdb.barrucadu.co.uk/book/isbn-9780861713820/cover
+isbn-9781473680326;how to: absurd scientific advice for common real-world problems;Randall Munroe;572;28,85;https://bookdb.barrucadu.co.uk/book/isbn-9781473680326/cover
+isbn-9780615314464;xkcd (vol. 0);Randall Munroe;915;36,29;
+isbn-9781911405887;The Witch Cult in Western Europe;Margaret Alice Murray;463;96,37;https://bookdb.barrucadu.co.uk/book/isbn-9781911405887/cover
+isbn-0140264078;Lolita;Vladimir Nabokov;174;27;https://bookdb.barrucadu.co.uk/book/isbn-0140264078/cover
+isbn-9780141183756;Pnin;Vladimir Nabokov;749;53,61;https://bookdb.barrucadu.co.uk/book/isbn-9780141183756/cover
+isbn-9781785355431;Kill All Normies: Online culture wars from 4chan and Tumblr to Trump and the alt-right;Angela Nagle;366;55,93;https://bookdb.barrucadu.co.uk/book/isbn-9781785355431/cover
+isbn-9789814287111;Algebraic Moels for Accounting Systems;Salvador Cruz Rambaud, Jose Garcia Perez, Robert A. Nehmer, Derek J. S. Robinson;343;51,88;https://bookdb.barrucadu.co.uk/book/isbn-9789814287111/cover
+isbn-9789189765788;Realms of the Three Rings;Gabriele Quaglia, Francesco Nepitello, (edit. Francesco Nepitello);895;38,13;https://bookdb.barrucadu.co.uk/book/isbn-9789189765788/cover
+isbn-9789189143470;Rivendell;Francesco Nepitello, Jacob Rodgers;366;98,42;https://bookdb.barrucadu.co.uk/book/isbn-9789189143470/cover
+isbn-9789189143456;The One Ring: Roleplaying in the world of The Lord of the Rings;Francesco Nepitello;704;30,19;https://bookdb.barrucadu.co.uk/book/isbn-9789189143456/cover
+isbn-9789189143487;The One Ring: Starter Set;Francesco Nepitello, Lorenzo Perassi, James Michael Spahn, Jacob Rodgers, (edit. John Marron), (edit. Jacob Rodgers);374;62,16;https://bookdb.barrucadu.co.uk/book/isbn-9789189143487/cover
+isbn-0140367357;Five Children and It;E. Nesbit;752;66,97;https://bookdb.barrucadu.co.uk/book/isbn-0140367357/cover
+isbn-9781912766826;The House of Silence: Ghost Stories, 1887-1920;E. Nesbit, (edit. Melissa Edmundson);970;66,46;https://bookdb.barrucadu.co.uk/book/isbn-9781912766826/cover
+isbn-014036739X;The Phoenix and the Carpet;E. Nesbit;924;34,9;https://bookdb.barrucadu.co.uk/book/isbn-014036739X/cover
+isbn-9781838378912;Cunning Folk;Adam Nevill;591;78,98;https://bookdb.barrucadu.co.uk/book/isbn-9781838378912/cover
+isbn-9781447263401;Last Days;Adam Nevill;837;89,31;https://bookdb.barrucadu.co.uk/book/isbn-9781447263401/cover
+isbn-9781916094116;The Reddening;Adam Nevill;15;73,1;https://bookdb.barrucadu.co.uk/book/isbn-9781916094116/cover
+isbn-9781509883448;The Ritual;Adam Nevill;880;96,93;https://bookdb.barrucadu.co.uk/book/isbn-9781509883448/cover
+isbn-9780099554653;The Country of Ice Cream Star;Sandra Newman;241;63,56;https://bookdb.barrucadu.co.uk/book/isbn-9780099554653/cover
+isbn-9781405239714;Firesong;William Nicholson;269;82,35;https://bookdb.barrucadu.co.uk/book/isbn-9781405239714/cover
+isbn-0749749016;Slaves of the Mastery;William Nicholson;103;49,18;https://bookdb.barrucadu.co.uk/book/isbn-0749749016/cover
+isbn-0749744715;The Wind Singer;William Nicholson;235;50,83;https://bookdb.barrucadu.co.uk/book/isbn-0749744715/cover
+isbn-9781647294540;Tower Dungeon (vol. 1);Tsutomu Nihei, (trans. Sam Malissa);1;95,13;https://bookdb.barrucadu.co.uk/book/isbn-9781647294540/cover
+isbn-9780575077027;Ringworld;Larry Niven;976;52,66;https://bookdb.barrucadu.co.uk/book/isbn-9780575077027/cover
+isbn-9781857231113;The Ringworld Engineers;Larry Niven;466;32,64;https://bookdb.barrucadu.co.uk/book/isbn-9781857231113/cover
+x-noisms-ys;Yoon-Suin;Noisms;966;30,21;https://bookdb.barrucadu.co.uk/book/x-noisms-ys/cover
+isbn-9798887561080;Dolmenwood: Campaign Book;Gavin Norman;812;72,14;https://bookdb.barrucadu.co.uk/book/isbn-9798887561080/cover
+isbn-9798887561066;Dolmenwood: Maps Book;Gavin Norman;548;52,12;https://bookdb.barrucadu.co.uk/book/isbn-9798887561066/cover
+isbn-9798887561103;Dolmenwood: Monster Book;Gavin Norman;134;82,28;https://bookdb.barrucadu.co.uk/book/isbn-9798887561103/cover
+isbn-9798887561097;Dolmenwood: Player's Book;Gavin Norman;324;41,55;https://bookdb.barrucadu.co.uk/book/isbn-9798887561097/cover
+isbn-9783966570718;Old-School Essentials: Adventure Anthology (vol. 1);Brad Kerr, Giuseppe Rotondo, Glynn Seal, D. M. Wilson, Sarah Brunt, (edit. Gavin Norman);817;22,4;https://bookdb.barrucadu.co.uk/book/isbn-9783966570718/cover
+isbn-9783966570732;Old-School Essentials: Adventure Anthology (vol. 2);Chance Dudinack, Diogo Nogueira, Nate Treme, Brian Yaksha, (edit. Gavin Norman);238;55,43;https://bookdb.barrucadu.co.uk/book/isbn-9783966570732/cover
+isbn-9783966570367;Old-School Essentials Advanced Fantasy: Player's Tome;Gavin Norman;661;75,63;https://bookdb.barrucadu.co.uk/book/isbn-9783966570367/cover
+isbn-9783966570381;Old-School Essentials Advanced Fantasy: Referee's Tome;Gavin Norman;190;93,45;https://bookdb.barrucadu.co.uk/book/isbn-9783966570381/cover
+isbn-9780262525671;The Design of Everyday Things;Donald A. Norman;605;79,31;https://bookdb.barrucadu.co.uk/book/isbn-9780262525671/cover
+isbn-9798887561110;Winter's Daughter;Gavin Norman;694;89,3;https://bookdb.barrucadu.co.uk/book/isbn-9798887561110/cover
+isbn-9780356502588;The First Fifteen Lives of Harry August;Claire North;571;20,23;https://bookdb.barrucadu.co.uk/book/isbn-9780356502588/cover
+isbn-0140381279;The Borrowers;Mary Norton;574;45,19;https://bookdb.barrucadu.co.uk/book/isbn-0140381279/cover
+isbn-9780241953051;A Short History of Byzantium;John Julius Norwich;911;72,18;https://bookdb.barrucadu.co.uk/book/isbn-9780241953051/cover
+isbn-9781782112303;Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking;Samin Nosrat;712;39,95;https://bookdb.barrucadu.co.uk/book/isbn-9781782112303/cover
+isbn-9781406309676;Gothic!;Various, (edit. Deborah Noyes);671;52,89;https://bookdb.barrucadu.co.uk/book/isbn-9781406309676/cover
+isbn-071713167X;Ancient Irish Legends;Padraic O'Farrell;878;53,89;https://bookdb.barrucadu.co.uk/book/isbn-071713167X/cover
+isbn-9781421539645;Death Note: Black Edition (vol. 1);Tsugumi Ohba, Takeshi Obata, (trans. Tetsuichiro Miyaki);782;21,56;https://bookdb.barrucadu.co.uk/book/isbn-9781421539645/cover
+isbn-9781421539652;Death Note: Black Edition (vol. 2);Tsugumi Ohba, Takeshi Obata, (trans. Pookie Rolf), (trans. Alexis Kirsh);269;56,01;https://bookdb.barrucadu.co.uk/book/isbn-9781421539652/cover
+isbn-9781421539669;Death Note: Black Edition (vol. 3);Tsugumi Ohba, Takeshi Obata, (trans. Alexis Kirsh);819;25,06;https://bookdb.barrucadu.co.uk/book/isbn-9781421539669/cover
+isbn-9781421539676;Death Note: Black Edition (vol. 4);Tsugumi Ohba, Takeshi Obata, (trans. Alexis Kirsh), (trans. Tetsuichiro Miyaki);915;95,11;https://bookdb.barrucadu.co.uk/book/isbn-9781421539676/cover
+isbn-9781421539683;Death Note: Black Edition (vol. 5);Tsugumi Ohba, Takeshi Obata, (trans. Tetsuichiro Miyaki);884;54,33;https://bookdb.barrucadu.co.uk/book/isbn-9781421539683/cover
+isbn-9781421539690;Death Note: Black Edition (vol. 6);Tsugumi Ohba, Takeshi Obata, (trans. Tetsuichiro Miyaki);365;96,94;https://bookdb.barrucadu.co.uk/book/isbn-9781421539690/cover
+isbn-9781542782449;The Book of Tea;Kakuzo Okakura;56;92,18;https://bookdb.barrucadu.co.uk/book/isbn-9781542782449/cover
+isbn-014027877X;1984;George Orwell;839;51,68;https://bookdb.barrucadu.co.uk/book/isbn-014027877X/cover
+isbn-0140278737;Animal Farm;George Orwell;807;67,77;https://bookdb.barrucadu.co.uk/book/isbn-0140278737/cover
+isbn-9781732102217;A Philosophy of Software Design;John Ousterhout;318;44,88;https://bookdb.barrucadu.co.uk/book/isbn-9781732102217/cover
+isbn-9780486296029;Common Sense;Thomas Paine;621;60,23;https://bookdb.barrucadu.co.uk/book/isbn-9780486296029/cover
+isbn-9780486408934;Rights of Man;Thomas Paine;25;27,1;https://bookdb.barrucadu.co.uk/book/isbn-9780486408934/cover
+isbn-9780486433936;The Age of Reason;Thomas Paine;895;53,14;https://bookdb.barrucadu.co.uk/book/isbn-9780486433936/cover
+isbn-9798891605992;Rozen Maiden: Collectors Edition (vol. 1);Peach-Pit, (trans. Minna Lin);422;81,68;https://bookdb.barrucadu.co.uk/book/isbn-9798891605992/cover
+isbn-9798891609150;Rozen Maiden: Collector's Edition (vol. 2);Peach-Pit, (trans. Minna Lin);935;51,3;https://bookdb.barrucadu.co.uk/book/isbn-9798891609150/cover
+isbn-9798893733402;Rozen Maiden: Collector's Edition (vol. 3);Peach-Pit, (trans. Minna Lin);785;76,24;https://bookdb.barrucadu.co.uk/book/isbn-9798893733402/cover
+isbn-9798893733600;Rozen Maiden: Collector's Edition (vol. 4);Peach-Pit, (trans. Minna Lin);730;48,45;https://bookdb.barrucadu.co.uk/book/isbn-9798893733600/cover
+isbn-9780099528548;The Illustrated Gormenghast Trilogy;Mervyn Peake;30;23,49;https://bookdb.barrucadu.co.uk/book/isbn-9780099528548/cover
+isbn-9780983748427;A Short Stay in Hell;Steven L. Peck;417;83,33;https://bookdb.barrucadu.co.uk/book/isbn-9780983748427/cover
+isbn-9781568824499;Call of Cthulhu: Investigator Handbook;Sandy Petersen;761;93,13;https://bookdb.barrucadu.co.uk/book/isbn-9781568824499/cover
+isbn-9781568824307;Call of Cthulhu: Keeper Rulebook;Sandy Petersen;510;56,14;https://bookdb.barrucadu.co.uk/book/isbn-9781568824307/cover
+isbn-9781568824406;Call of Cthulhu: Keeper Rulebook (40th Anniversary);Sandy Petersen;678;90,67;https://bookdb.barrucadu.co.uk/book/isbn-9781568824406/cover
+ean-2370011857978;Mythic Game Master Emulator: 2nd Edition;Tana Pigeon;357;97,98;https://bookdb.barrucadu.co.uk/book/ean-2370011857978/cover
+isbn-9780140455113;The Republic;Plato;235;59,19;https://bookdb.barrucadu.co.uk/book/isbn-9780140455113/cover
+isbn-9780099529743;The Foundation Pit;Andrey Platonov, (trans. Elizabeth Chandler), (trans. Robert Chandler), (trans. Olga Meerson);613;29,79;https://bookdb.barrucadu.co.uk/book/isbn-9780099529743/cover
+isbn-9780140449341;Fall of the Roman Republic;Plutarch;45;34,75;https://bookdb.barrucadu.co.uk/book/isbn-9780140449341/cover
+isbn-9781606600047;Tales of Mystery and Imagination;Edgar Allan Poe;216;58,91;https://bookdb.barrucadu.co.uk/book/isbn-9781606600047/cover
+isbn-9780140103847;The Complete Tales and Poems;Edgar Allan Poe;392;87,56;https://bookdb.barrucadu.co.uk/book/isbn-9780140103847/cover
+isbn-9780575094239;Gateway;Frederik Pohl;621;36,69;https://bookdb.barrucadu.co.uk/book/isbn-9780575094239/cover
+isbn-9781857989465;Man Plus;Frederik Pohl;927;70,14;https://bookdb.barrucadu.co.uk/book/isbn-9781857989465/cover
+isbn-9780575075283;The Space Merchants;Frederik Pohl, C. M. Kornbluth;948;93,62;https://bookdb.barrucadu.co.uk/book/isbn-9780575075283/cover
+isbn-9780199552412;The Vampyre: and Other Tales of the Macabre;Anonymous, Edward Bulwer, William Carleton, Allan Cunningham, Catherine Gore, James Hogg, Landon Letitia E., J. Sheridan LeFanu, Charles Lever, John Polidori, Horace Smith, N. P. Willis;436;60,24;https://bookdb.barrucadu.co.uk/book/isbn-9780199552412/cover
+isbn-9780385618984;A Blink of the Screen;Terry Pratchett;974;81,84;https://bookdb.barrucadu.co.uk/book/isbn-9780385618984/cover
+isbn-0552551449;A Hat Full of Sky;Terry Pratchett;545;21,78;https://bookdb.barrucadu.co.uk/book/isbn-0552551449/cover
+isbn-0552146153;Carpe Jugulum;Terry Pratchett;58;66,33;https://bookdb.barrucadu.co.uk/book/isbn-0552146153/cover
+isbn-9780385619271;Dodger;Terry Pratchett;267;57,06;https://bookdb.barrucadu.co.uk/book/isbn-9780385619271/cover
+isbn-0552131059;Equal Rites;Terry Pratchett;848;60,55;https://bookdb.barrucadu.co.uk/book/isbn-0552131059/cover
+isbn-0575051914;Eric;Terry Pratchett;207;99,64;https://bookdb.barrucadu.co.uk/book/isbn-0575051914/cover
+isbn-0552142379;Feet of Clay;Terry Pratchett;866;58,89;https://bookdb.barrucadu.co.uk/book/isbn-0552142379/cover
+isbn-0385603428;Going Postal;Terry Pratchett;731;79,73;https://bookdb.barrucadu.co.uk/book/isbn-0385603428/cover
+isbn-0552137030;Good Omens;Neil Gaiman, Terry Pratchett;671;65,52;https://bookdb.barrucadu.co.uk/book/isbn-0552137030/cover
+isbn-0552134627;Guards! Guards!;Terry Pratchett;31;84,28;https://bookdb.barrucadu.co.uk/book/isbn-0552134627/cover
+isbn-0552145424;Hogfather;Terry Pratchett;366;21,93;https://bookdb.barrucadu.co.uk/book/isbn-0552145424/cover
+isbn-9780385611077;I Shall Wear Midnight;Terry Pratchett;643;95,22;https://bookdb.barrucadu.co.uk/book/isbn-9780385611077/cover
+isbn-0552142352;Interesting Times;Terry Pratchett;786;81,84;https://bookdb.barrucadu.co.uk/book/isbn-0552142352/cover
+isbn-055214598X;Jingo;Terry Pratchett;698;43,55;https://bookdb.barrucadu.co.uk/book/isbn-055214598X/cover
+isbn-0552138916;Lords and Ladies;Terry Pratchett;785;31,21;https://bookdb.barrucadu.co.uk/book/isbn-0552138916/cover
+isbn-9780385611015;Making Money;Terry Pratchett;129;61,5;https://bookdb.barrucadu.co.uk/book/isbn-9780385611015/cover
+isbn-0552142360;Maskerade;Terry Pratchett;691;74,78;https://bookdb.barrucadu.co.uk/book/isbn-0552142360/cover
+isbn-0552140287;Men at Arms;Terry Pratchett;117;76,64;https://bookdb.barrucadu.co.uk/book/isbn-0552140287/cover
+isbn-0385603401;Monstrous Regiment;Terry Pratchett;183;62,5;https://bookdb.barrucadu.co.uk/book/isbn-0385603401/cover
+isbn-0552131067;Mort;Terry Pratchett;429;27,37;https://bookdb.barrucadu.co.uk/book/isbn-0552131067/cover
+isbn-0552152943;Moving Pictures;Terry Pratchett;691;76,97;https://bookdb.barrucadu.co.uk/book/isbn-0552152943/cover
+isbn-0552146730;Nanny Ogg's Cookbook;Terry Pratchett;158;71,81;https://bookdb.barrucadu.co.uk/book/isbn-0552146730/cover
+isbn-9780385613705;Nation;Terry Pratchett;244;32,23;https://bookdb.barrucadu.co.uk/book/isbn-9780385613705/cover
+isbn-0385602642;Night Watch;Terry Pratchett;759;35,35;https://bookdb.barrucadu.co.uk/book/isbn-0385602642/cover
+isbn-0552152641;Pyramids;Terry Pratchett;96;89,35;https://bookdb.barrucadu.co.uk/book/isbn-0552152641/cover
+isbn-9780857522276;Raising Steam;Terry Pratchett;769;53,49;https://bookdb.barrucadu.co.uk/book/isbn-9780857522276/cover
+isbn-0552134643;Reaper Man;Terry Pratchett;895;58,83;https://bookdb.barrucadu.co.uk/book/isbn-0552134643/cover
+isbn-0552138908;Small Gods;Terry Pratchett;186;88,31;https://bookdb.barrucadu.co.uk/book/isbn-0552138908/cover
+isbn-9780385619264;Snuff;Terry Pratchett;96;72,34;https://bookdb.barrucadu.co.uk/book/isbn-9780385619264/cover
+isbn-0552140295;Soul Music;Terry Pratchett;163;29,14;https://bookdb.barrucadu.co.uk/book/isbn-0552140295/cover
+isbn-0552131075;Sourcery;Terry Pratchett;679;52,45;https://bookdb.barrucadu.co.uk/book/isbn-0552131075/cover
+isbn-0552133256;Strata;Terry Pratchett;579;47,04;https://bookdb.barrucadu.co.uk/book/isbn-0552133256/cover
+isbn-0552546933;The Amazing Maurice and his Educated Rodents;Terry Pratchett;789;64,95;https://bookdb.barrucadu.co.uk/book/isbn-0552546933/cover
+isbn-0552551058;The Carpet People;Terry Pratchett;59;40,74;https://bookdb.barrucadu.co.uk/book/isbn-0552551058/cover
+isbn-0552124753;The Colour of Magic;Terry Pratchett;789;97,84;https://bookdb.barrucadu.co.uk/book/isbn-0552124753/cover
+isbn-0552133264;The Dark Side of the Sun;Terry Pratchett;702;38,87;https://bookdb.barrucadu.co.uk/book/isbn-0552133264/cover
+isbn-9780385614276;The Discworld Graphic Novels: The Colour of Magic & The Light Fantastic;Terry Pratchett;901;71;https://bookdb.barrucadu.co.uk/book/isbn-9780385614276/cover
+isbn-0552146161;The Fifth Elephant;Terry Pratchett;509;85,2;https://bookdb.barrucadu.co.uk/book/isbn-0552146161/cover
+isbn-9780552154932;The Folklore of Discworld;Terry Pratchett, Jacqueline Simpson;976;96,64;https://bookdb.barrucadu.co.uk/book/isbn-9780552154932/cover
+isbn-0552146145;The Last Continent;Terry Pratchett;249;64,31;https://bookdb.barrucadu.co.uk/book/isbn-0552146145/cover
+isbn-9780575081963;The Last Hero;Terry Pratchett;903;76,19;https://bookdb.barrucadu.co.uk/book/isbn-9780575081963/cover
+isbn-0552128481;The Light Fantastic;Terry Pratchett;818;92,7;https://bookdb.barrucadu.co.uk/book/isbn-0552128481/cover
+isbn-0575075554;The New Discworld Companion;Stephen Briggs, Terry Pratchett;158;98,21;https://bookdb.barrucadu.co.uk/book/isbn-0575075554/cover
+isbn-0091886570;The Science of Discworld;Jack Cohen, Terry Pratchett, Ian Stewart;686;70,87;https://bookdb.barrucadu.co.uk/book/isbn-0091886570/cover
+isbn-0091888050;The Science of Discworld (vol. 2) / The Globe;Jack Cohen, Terry Pratchett, Ian Stewart;39;56,51;https://bookdb.barrucadu.co.uk/book/isbn-0091888050/cover
+isbn-0091898242;The Science of Discworld (vol. 3) / Darwin's Watch;Jack Cohen, Terry Pratchett, Ian Stewart;114;50,74;https://bookdb.barrucadu.co.uk/book/isbn-0091898242/cover
+isbn-9780857534811;The Shepherd's Crown;Terry Pratchett;130;39,6;https://bookdb.barrucadu.co.uk/book/isbn-9780857534811/cover
+isbn-0552147680;The Truth;Terry Pratchett;696;75,16;https://bookdb.barrucadu.co.uk/book/isbn-0552147680/cover
+isbn-0552549053;The Wee Free Men;Terry Pratchett;1;80,61;https://bookdb.barrucadu.co.uk/book/isbn-0552549053/cover
+isbn-9780385611770;The Wit and Wisdom of Discworld;Terry Pratchett;621;38,64;https://bookdb.barrucadu.co.uk/book/isbn-9780385611770/cover
+isbn-0385601883;Thief of Time;Terry Pratchett;295;67,04;https://bookdb.barrucadu.co.uk/book/isbn-0385601883/cover
+isbn-9780552152679;Thud!;Terry Pratchett;635;42,64;https://bookdb.barrucadu.co.uk/book/isbn-9780552152679/cover
+isbn-9780385609340;Unseen Academicals;Terry Pratchett;66;44,56;https://bookdb.barrucadu.co.uk/book/isbn-9780385609340/cover
+isbn-038560937X;Where's my cow?;Terry Pratchett;546;77,22;https://bookdb.barrucadu.co.uk/book/isbn-038560937X/cover
+isbn-0552526495;Wings;Terry Pratchett;552;21,66;https://bookdb.barrucadu.co.uk/book/isbn-0552526495/cover
+isbn-9780385609845;Wintersmith;Terry Pratchett;793;48,74;https://bookdb.barrucadu.co.uk/book/isbn-9780385609845/cover
+isbn-0552134651;Witches Abroad;Terry Pratchett;536;83,6;https://bookdb.barrucadu.co.uk/book/isbn-0552134651/cover
+isbn-0552134600;Wyrd Sisters;Terry Pratchett;516;50,87;https://bookdb.barrucadu.co.uk/book/isbn-0552134600/cover
+isbn-9781568821924;The Hastur Cycle: Tales of Hastur, the King in Yellow, and Carcosa;Ambrose Bierce, James Blish, Joseph Payne Brennan, Ramsey Campbell, Lin Carter, Robert W. Chambers, August Derleth, H. P. Lovecraft, Richard A. Lupoff, Arthur Machen, James Wade, Karl Edward Wagner, (edit. Robert M. Price);588;98,48;https://bookdb.barrucadu.co.uk/book/isbn-9781568821924/cover
+isbn-9781568822600;The Nyarlathotep Cycle: Tales about the God of a Thousand Forms;Robert Bloch, Lin Carter, John Cockroft, Robert C. Culp, August Derleth, Robert E. Howard, Lord Dunsany, H. P. Lovecraft, Gary Myers, Glenn A. Rahman, Philip J. Rahman, Ann K. Schwader, Richard Tierney, J. G Wagner, William Butler Yeats, (edit. Robert M. Price);55;81,83;https://bookdb.barrucadu.co.uk/book/isbn-9781568822600/cover
+isbn-9781407246406;Inverted World;Christopher Priest;186;92,31;https://bookdb.barrucadu.co.uk/book/isbn-9781407246406/cover
+isbn-9781614982760;An Imp of the Aether;W. H. Pugmire;336;23,74;https://bookdb.barrucadu.co.uk/book/isbn-9781614982760/cover
+isbn-0590660543;Northern Lights;Philip Pullman;2;80,4;https://bookdb.barrucadu.co.uk/book/isbn-0590660543/cover
+isbn-043999358X;The Amber Spyglass;Philip Pullman;153;58,35;https://bookdb.barrucadu.co.uk/book/isbn-043999358X/cover
+isbn-0590112899;The Subtle Knife;Philip Pullman;632;27,4;https://bookdb.barrucadu.co.uk/book/isbn-0590112899/cover
+isbn-9780199537396;A Sicilian Romance;Ann Radcliffe;276;31,69;https://bookdb.barrucadu.co.uk/book/isbn-9780199537396/cover
+isbn-9780199537419;The Mysteries of Udolpho;Ann Radcliffe;98;47,89;https://bookdb.barrucadu.co.uk/book/isbn-9780199537419/cover
+isbn-9780198856030;The Oxford Handbook of Cuneiform Culture;Various, (edit. Karen Radner), (edit. Eleanor Robson);866;24,31;https://bookdb.barrucadu.co.uk/book/isbn-9780198856030/cover
+isbn-9780131429017;The Art of Unix Programming;Eric S. Raymond;737;21,24;https://bookdb.barrucadu.co.uk/book/isbn-9780131429017/cover
+isbn-0596001088;The Cathedral and the Bazaar;Eric S. Raymond;64;78,22;https://bookdb.barrucadu.co.uk/book/isbn-0596001088/cover
+isbn-9781579657185;The Noma Guide to Fermentation;Rene Redzepi, David Zilber;912;79,13;https://bookdb.barrucadu.co.uk/book/isbn-9781579657185/cover
+isbn-9781951419080;Longwinter: Referee's Book;Luka Rejec;1;41,11;https://bookdb.barrucadu.co.uk/book/isbn-9781951419080/cover
+isbn-9781951419097;Longwinter: Visitor's Book;Luka Rejec;651;98,13;https://bookdb.barrucadu.co.uk/book/isbn-9781951419097/cover
+isbn-9781951419011;Witchburner: 3rd Funeral Ed.;Luka Rejec;600;87,6;https://bookdb.barrucadu.co.uk/book/isbn-9781951419011/cover
+isbn-9781616954277;Mort(e);Robert Repino;420;46,71;https://bookdb.barrucadu.co.uk/book/isbn-9781616954277/cover
+isbn-9780575082373;House of Suns;Alistair Reynolds;535;22,73;https://bookdb.barrucadu.co.uk/book/isbn-9780575082373/cover
+isbn-9780751541977;Interview with the Vampire;Anne Rice;982;97,44;https://bookdb.barrucadu.co.uk/book/isbn-9780751541977/cover
+isbn-9780751541960;The Vampire Lestat;Anne Rice;589;82,94;https://bookdb.barrucadu.co.uk/book/isbn-9780751541960/cover
+isbn-0552545929;Beyond the Deepwoods;Chris Riddell, Paul Stewart;382;62,83;https://bookdb.barrucadu.co.uk/book/isbn-0552545929/cover
+isbn-0552546755;Midnight over Sanctaphrax;Chris Riddell, Paul Stewart;695;22,32;https://bookdb.barrucadu.co.uk/book/isbn-0552546755/cover
+isbn-0330426281;Muddle Earth;Chris Riddell, Paul Stewart;174;31,53;https://bookdb.barrucadu.co.uk/book/isbn-0330426281/cover
+isbn-0552546283;Stormchaser;Chris Riddell, Paul Stewart;914;88,17;https://bookdb.barrucadu.co.uk/book/isbn-0552546283/cover
+isbn-0552547336;The Curse of the Gloamglozer;Chris Riddell, Paul Stewart;847;58,89;https://bookdb.barrucadu.co.uk/book/isbn-0552547336/cover
+isbn-0385607202;The Winter Knights;Chris Riddell, Paul Stewart;0;38,15;https://bookdb.barrucadu.co.uk/book/isbn-0385607202/cover
+isbn-0552548499;Vox;Chris Riddell, Paul Stewart;128;21,19;https://bookdb.barrucadu.co.uk/book/isbn-0552548499/cover
+x-printninja-phmiy;Pan: His Majesty in Yellow;Warne Robert;243;35,57;https://bookdb.barrucadu.co.uk/book/x-printninja-phmiy/cover
+isbn-9781857989373;Pavane;Keith Roberts;157;70,43;https://bookdb.barrucadu.co.uk/book/isbn-9781857989373/cover
+isbn-9780007310180;Blue Mars;Kim Stanley Robinson;700;34,23;https://bookdb.barrucadu.co.uk/book/isbn-9780007310180/cover
+isbn-9780007310173;Green Mars;Kim Stanley Robinson;595;53,14;https://bookdb.barrucadu.co.uk/book/isbn-9780007310173/cover
+isbn-9780007310166;Red Mars;Kim Stanley Robinson;962;98,49;https://bookdb.barrucadu.co.uk/book/isbn-9780007310166/cover
+isbn-9780356500454;Shaman;Kim Stanley Robinson;188;35,26;https://bookdb.barrucadu.co.uk/book/isbn-9780356500454/cover
+isbn-9780575094994;The Female Man;Joanna Russ;526;95,78;https://bookdb.barrucadu.co.uk/book/isbn-9780575094994/cover
+isbn-9780415325059;History of Western Philosophy;Bertrand Russell;569;38,14;https://bookdb.barrucadu.co.uk/book/isbn-9780415325059/cover
+isbn-9781853261589;The Little Prince;Antoine De Saint-Exupéry;475;58,97;https://bookdb.barrucadu.co.uk/book/isbn-9781853261589/cover
+isbn-9781737729730;Rackham Vale: Paintbox Edition;Brian Saliba, Craig Schaffer;312;69,9;https://bookdb.barrucadu.co.uk/book/isbn-9781737729730/cover
+isbn-9780140237504;The Catcher in the Rye;J. D. Salinger;625;75,75;https://bookdb.barrucadu.co.uk/book/isbn-9780140237504/cover
+isbn-9781838199432;Occam's Razor: Seven Modern Era Adventures of Mystery and Death;Brian M. Sammons, (edit. Lisa Padol), (edit. Helen Gould), (edit. Chitin Proctor);203;96,38;https://bookdb.barrucadu.co.uk/book/isbn-9781838199432/cover
+isbn-9780575089914;The Final Empire;Brandon Sanderson;200;92,14;https://bookdb.barrucadu.co.uk/book/isbn-9780575089914/cover
+isbn-9780575089945;The Hero of Ages;Brandon Sanderson;393;87,59;https://bookdb.barrucadu.co.uk/book/isbn-9780575089945/cover
+isbn-9780575089938;The Well of Ascension;Brandon Sanderson;152;56,31;https://bookdb.barrucadu.co.uk/book/isbn-9780575089938/cover
+ean-2370011479507;Lichdom;Adrian Lopez Sanjuan;174;44,56;https://bookdb.barrucadu.co.uk/book/ean-2370011479507/cover
+isbn-9780230736238;Revelation;C. J. Sansom;40;39,62;https://bookdb.barrucadu.co.uk/book/isbn-9780230736238/cover
+isbn-9780413776396;Existentialism & Humanism;Jean-Paul Sartre;963;59,69;https://bookdb.barrucadu.co.uk/book/isbn-9780413776396/cover
+isbn-9780141185491;Nausea;Jean-Paul Sartre;494;45,7;https://bookdb.barrucadu.co.uk/book/isbn-9780141185491/cover
+x-MOD1007319493;Mimes: With a Prologue and Epilogue;Marcel Schwob, (trans. A. Lenalie);798;57,81;https://bookdb.barrucadu.co.uk/book/x-MOD1007319493/cover
+isbn-9780984115587;The Book of Monelle;Marcel Schwob, (trans. Kit Schluter);868;79,39;https://bookdb.barrucadu.co.uk/book/isbn-9780984115587/cover
+isbn-0856355798;The King in the Golden Mask and other stories;Marcel Schwob;970;89,89;https://bookdb.barrucadu.co.uk/book/isbn-0856355798/cover
+isbn-9780143107422;The Turnip Princess and Other Newly Discovered Fairy Tales;Franz Xaver von Schönwerth, (trans. Maria Tatar);280;49,95;https://bookdb.barrucadu.co.uk/book/isbn-9780143107422/cover
+isbn-9780300240214;Against the Grain: A Deep History of the Earliest States;James C. Scott;906;93,2;https://bookdb.barrucadu.co.uk/book/isbn-9780300240214/cover
+isbn-9780747599777;The Flavour Thesaurus: Pairings, recipes and ideas for the creative cook;Niki Segnit;677;73;https://bookdb.barrucadu.co.uk/book/isbn-9780747599777/cover
+isbn-9780995756724;Troika!: Numinous Edition;Daniel Sell;547;25,74;https://bookdb.barrucadu.co.uk/book/isbn-9780995756724/cover
+isbn-9780140620306;Frankenstein;Mary Shelley;986;50,1;https://bookdb.barrucadu.co.uk/book/isbn-9780140620306/cover
+isbn-9780571274307;Percy Bysshe Shelley;Percy Bysshe Shelley, (edit. Fiona Sampson);515;77,92;https://bookdb.barrucadu.co.uk/book/isbn-9780571274307/cover
+isbn-1843910950;Transformation;Mary Shelley;186;24,53;https://bookdb.barrucadu.co.uk/book/isbn-1843910950/cover
+isbn-9780099421764;The Rise and Fall of the Third Reich;William L. Shirer;910;80,36;https://bookdb.barrucadu.co.uk/book/isbn-9780099421764/cover
+isbn-0007173288;A Man of His Time;Alan Sillitoe;991;81,12;https://bookdb.barrucadu.co.uk/book/isbn-0007173288/cover
+isbn-9781473211926;Downward to the Earth;Robert Silverberg;672;97,22;https://bookdb.barrucadu.co.uk/book/isbn-9781473211926/cover
+isbn-9781473229228;Lord Valentine's Castle;Robert Silverberg;30;25,09;https://bookdb.barrucadu.co.uk/book/isbn-9781473229228/cover
+isbn-9780575076396;Endymion;Dan Simmons;250;79,45;https://bookdb.barrucadu.co.uk/book/isbn-9780575076396/cover
+isbn-9780575099432;Hyperion;Dan Simmons;109;55,73;https://bookdb.barrucadu.co.uk/book/isbn-9780575099432/cover
+isbn-9780575075603;Ilium;Dan Simmons;277;51,48;https://bookdb.barrucadu.co.uk/book/isbn-9780575075603/cover
+isbn-9780575078826;Olympos;Dan Simmons;371;20,34;https://bookdb.barrucadu.co.uk/book/isbn-9780575078826/cover
+isbn-9780575099487;The Fall of Hyperion;Dan Simmons;168;88,62;https://bookdb.barrucadu.co.uk/book/isbn-9780575099487/cover
+isbn-9780575076402;The Rise of Endymion;Dan Simmons;104;83,89;https://bookdb.barrucadu.co.uk/book/isbn-9780575076402/cover
+isbn-9780857503916;The Terror;Dan Simmons;192;61,68;https://bookdb.barrucadu.co.uk/book/isbn-9780857503916/cover
+isbn-9781912766604;The Outcast and The Rite: Stories of Landscape and Fear, 1925–1938;Helen de Guerry Simpson, (edit. Melissa Edmundson);842;23,4;https://bookdb.barrucadu.co.uk/book/isbn-9781912766604/cover
+isbn-9781999257330;The Monster Overhaul: A Practical Bestiary;Skerples;235;42,9;https://bookdb.barrucadu.co.uk/book/isbn-9781999257330/cover
+isbn-9781948929974;Dämoren;Seth Skorkowsky;183;86,18;https://bookdb.barrucadu.co.uk/book/isbn-9781948929974/cover
+isbn-9781948929530;Hounancier;Seth Skorkowsky;718;38,66;https://bookdb.barrucadu.co.uk/book/isbn-9781948929530/cover
+isbn-9781948929523;Ibenus;Seth Skorkowsky;751;56,08;https://bookdb.barrucadu.co.uk/book/isbn-9781948929523/cover
+isbn-9781949914665;Redemptor;Seth Skorkowsky;152;98,83;https://bookdb.barrucadu.co.uk/book/isbn-9781949914665/cover
+isbn-9788396057068;Beyond Corny Groń;Kuba Skurzyński;296;79,26;https://bookdb.barrucadu.co.uk/book/isbn-9788396057068/cover
+isbn-9781999828042;Adrift in the Middle Kingdom;Jan Jacob Slauerhoff, (trans. David McKay);676;82,74;https://bookdb.barrucadu.co.uk/book/isbn-9781999828042/cover
+isbn-9781590179062;The Rim of Morning: Two Tales of Cosmic Horror;William Sloane;521;46,57;https://bookdb.barrucadu.co.uk/book/isbn-9781590179062/cover
+isbn-9781592975013;The Book of Mormon: Another Testament of Jesus Christ;Joseph Jr. Smith;46;21,07;https://bookdb.barrucadu.co.uk/book/isbn-9781592975013/cover
+isbn-9780143107385;The Dark Eidolon and Other Fantasies;Clark Ashton Smith;529;97,34;https://bookdb.barrucadu.co.uk/book/isbn-9780143107385/cover
+isbn-9781840226881;Wealth of Nations;Adam Smith;191;95,24;https://bookdb.barrucadu.co.uk/book/isbn-9781840226881/cover
+isbn-9781646021949;A New Workbook of Cuneiform Signs;Daniel C. Snell;705;41,33;https://bookdb.barrucadu.co.uk/book/isbn-9781646021949/cover
+isbn-9798873051588;Supplement to A New Workbook of Cuneiform Signs: Teaching Old Akkadian and Old Babylonian Sign Forms;Daniel C. Snell;293;94,62;https://bookdb.barrucadu.co.uk/book/isbn-9798873051588/cover
+isbn-9781912766581;Strange Relics: Stories of Archaeology and the Supernatural, 1895-1954;Various, (edit. Amara Thornton), (edit. Katy Soar);374;96,52;https://bookdb.barrucadu.co.uk/book/isbn-9781912766581/cover
+isbn-9780140422078;The Faerie Queene;Edmund Spenser;224;90,66;https://bookdb.barrucadu.co.uk/book/isbn-9780140422078/cover
+isbn-9781568824222;Harlem Unbound;Chris Spivey;197;23,81;https://bookdb.barrucadu.co.uk/book/isbn-9781568824222/cover
+isbn-9781908460554;Traveller: Central Supply Catalogue;Matthew Sprange;138;31,95;https://bookdb.barrucadu.co.uk/book/isbn-9781908460554/cover
+isbn-9781908460523;Traveller: Core Rulebook;Matthew Sprange;838;66,19;https://bookdb.barrucadu.co.uk/book/isbn-9781908460523/cover
+isbn-9781908460561;Traveller: Vehicle Handbook;Matthew Sprange;967;33,81;https://bookdb.barrucadu.co.uk/book/isbn-9781908460561/cover
+x-mongoose-jtas-index-01-18;The Journal of the Traveller's Aid Society: Index (01-18);Matthew Sprange, Isabella Treccani-Chinelli;359;55,94;https://bookdb.barrucadu.co.uk/book/x-mongoose-jtas-index-01-18/cover
+isbn-9781913076054;The Journal of the Traveller's Aid Society (vol. 1);Various, (edit. Matthew Sprange);0;95,21;https://bookdb.barrucadu.co.uk/book/isbn-9781913076054/cover
+isbn-9781913076061;The Journal of the Traveller's Aid Society (vol. 2);Various, (edit. Matthew Sprange);12;94,52;https://bookdb.barrucadu.co.uk/book/isbn-9781913076061/cover
+isbn-9781913076078;The Journal of the Traveller's Aid Society (vol. 3);Various, (edit. Matthew Sprange);412;89,53;https://bookdb.barrucadu.co.uk/book/isbn-9781913076078/cover
+isbn-9781913076085;The Journal of the Traveller's Aid Society (vol. 4);Various, (edit. Matthew Sprange);142;66,33;https://bookdb.barrucadu.co.uk/book/isbn-9781913076085/cover
+isbn-9781913076092;The Journal of the Traveller's Aid Society (vol. 5);Various, (edit. Matthew Sprange);216;67,6;https://bookdb.barrucadu.co.uk/book/isbn-9781913076092/cover
+isbn-9781913076108;The Journal of the Traveller's Aid Society (vol. 6);Various, (edit. Matthew Sprange);236;73,12;https://bookdb.barrucadu.co.uk/book/isbn-9781913076108/cover
+isbn-9781913076702;The Journal of the Traveller's Aid Society (vol. 7);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);977;29,35;https://bookdb.barrucadu.co.uk/book/isbn-9781913076702/cover
+isbn-9781913076719;The Journal of the Traveller's Aid Society (vol. 8);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);824;85,52;https://bookdb.barrucadu.co.uk/book/isbn-9781913076719/cover
+isbn-9781913076726;The Journal of the Traveller's Aid Society (vol. 9);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);853;90,26;https://bookdb.barrucadu.co.uk/book/isbn-9781913076726/cover
+isbn-9781913076733;The Journal of the Traveller's Aid Society (vol. 10);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);12;87,74;https://bookdb.barrucadu.co.uk/book/isbn-9781913076733/cover
+isbn-9781913076740;The Journal of the Traveller's Aid Society (vol. 11);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);364;59,59;https://bookdb.barrucadu.co.uk/book/isbn-9781913076740/cover
+isbn-9781913076757;The Journal of the Traveller's Aid Society (vol. 12);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);312;29,7;https://bookdb.barrucadu.co.uk/book/isbn-9781913076757/cover
+isbn-9781916675377;The Journal of the Traveller's Aid Society (vol. 13);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);510;41,41;https://bookdb.barrucadu.co.uk/book/isbn-9781916675377/cover
+isbn-9781916675384;The Journal of the Traveller's Aid Society (vol. 14);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);889;39,91;https://bookdb.barrucadu.co.uk/book/isbn-9781916675384/cover
+isbn-9781916675391;The Journal of the Traveller's Aid Society (vol. 15);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);953;48,58;https://bookdb.barrucadu.co.uk/book/isbn-9781916675391/cover
+isbn-9781916675407;The Journal of the Traveller's Aid Society (vol. 16);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);546;82,73;https://bookdb.barrucadu.co.uk/book/isbn-9781916675407/cover
+isbn-9781916675414;The Journal of the Traveller's Aid Society (vol. 17);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);107;40,72;https://bookdb.barrucadu.co.uk/book/isbn-9781916675414/cover
+isbn-9781916675421;The Journal of the Traveller's Aid Society (vol. 18);Various, (edit. Matthew Sprange), (edit. Isabella Treccani-Chinelli);329;33,43;https://bookdb.barrucadu.co.uk/book/isbn-9781916675421/cover
+isbn-9781640130005;King Arthur Pendragon;Greg Stafford;892;51,05;https://bookdb.barrucadu.co.uk/book/isbn-9781640130005/cover
+isbn-9781568825038;RuneQuest: Glorantha Bestiary;Greg Stafford, Sandy Petersen, Jeff Richard, Jason Durall;541;46,28;https://bookdb.barrucadu.co.uk/book/isbn-9781568825038/cover
+isbn-9781568825021;RuneQuest: Roleplaying in Glorantha;Greg Stafford, Steve Perrin, Jeff Richard, Jason Durall;662;85,79;https://bookdb.barrucadu.co.uk/book/isbn-9781568825021/cover
+isbn-9781857988062;Last and First Men;Olaf Stapledon;993;27,11;https://bookdb.barrucadu.co.uk/book/isbn-9781857988062/cover
+isbn-9780575072244;Odd John;Olaf Stapledon;772;31,57;https://bookdb.barrucadu.co.uk/book/isbn-9780575072244/cover
+isbn-9780575099425;Sirius;Olaf Stapledon;506;34,05;https://bookdb.barrucadu.co.uk/book/isbn-9780575099425/cover
+isbn-9781857988079;Star Maker;Olaf Stapledon;939;74,54;https://bookdb.barrucadu.co.uk/book/isbn-9781857988079/cover
+isbn-9780140620511;Dr Jekyll and Mr Hyde;Robert Louis Stevenson;19;31,87;https://bookdb.barrucadu.co.uk/book/isbn-9780140620511/cover
+isbn-9780738206752;Flatterland: like flatland, only more so;Ian Stewart;381;64,72;https://bookdb.barrucadu.co.uk/book/isbn-9780738206752/cover
+isbn-014062063X;Dracula;Bram Stoker;829;42,7;https://bookdb.barrucadu.co.uk/book/isbn-014062063X/cover
+isbn-9780141441719;Dracula's Guest and Other Weird Stories;Bram Stoker;220;93,96;https://bookdb.barrucadu.co.uk/book/isbn-9780141441719/cover
+isbn-9781473208292;Hard To Be a God;Arkady Strugatsky, Boris Strugatsky;593;83,92;https://bookdb.barrucadu.co.uk/book/isbn-9781473208292/cover
+isbn-9780575093133;Roadside Picnic;Arkady Strugatsky, Boris Strugatsky, (trans. Olena Bormashenko);116;99,98;https://bookdb.barrucadu.co.uk/book/isbn-9780575093133/cover
+isbn-9780141196640;Gulliver's Travels;Jonathan Swift;517;21,83;https://bookdb.barrucadu.co.uk/book/isbn-9780141196640/cover
+isbn-9780140105834;The Pigeon;Patrick Süskind, (trans. John E. Woods);902;77,69;https://bookdb.barrucadu.co.uk/book/isbn-9780140105834/cover
+ean-2370019214513;Ker Nethalas: Into the Midnight Throne;Alex T.;331;45,21;https://bookdb.barrucadu.co.uk/book/ean-2370019214513/cover
+isbn-9781427807533;Battle Royale: Ultimate Edition (vol. 1);Masayuki Taguchi, Koushun Takami, (trans. Tomo Iwo);229;39,13;https://bookdb.barrucadu.co.uk/book/isbn-9781427807533/cover
+isbn-9781421565989;Battle Royale;Koushun Takami, (trans. Nathan Collins);335;66,84;https://bookdb.barrucadu.co.uk/book/isbn-9781421565989/cover
+isbn-9780340969939;The Arrival;Shaun Tan;742;94,3;https://bookdb.barrucadu.co.uk/book/isbn-9780340969939/cover
+isbn-9780316217125;The Disappearance of Nagato Yuki-chan (vol. 1);Nagaru Tanigawa, PUYO, (trans. Paul Starr);198;37,19;https://bookdb.barrucadu.co.uk/book/isbn-9780316217125/cover
+isbn-9780316217132;The Disappearance of Nagato Yuki-chan (vol. 2);Nagaru Tanigawa, PUYO, (trans. Paul Starr);877;39,79;https://bookdb.barrucadu.co.uk/book/isbn-9780316217132/cover
+isbn-9780316217149;The Disappearance of Nagato Yuki-chan (vol. 3);Nagaru Tanigawa, PUYO, (trans. Paul Starr);677;24,35;https://bookdb.barrucadu.co.uk/book/isbn-9780316217149/cover
+isbn-9780316250887;The Disappearance of Nagato Yuki-chan (vol. 4);Nagaru Tanigawa, PUYO, (trans. Paul Starr);404;99,62;https://bookdb.barrucadu.co.uk/book/isbn-9780316250887/cover
+isbn-9780316322355;The Disappearance of Nagato Yuki-chan (vol. 5);Nagaru Tanigawa, PUYO, (trans. Paul Starr);455;69,03;https://bookdb.barrucadu.co.uk/book/isbn-9780316322355/cover
+isbn-9780316336079;The Disappearance of Nagato Yuki-chan (vol. 6);Nagaru Tanigawa, PUYO, (trans. Paul Starr);257;65,13;https://bookdb.barrucadu.co.uk/book/isbn-9780316336079/cover
+isbn-9780316383745;The Disappearance of Nagato Yuki-chan (vol. 7);Nagaru Tanigawa, PUYO, (trans. Yoshito Hinton);738;67,9;https://bookdb.barrucadu.co.uk/book/isbn-9780316383745/cover
+isbn-9780316351928;The Disappearance of Nagato Yuki-chan (vol. 8);Nagaru Tanigawa, PUYO, (trans. ZephyrRz);636;94,33;https://bookdb.barrucadu.co.uk/book/isbn-9780316351928/cover
+isbn-9780316314930;The Disappearance of Nagato Yuki-chan (vol. 9);Nagaru Tanigawa, PUYO, (trans. ZephyrRz);694;70,53;https://bookdb.barrucadu.co.uk/book/isbn-9780316314930/cover
+isbn-9780316476423;The Disappearance of Nagato Yuki-chan (vol. 10);Nagaru Tanigawa, PUYO, (trans. Paul Starr);894;24,65;https://bookdb.barrucadu.co.uk/book/isbn-9780316476423/cover
+isbn-9780759529441;The Melancholy of Haruhi Suzumiya (vol. 1);Nagaru Tanigawa, (trans. Christine Schilling);1;66,25;https://bookdb.barrucadu.co.uk/book/isbn-9780759529441/cover
+isbn-9780759529458;The Melancholy of Haruhi Suzumiya (vol. 2);Nagaru Tanigawa, (trans. Christine Schilling);926;28,67;https://bookdb.barrucadu.co.uk/book/isbn-9780759529458/cover
+isbn-9780759529465;The Melancholy of Haruhi Suzumiya (vol. 3);Nagaru Tanigawa, (trans. Chris Pai);738;20,98;https://bookdb.barrucadu.co.uk/book/isbn-9780759529465/cover
+isbn-9780759529472;The Melancholy of Haruhi Suzumiya (vol. 4);Nagaru Tanigawa, (trans. Chris Pai);255;73,79;https://bookdb.barrucadu.co.uk/book/isbn-9780759529472/cover
+isbn-9780316086059;The Melancholy of Haruhi Suzumiya (vol. 5);Nagaru Tanigawa, (trans. Chris Pai);303;58,94;https://bookdb.barrucadu.co.uk/book/isbn-9780316086059/cover
+isbn-9780316089524;The Melancholy of Haruhi Suzumiya (vol. 6);Nagaru Tanigawa, (trans. Chris Pai);134;50,86;https://bookdb.barrucadu.co.uk/book/isbn-9780316089524/cover
+isbn-9780316089531;The Melancholy of Haruhi Suzumiya (vol. 7);Nagaru Tanigawa, (trans. Chris Pai);688;57,03;https://bookdb.barrucadu.co.uk/book/isbn-9780316089531/cover
+isbn-9780316089548;The Melancholy of Haruhi Suzumiya (vol. 8);Nagaru Tanigawa, (trans. Chris Pai);706;54,92;https://bookdb.barrucadu.co.uk/book/isbn-9780316089548/cover
+isbn-9780316183215;The Melancholy of Haruhi Suzumiya (vol. 9);Nagaru Tanigawa, (trans. Chris Pai);195;66,51;https://bookdb.barrucadu.co.uk/book/isbn-9780316183215/cover
+isbn-0141301643;Roll of Thunder, Hear My Cry;Mildred D. Taylor;648;48,97;https://bookdb.barrucadu.co.uk/book/isbn-0141301643/cover
+isbn-0520076842;Renard the Fox;Praticia Terry;47;40,72;https://bookdb.barrucadu.co.uk/book/isbn-0520076842/cover
+isbn-9781473213111;The Man Who Fell to Earth;Walter Tevis;526;86,88;https://bookdb.barrucadu.co.uk/book/isbn-9781473213111/cover
+isbn-9780007252268;The Children of Hurin;J. R. R. Tolkien;604;42,36;https://bookdb.barrucadu.co.uk/book/isbn-9780007252268/cover
+isbn-0261102311;The Fellowship of the Ring;J. R. R. Tolkien;355;84,7;https://bookdb.barrucadu.co.uk/book/isbn-0261102311/cover
+isbn-0006754023;The Hobbit;J. R. R. Tolkien;72;92,9;https://bookdb.barrucadu.co.uk/book/isbn-0006754023/cover
+isbn-9780007317240;The Legend of Sigurd & Gudrún;J. R. R. Tolkien;258;70,06;https://bookdb.barrucadu.co.uk/book/isbn-9780007317240/cover
+isbn-9780008628802;The Letters of J. R. R. Tolkien: Revised and Expanded Edition;J. R. R. Tolkien, (edit. Christopher Tolkien), (edit. Humphrey Carpenter);891;87,19;https://bookdb.barrucadu.co.uk/book/isbn-9780008628802/cover
+isbn-0261102338;The Return of the King;J. R. R. Tolkien;286;82,11;https://bookdb.barrucadu.co.uk/book/isbn-0261102338/cover
+isbn-0048232300;The Silmarillion;J. R. R. Tolkien;124;62,17;https://bookdb.barrucadu.co.uk/book/isbn-0048232300/cover
+isbn-026110232X;The Two Towers;J. R. R. Tolkien;249;47,9;https://bookdb.barrucadu.co.uk/book/isbn-026110232X/cover
+isbn-9780008387952;Unfinished Tales: Of Númenor and Middle-Earth;J. R. R. Tolkien, (edit. Christopher Tolkien);0;95,54;https://bookdb.barrucadu.co.uk/book/isbn-9780008387952/cover
+ean-2370009168178;Ironsworn: A Tabletop RPG of Perilous Quests;Shawn Tomkin;682;47,29;https://bookdb.barrucadu.co.uk/book/ean-2370009168178/cover
+ean-2370010593501;Ironsworn Delve: Perilous Expeditions for the Ironsworn RPG;Shawn Tomkin;461;80,43;https://bookdb.barrucadu.co.uk/book/ean-2370010593501/cover
+ean-2370009216268;Ironsworn Lodestar: A Reference Guide for the Ironsworn RPG;Shawn Tomkin;55;99,64;https://bookdb.barrucadu.co.uk/book/ean-2370009216268/cover
+isbn-9781802810493;Ironsworn Starforged;Shawn Tomkin;686;58,03;https://bookdb.barrucadu.co.uk/book/isbn-9781802810493/cover
+isbn-9780316470629;Girls' Last Tour (vol. 1);Tsukumizu, (trans. Amanda Haley);49;23,56;https://bookdb.barrucadu.co.uk/book/isbn-9780316470629/cover
+isbn-9780316470643;Girls' Last Tour (vol. 2);Tsukumizu, (trans. Amanda Haley);398;55,57;https://bookdb.barrucadu.co.uk/book/isbn-9780316470643/cover
+isbn-9780316470681;Girls' Last Tour (vol. 3);Tsukumizu, (trans. Amanda Haley);468;91,95;https://bookdb.barrucadu.co.uk/book/isbn-9780316470681/cover
+isbn-9780316415989;Girls' Last Tour (vol. 4);Tsukumizu, (trans. Amanda Haley);914;56,13;https://bookdb.barrucadu.co.uk/book/isbn-9780316415989/cover
+isbn-9781975380939;Girls' Last Tour (vol. 5);Tsukumizu, (trans. Amanda Haley);480;42,09;https://bookdb.barrucadu.co.uk/book/isbn-9781975380939/cover
+isbn-9781975329037;Girls' Last Tour (vol. 6) / Final;Tsukumizu, (trans. Amanda Haley);807;52,94;https://bookdb.barrucadu.co.uk/book/isbn-9781975329037/cover
+isbn-9780141034768;The Secret Life of Birds;Colin Tudge;96;90,88;https://bookdb.barrucadu.co.uk/book/isbn-9780141034768/cover
+isbn-9780961392147;The Visual Display of Quantitative Information;Edward R. Tufte;377;70,64;https://bookdb.barrucadu.co.uk/book/isbn-9780961392147/cover
+isbn-014044131X;Tao Te Ching;Lao Tzu;906;80,86;https://bookdb.barrucadu.co.uk/book/isbn-014044131X/cover
+isbn-9781586380205;The Dhammapada;Unknown, (trans. Eknath Easwaran);658;73,76;https://bookdb.barrucadu.co.uk/book/isbn-9781586380205/cover
+isbn-9780199570713;The Qur'an;Unknown, (trans. Muhammad Abdel Haleem);450;74,95;https://bookdb.barrucadu.co.uk/book/isbn-9780199570713/cover
+isbn-9781421599618;20th Century Boys: The Perfect Edition (vol. 1);Naoki Urasawa, (trans. Akemi Wegmüller);680;87,88;https://bookdb.barrucadu.co.uk/book/isbn-9781421599618/cover
+isbn-9781421599625;20th Century Boys: The Perfect Edition (vol. 2);Naoki Urasawa, (trans. Akemi Wegmüller);26;77,89;https://bookdb.barrucadu.co.uk/book/isbn-9781421599625/cover
+isbn-9781421599632;20th Century Boys: The Perfect Edition (vol. 3);Naoki Urasawa, (trans. Akemi Wegmüller);281;85,09;https://bookdb.barrucadu.co.uk/book/isbn-9781421599632/cover
+isbn-9781421599649;20th Century Boys: The Perfect Edition (vol. 4);Naoki Urasawa, (trans. Akemi Wegmüller);187;71,21;https://bookdb.barrucadu.co.uk/book/isbn-9781421599649/cover
+isbn-9781421599656;20th Century Boys: The Perfect Edition (vol. 5);Naoki Urasawa, (trans. Akemi Wegmüller);485;54,34;https://bookdb.barrucadu.co.uk/book/isbn-9781421599656/cover
+isbn-9781421599663;20th Century Boys: The Perfect Edition (vol. 6);Naoki Urasawa, (trans. Akemi Wegmüller);349;57,29;https://bookdb.barrucadu.co.uk/book/isbn-9781421599663/cover
+isbn-9781421599670;20th Century Boys: The Perfect Edition (vol. 7);Naoki Urasawa, (trans. Akemi Wegmüller);576;96,69;https://bookdb.barrucadu.co.uk/book/isbn-9781421599670/cover
+isbn-9781421599687;20th Century Boys: The Perfect Edition (vol. 8);Naoki Urasawa, (trans. Akemi Wegmüller);559;32,23;https://bookdb.barrucadu.co.uk/book/isbn-9781421599687/cover
+isbn-9781421599694;20th Century Boys: The Perfect Edition (vol. 9);Naoki Urasawa, (trans. Akemi Wegmüller);456;30,23;https://bookdb.barrucadu.co.uk/book/isbn-9781421599694/cover
+isbn-9781421599700;20th Century Boys: The Perfect Edition (vol. 10);Naoki Urasawa, (trans. Akemi Wegmüller);45;40,67;https://bookdb.barrucadu.co.uk/book/isbn-9781421599700/cover
+isbn-9781421599717;20th Century Boys: The Perfect Edition (vol. 11);Naoki Urasawa, (trans. Akemi Wegmüller);606;66,87;https://bookdb.barrucadu.co.uk/book/isbn-9781421599717/cover
+isbn-9781421599724;21st Century Boys: The Perfect Edition;Naoki Urasawa, (trans. Akemi Wegmüller);433;92,36;https://bookdb.barrucadu.co.uk/book/isbn-9781421599724/cover
+isbn-9781857988857;Emphyrio;Jack Vance;708;95,54;https://bookdb.barrucadu.co.uk/book/isbn-9781857988857/cover
+isbn-9781473208926;Night Lamp;Jack Vance;589;71,52;https://bookdb.barrucadu.co.uk/book/isbn-9781473208926/cover
+isbn-9781857989946;Tales of the Dying Earth;Jack Vance;801;90,26;https://bookdb.barrucadu.co.uk/book/isbn-9781857989946/cover
+isbn-9781399620314;The Complete Lyonesse;Jack Vance;242;87,31;https://bookdb.barrucadu.co.uk/book/isbn-9781399620314/cover
+isbn-9780008725990;Absolution;Jeff VanderMeer;266;37,31;https://bookdb.barrucadu.co.uk/book/isbn-9780008725990/cover
+isbn-9780008139124;Acceptance;Jeff VanderMeer;456;90,67;https://bookdb.barrucadu.co.uk/book/isbn-9780008139124/cover
+isbn-9780008139100;Annihilation;Jeff VanderMeer;670;59,59;https://bookdb.barrucadu.co.uk/book/isbn-9780008139100/cover
+isbn-9780008139117;Authority;Jeff VanderMeer;872;62,59;https://bookdb.barrucadu.co.uk/book/isbn-9780008139117/cover
+isbn-9781509848140;Shriek: An Afterward;Jeff VanderMeer;715;67,82;https://bookdb.barrucadu.co.uk/book/isbn-9781509848140/cover
+isbn-9781509848164;Veniss Underground;Jeff VanderMeer;935;63,8;https://bookdb.barrucadu.co.uk/book/isbn-9781509848164/cover
+isbn-9780500293409;Cities that Shaped the Ancient World;Various, (edit. John Julius Norwich);370;24,69;https://bookdb.barrucadu.co.uk/book/isbn-9780500293409/cover
+isbn-9781444701593;Holy Bible;Various, (trans. New International Version);611;84,96;https://bookdb.barrucadu.co.uk/book/isbn-9781444701593/cover
+isbn-9781842930991;The Gnostic Gospels;Various, (edit. Sacred Texts);856;87,89;https://bookdb.barrucadu.co.uk/book/isbn-9781842930991/cover
+isbn-9780199218783;The Mabinogion;Various, (trans. Sioned Davies);886;76,25;https://bookdb.barrucadu.co.uk/book/isbn-9780199218783/cover
+isbn-014062032X;Around the World in Eighty Days;Jules Verne;840;46,12;https://bookdb.barrucadu.co.uk/book/isbn-014062032X/cover
+isbn-9780199538072;Journey to the Centre of the Earth;Jules Verne;870;30,13;https://bookdb.barrucadu.co.uk/book/isbn-9780199538072/cover
+isbn-9781473211964;A Deepness in the Sky;Vernor Vinge;553;77,13;https://bookdb.barrucadu.co.uk/book/isbn-9781473211964/cover
+isbn-9781473211957;A Fire Upon the Deep;Vernor Vinge;851;43,71;https://bookdb.barrucadu.co.uk/book/isbn-9781473211957/cover
+isbn-9781838430207;Understanding Distributed Systems: What Every Developer Should Know About Large Distributed Applications;Roberto Vitillo;221;63,87;https://bookdb.barrucadu.co.uk/book/isbn-9781838430207/cover
+isbn-9780241951606;Cat's Cradle;Kurt Vonnegut;226;74,72;https://bookdb.barrucadu.co.uk/book/isbn-9780241951606/cover
+isbn-9781857988840;The Sirens of Titan;Kurt Vonnegut;220;22,01;https://bookdb.barrucadu.co.uk/book/isbn-9781857988840/cover
+ean-2370021774937;Alone Against Nyarlathotep: A 1920's solo campaign;Lee Wade;298;54,22;https://bookdb.barrucadu.co.uk/book/ean-2370021774937/cover
+x-walker-thesis;Revealing Behaviours of Concurrent Functional Programs by Systematic Testing;Michael Stewart Walker;740;99;https://bookdb.barrucadu.co.uk/book/x-walker-thesis/cover
+isbn-9780141983769;Why We Sleep: The New Science of Sleep and Dreams;Matthew Walker;645;32,6;https://bookdb.barrucadu.co.uk/book/isbn-9780141983769/cover
+isbn-9781845884994;The Castle of Otranto;Horace Walpole;660;20,16;https://bookdb.barrucadu.co.uk/book/isbn-9781845884994/cover
+x-lazylitch-hhoh;The Haunted Hamlet & Other Hexes;Shane Walshe;125;55,17;https://bookdb.barrucadu.co.uk/book/x-lazylitch-hhoh/cover
+x-lazylitch-ttw;The Toxic Wood: A Corrosive Hexcrawl Adventure;Shane Walshe;599;57,61;https://bookdb.barrucadu.co.uk/book/x-lazylitch-ttw/cover
+x-lazylitch-wagms;Willow: A Grim Micro Setting;Shane Walshe;526;73,67;https://bookdb.barrucadu.co.uk/book/x-lazylitch-wagms/cover
+x-lazylitch-ww;Wind Wraith: A Generative Wavecrawl Campaign Setting;Shane Walshe;770;96,78;https://bookdb.barrucadu.co.uk/book/x-lazylitch-ww/cover
+x-lazylitzh-wf;Woodfall: Dark Fantasy Mini Setting;Shane Walshe;391;45,25;https://bookdb.barrucadu.co.uk/book/x-lazylitzh-wf/cover
+isbn-9781999944810;Kingdoms of Elfin;Sylvia Townsend Warner;679;57,22;https://bookdb.barrucadu.co.uk/book/isbn-9781999944810/cover
+isbn-9781912766154;Of Cats and Elfins;Sylvia Townsend Warner;129;74,69;https://bookdb.barrucadu.co.uk/book/isbn-9781912766154/cover
+isbn-9780765319647;Blindsight;Peter Watts;75;56,96;https://bookdb.barrucadu.co.uk/book/isbn-9780765319647/cover
+isbn-9781785031137;The Martian;Andy Weir;654;83,98;https://bookdb.barrucadu.co.uk/book/isbn-9781785031137/cover
+isbn-9780575095205;Classic Collection;H. G. Wells;98;53,99;https://bookdb.barrucadu.co.uk/book/isbn-9780575095205/cover
+isbn-9780575095243;Complete Short Story Omnibus;H. G. Wells;616;45,86;https://bookdb.barrucadu.co.uk/book/isbn-9780575095243/cover
+isbn-014144102X;The Island of Doctor Moreau;H. G. Wells;261;68,51;https://bookdb.barrucadu.co.uk/book/isbn-014144102X/cover
+isbn-9780575095199;The Shape of Things to Come;H. G. Wells;115;20,34;https://bookdb.barrucadu.co.uk/book/isbn-9780575095199/cover
+isbn-0141441038;The War of the Worlds;H. G. Wells;78;86,6;https://bookdb.barrucadu.co.uk/book/isbn-0141441038/cover
+isbn-9780008108588;The Once and Future King;T. H. White;536;69,61;https://bookdb.barrucadu.co.uk/book/isbn-9780008108588/cover
+isbn-9781840225501;The Collected Works of Oscar Wilde;Oscar Wilde;464;97,59;https://bookdb.barrucadu.co.uk/book/isbn-9781840225501/cover
+isbn-9780099511144;The Picture of Dorian Gray;Oscar Wilde;465;27;https://bookdb.barrucadu.co.uk/book/isbn-9780099511144/cover
+isbn-9780955816932;The Picture of Dorian Gray;Oscar Wilde, I. N. J. Culbard;19;33,5;https://bookdb.barrucadu.co.uk/book/isbn-9780955816932/cover
+isbn-9781784633288;The Anechoic Chamber and Other Weird Tales;Will Wiles;873;49,29;https://bookdb.barrucadu.co.uk/book/isbn-9781784633288/cover
+isbn-9781408810026;The Rise and Fall of Ancient Egypt;Toby Wilkinson;687;65,21;https://bookdb.barrucadu.co.uk/book/isbn-9781408810026/cover
+isbn-9781568823966;Secrets of Tibet: An Unknown Land of Mythos and Mystery;Jason Williams;754;62,67;https://bookdb.barrucadu.co.uk/book/isbn-9781568823966/cover
+isbn-9798985962857;Let Us Build a Tower: A Mythic Bronze Age Adventure in Babel;Caleb Wimble, (edit. Sam Sorensen);278;96,17;https://bookdb.barrucadu.co.uk/book/isbn-9798985962857/cover
+isbn-9781473216495;The Book of the New Sun (vol. 1) / Shadow & Claw;Gene Wolfe;892;87,94;https://bookdb.barrucadu.co.uk/book/isbn-9781473216495/cover
+isbn-9781473212008;The Book of the New Sun (vol. 2) / Sword & Citadel;Gene Wolfe;314;79,34;https://bookdb.barrucadu.co.uk/book/isbn-9781473212008/cover
+isbn-9780575094222;The Fifth Head of Cerberus;Gene Wolfe;915;75,76;https://bookdb.barrucadu.co.uk/book/isbn-9780575094222/cover
+isbn-9780312863944;The Urth of the New Sun;Gene Wolfe;820;47,01;https://bookdb.barrucadu.co.uk/book/isbn-9780312863944/cover
+isbn-9781250237446;The Wizard Knight;Gene Wolfe;13;41,94;https://bookdb.barrucadu.co.uk/book/isbn-9781250237446/cover
+isbn-9780987675927;Ur of the Chaldees;Sir Leonard Woolley;677;72,09;https://bookdb.barrucadu.co.uk/book/isbn-9780987675927/cover
+isbn-9781473627802;Complete Babylonian: A Comprehensive Guide to Reading and Understanding Babylonian with Original Texts;Martin Worthington;448;70,33;https://bookdb.barrucadu.co.uk/book/isbn-9781473627802/cover
+isbn-9780141042183;Chocky;John Wyndham;156;75,01;https://bookdb.barrucadu.co.uk/book/isbn-9780141042183/cover
+isbn-9780141048772;Plan for Chaos;John Wyndham;791;71,08;https://bookdb.barrucadu.co.uk/book/isbn-9780141048772/cover
+isbn-9780141032979;The Chrysalids;John Wyndham;475;85,18;https://bookdb.barrucadu.co.uk/book/isbn-9780141032979/cover
+isbn-9780141033006;The Day of the Triffids;John Wyndham;319;84,82;https://bookdb.barrucadu.co.uk/book/isbn-9780141033006/cover
+isbn-9780141032993;The Kraken Wakes;John Wyndham;52;23,67;https://bookdb.barrucadu.co.uk/book/isbn-9780141032993/cover
+isbn-9780141033013;The Midwich Cuckoos;John Wyndham;629;42,76;https://bookdb.barrucadu.co.uk/book/isbn-9780141033013/cover
+isbn-9780141032986;Trouble with Lichen;John Wyndham;523;41,27;https://bookdb.barrucadu.co.uk/book/isbn-9780141032986/cover
+isbn-0140367187;The Swiss Family Robinson;J. D. Wyss;472;99,55;https://bookdb.barrucadu.co.uk/book/isbn-0140367187/cover
+isbn-9781914319044;Academies of the Arcane;Brian Yaksha;704;98,58;https://bookdb.barrucadu.co.uk/book/isbn-9781914319044/cover
+isbn-9781421501086;Nana (vol. 1);Ai Yazawa, (trans. Allison Wolfe);543;24,99;https://bookdb.barrucadu.co.uk/book/isbn-9781421501086/cover
+isbn-9781421503783;Nana (vol. 2);Ai Yazawa, (trans. Allison Wolfe);723;99,13;https://bookdb.barrucadu.co.uk/book/isbn-9781421503783/cover
+isbn-9781421504797;Nana (vol. 3);Ai Yazawa, (trans. Allison Wolfe);708;76,95;https://bookdb.barrucadu.co.uk/book/isbn-9781421504797/cover
+isbn-9781421504803;Nana (vol. 4);Ai Yazawa, (trans. Allison Wolfe);762;85,8;https://bookdb.barrucadu.co.uk/book/isbn-9781421504803/cover
+isbn-9781421510194;Nana (vol. 5);Ai Yazawa, (trans. Allison Wolfe);191;78,52;https://bookdb.barrucadu.co.uk/book/isbn-9781421510194/cover
+isbn-9781421510200;Nana (vol. 6);Ai Yazawa, (trans. Allison Wolfe);0;89,88;https://bookdb.barrucadu.co.uk/book/isbn-9781421510200/cover
+isbn-9781421510217;Nana (vol. 7);Ai Yazawa, (trans. Allison Wolfe);801;62,12;https://bookdb.barrucadu.co.uk/book/isbn-9781421510217/cover
+isbn-9781421515397;Nana (vol. 8);Ai Yazawa, (trans. Allison Wolfe);436;84,41;https://bookdb.barrucadu.co.uk/book/isbn-9781421515397/cover
+isbn-9781421517452;Nana (vol. 9);Ai Yazawa, (trans. Allison Wolfe);674;85,31;https://bookdb.barrucadu.co.uk/book/isbn-9781421517452/cover
+isbn-9781421517469;Nana (vol. 10);Ai Yazawa, (trans. Allison Wolfe);731;84,72;https://bookdb.barrucadu.co.uk/book/isbn-9781421517469/cover
+isbn-9781421517476;Nana (vol. 11);Ai Yazawa, (trans. Allison Wolfe);259;27,26;https://bookdb.barrucadu.co.uk/book/isbn-9781421517476/cover
+isbn-9781421518794;Nana (vol. 12);Ai Yazawa, (trans. Allison Wolfe);778;96,75;https://bookdb.barrucadu.co.uk/book/isbn-9781421518794/cover
+isbn-9781421518800;Nana (vol. 13);Ai Yazawa, (trans. Allison Wolfe);332;95,84;https://bookdb.barrucadu.co.uk/book/isbn-9781421518800/cover
+isbn-9781421519722;Nana (vol. 14);Ai Yazawa, (trans. Allison Wolfe);60;61,38;https://bookdb.barrucadu.co.uk/book/isbn-9781421519722/cover
+isbn-9781421523743;Nana (vol. 15);Ai Yazawa, (trans. Allison Wolfe);285;59,89;https://bookdb.barrucadu.co.uk/book/isbn-9781421523743/cover
+isbn-9781421523750;Nana (vol. 16);Ai Yazawa, (trans. Allison Wolfe);249;66,72;https://bookdb.barrucadu.co.uk/book/isbn-9781421523750/cover
+isbn-9781421523767;Nana (vol. 17);Ai Yazawa, (trans. Allison Wolfe);474;99,25;https://bookdb.barrucadu.co.uk/book/isbn-9781421523767/cover
+isbn-9781421526706;Nana (vol. 18);Ai Yazawa, (trans. Allison Wolfe);673;65,9;https://bookdb.barrucadu.co.uk/book/isbn-9781421526706/cover
+isbn-9781421526713;Nana (vol. 19);Ai Yazawa, (trans. Allison Wolfe);477;75,09;https://bookdb.barrucadu.co.uk/book/isbn-9781421526713/cover
+isbn-9781421530758;Nana (vol. 20);Ai Yazawa, (trans. Allison Wolfe);636;98,3;https://bookdb.barrucadu.co.uk/book/isbn-9781421530758/cover
+isbn-9781421533087;Nana (vol. 21);Ai Yazawa, (trans. Allison Wolfe);1;22,21;https://bookdb.barrucadu.co.uk/book/isbn-9781421533087/cover
+isbn-9781733569453;Negative Space;B. R. Yeager;925;23,55;https://bookdb.barrucadu.co.uk/book/isbn-9781733569453/cover
+isbn-9781604961126;Lucky Star (vol. 1);Kagami Yoshimizu, (trans. Rika Takahashi);0;42,19;https://bookdb.barrucadu.co.uk/book/isbn-9781604961126/cover
+isbn-9781604961133;Lucky Star (vol. 2);Kagami Yoshimizu, (trans. Rika Takahashi);871;39,33;https://bookdb.barrucadu.co.uk/book/isbn-9781604961133/cover
+isbn-9781604961140;Lucky Star (vol. 3);Kagami Yoshimizu, (trans. William Flanagan);151;85,55;https://bookdb.barrucadu.co.uk/book/isbn-9781604961140/cover
+isbn-9781604961164;Lucky Star (vol. 4);Kagami Yoshimizu, (trans. William Flanagan);383;28,98;https://bookdb.barrucadu.co.uk/book/isbn-9781604961164/cover
+isbn-9781604961157;Lucky Star (vol. 5);Kagami Yoshimizu, (trans. William Flanagan);596;40,19;https://bookdb.barrucadu.co.uk/book/isbn-9781604961157/cover
+isbn-9781604962291;Lucky Star (vol. 6);Kagami Yoshimizu, (trans. William Flanagan);677;25,69;https://bookdb.barrucadu.co.uk/book/isbn-9781604962291/cover
+isbn-9781604962307;Lucky Star (vol. 7);Kagami Yoshimizu, (trans. William Flanagan);685;30,78;https://bookdb.barrucadu.co.uk/book/isbn-9781604962307/cover
+isbn-9781604962314;Lucky Star (vol. 8);Kagami Yoshimizu, (trans. William Flanagan);777;29,58;https://bookdb.barrucadu.co.uk/book/isbn-9781604962314/cover
+isbn-9781616559212;Planetes (vol. 1);Makoto Yukimura, (trans. Yuki Johnson);914;84,17;https://bookdb.barrucadu.co.uk/book/isbn-9781616559212/cover
+isbn-9781616559229;Planetes (vol. 2);Makoto Yukimura, (trans. Yuki Johnson);90;77,83;https://bookdb.barrucadu.co.uk/book/isbn-9781616559229/cover
+isbn-9780753826447;The Angel's Game;Carlos Ruiz Zafon;146;32,84;https://bookdb.barrucadu.co.uk/book/isbn-9780753826447/cover
+isbn-9781780220246;The Midnight Palace;Carlos Ruiz Zafon;458;63,45;https://bookdb.barrucadu.co.uk/book/isbn-9781780220246/cover
+isbn-9780753828557;The Prince of Mist;Carlos Ruiz Zafon;227;53,87;https://bookdb.barrucadu.co.uk/book/isbn-9780753828557/cover
+isbn-9781780222851;The Prisoner of Heaven;Carlos Ruiz Zafon;180;23,75;https://bookdb.barrucadu.co.uk/book/isbn-9781780222851/cover
+isbn-0753820250;The Shadow of the Wind;Carlos Ruiz Zafon;346;95,59;https://bookdb.barrucadu.co.uk/book/isbn-0753820250/cover
+isbn-9780753829257;The Watcher in the Shadows;Carlos Ruiz Zafon;256;79,06;https://bookdb.barrucadu.co.uk/book/isbn-9780753829257/cover
+isbn-9780140185850;We;Yevgeny Zamyatin, (trans. Clarence Brown);757;56,14;https://bookdb.barrucadu.co.uk/book/isbn-9780140185850/cover
+isbn-9780575094215;Lord of Light;Roger Zelazny;933;86,54;https://bookdb.barrucadu.co.uk/book/isbn-9780575094215/cover
+isbn-9781473235007;The Best of Roger Zelazny;Roger Zelazny;25;20,01;https://bookdb.barrucadu.co.uk/book/isbn-9781473235007/cover
+isbn-9781473222168;The Chronicles of Amber;Roger Zelazny;106;65,82;https://bookdb.barrucadu.co.uk/book/isbn-9781473222168/cover
+isbn-9781473222151;The Second Chronicles of Amber;Roger Zelazny;708;20;https://bookdb.barrucadu.co.uk/book/isbn-9781473222151/cover
